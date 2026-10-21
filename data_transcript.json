@@ -1,0 +1,644 @@
+[
+  {
+    "id": "turn-1",
+    "chapterId": "chap-1",
+    "chapterTitle": "Chapter I &bull; Welcome & The Workplace English Foundation (00:00 &ndash; 05:30)",
+    "speaker": "Louie",
+    "time": "00:00",
+    "text": "Hello, hello there, everyone, and how are you today? Is it&mdash;is it Simone? Is that correct, or Simon?"
+  },
+  {
+    "id": "turn-2",
+    "speaker": "Simone",
+    "time": "00:07",
+    "text": "Simone. I'm fine! I'm <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'in office'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;at the office&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;in office&rdquo;)</span></span> right now, at the end of my workday. But I'm doing well."
+  },
+  {
+    "id": "turn-3",
+    "speaker": "Louie",
+    "time": "00:21",
+    "text": "Very good, very good! Well, thank you very much for your time today. We chatted briefly before, but I would love to hear directly from you: what brings us here today?"
+  },
+  {
+    "id": "turn-4",
+    "speaker": "Simone",
+    "time": "00:37",
+    "text": "My company requested us to take some courses to improve my English, and of course for all my colleagues. In the past, we had English courses with one teacher and typically four people from my company. I think it will be much more helpful to have a one-to-one lesson to get more speaking practice."
+  },
+  {
+    "id": "turn-5",
+    "speaker": "Louie",
+    "time": "01:23",
+    "text": "Practice makes a world of difference! And how much English do you speak in your company presently?"
+  },
+  {
+    "id": "turn-6",
+    "speaker": "Simone",
+    "time": "01:32",
+    "text": "Often in writing emails. We have connections with our <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'headquarter'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;headquarters&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;headquarter&rdquo;)</span></span> where we have to explain issues or problems that our customers report to us. Typically we do that by email, but sometimes we have presentations or meetings with customers and headquarters, so we have to understand what our colleagues say and explain the customer's reasoning."
+  },
+  {
+    "id": "turn-7",
+    "speaker": "Louie",
+    "time": "02:22",
+    "text": "You know what, I have to commend you! Your English has a very interesting and strong <span class=\"vocab-mark\" data-vkey=\"foundation\" onclick=\"inspectVocab('foundation')\">foundation</span>. You clearly have a good logical process of English."
+  },
+  {
+    "id": "turn-8",
+    "speaker": "Simone",
+    "time": "02:36",
+    "text": "Really? That's encouraging."
+  },
+  {
+    "id": "turn-9",
+    "speaker": "Louie",
+    "time": "02:37",
+    "text": "Listening to you talk even now in your response, I can see it in your explanation of communicating with different <span class=\"vocab-mark\" data-vkey=\"counterpart\" onclick=\"inspectVocab('counterpart')\">counterparts</span> and different <span class=\"vocab-mark\" data-vkey=\"stakeholder\" onclick=\"inspectVocab('stakeholder')\">stakeholders</span>. You are actually quite quick at answering! Where you can really get improvement is definitely with your rhythm and pronunciation."
+  },
+  {
+    "id": "turn-10",
+    "speaker": "Simone",
+    "time": "03:19",
+    "text": "Okay, that makes sense."
+  },
+  {
+    "id": "turn-11",
+    "speaker": "Louie",
+    "time": "03:19",
+    "text": "With my other students, that comes with light exercises and lots of conversation. You will naturally start to <span class=\"vocab-mark\" data-vkey=\"imitate\" onclick=\"inspectVocab('imitate')\">imitate</span> natural cadence, and fluency becomes <span class=\"vocab-mark\" data-vkey=\"second-nature\" onclick=\"inspectVocab('second-nature')\">second nature</span>. We'll look at two kinds of vocabulary: general vocabulary and workplace vocabulary."
+  },
+  {
+    "id": "turn-12",
+    "speaker": "Simone",
+    "time": "03:48",
+    "text": "Okay, perfect."
+  },
+  {
+    "id": "turn-13",
+    "speaker": "Louie",
+    "time": "03:48",
+    "text": "Before we go any further, what do you do in your daily role, if I may ask?"
+  },
+  {
+    "id": "turn-14",
+    "speaker": "Simone",
+    "time": "04:37",
+    "text": "I work in technical support, so my job is to <span class=\"vocab-mark\" data-vkey=\"troubleshoot\" onclick=\"inspectVocab('troubleshoot')\">troubleshoot</span> and resolve problems for our customers. We offer alternative solutions with our systems for their machines, and we collaborate with colleagues in sales to propose products that complete the customer's setup."
+  },
+  {
+    "id": "turn-15",
+    "speaker": "Louie",
+    "time": "05:10",
+    "text": "Fantastic answer! What you've done before has clearly worked. We call it a <span class=\"vocab-mark\" data-vkey=\"rebuttal\" onclick=\"inspectVocab('rebuttal')\">rebuttal</span>&mdash;your ability to answer is great. You are very quick and you give precise answers. Really impressive!"
+  },
+  {
+    "id": "turn-16",
+    "chapterId": "chap-2",
+    "chapterTitle": "Chapter II &bull; Workplace Vocabulary & The System Demo (05:34 &ndash; 15:00)",
+    "speaker": "Louie",
+    "time": "05:34",
+    "text": "Let's talk about some vocabulary and keep it within your realm. Can you tell me what a <span class=\"vocab-mark\" data-vkey=\"trade-off\" onclick=\"inspectVocab('trade-off')\">trade-off</span> is? How would you describe or define it?"
+  },
+  {
+    "id": "turn-17",
+    "speaker": "Simone",
+    "time": "06:14",
+    "text": "Trade-off? It's a sort of balance between two or more things."
+  },
+  {
+    "id": "turn-18",
+    "speaker": "Louie",
+    "time": "06:41",
+    "text": "Exactly that! For example, the <span class=\"vocab-mark\" data-vkey=\"trade-off\" onclick=\"inspectVocab('trade-off')\">trade-off</span> of buying an expensive phone is that it has higher quality, but it is much more costly. You balance one benefit against another."
+  },
+  {
+    "id": "turn-19",
+    "speaker": "Simone",
+    "time": "07:00",
+    "text": "Yes, exactly. A compromise."
+  },
+  {
+    "id": "turn-20",
+    "speaker": "Louie",
+    "time": "07:00",
+    "text": "Very good! And what about the word <span class=\"vocab-mark\" data-vkey=\"bottleneck\" onclick=\"inspectVocab('bottleneck')\">bottleneck</span> in business or systems engineering?"
+  },
+  {
+    "id": "turn-21",
+    "speaker": "Simone",
+    "time": "07:21",
+    "text": "I know what it means in my mind, but it's difficult to explain in English! It is a major difficulty or constraint for a specific scenario."
+  },
+  {
+    "id": "turn-22",
+    "speaker": "Louie",
+    "time": "08:12",
+    "text": "A <span class=\"vocab-mark\" data-vkey=\"bottleneck\" onclick=\"inspectVocab('bottleneck')\">bottleneck</span> is when part of the process or operation cannot keep up with other parts of the business. For example, your sales team might be selling loads of services, but HR has a bottleneck because they cannot hire and train enough staff to keep up with customer demand. Do you ever get bottlenecks in your job?"
+  },
+  {
+    "id": "turn-23",
+    "speaker": "Simone",
+    "time": "09:25",
+    "text": "We have cases of bottlenecks with our products. For example, when a customer uses our system in their machines, but the <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'proca product'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;project or product&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;proca product&rdquo;)</span></span> we sold does not fit the specific requirements of the customer, it creates a delay for the whole project."
+  },
+  {
+    "id": "turn-24",
+    "speaker": "Louie",
+    "time": "09:50",
+    "text": "Very good real-world example! It creates a bottleneck within their process, and the rest of the company suffers. Next is the idiom <span class=\"vocab-mark\" data-vkey=\"in-the-loop\" onclick=\"inspectVocab('in-the-loop')\">in the loop</span>. Have you heard that before?"
+  },
+  {
+    "id": "turn-25",
+    "speaker": "Simone",
+    "time": "10:29",
+    "text": "Yes, we use it often in emails."
+  },
+  {
+    "id": "turn-26",
+    "speaker": "Louie",
+    "time": "10:29",
+    "text": "Before we unpack that, let me mention: I give comprehensive notes! About half an hour after class, you get an interactive companion document. Let me share my screen to show you the demo so this can <span class=\"vocab-mark\" data-vkey=\"take-the-pressure-off\" onclick=\"inspectVocab('take-the-pressure-off')\">take the pressure off</span> taking notes while we chat."
+  },
+  {
+    "id": "turn-27",
+    "speaker": "Simone",
+    "time": "11:15",
+    "text": "Okay, great!"
+  },
+  {
+    "id": "turn-28",
+    "speaker": "Louie",
+    "time": "11:15",
+    "text": "Here is the interactive transcript with exact timestamps. If you hover over any highlighted word, it tells you what it means, its CEFR level (B2&ndash;C2), and pronunciation. If you click on it, the details appear in the sticky side panel with British RP audio so you can listen anytime."
+  },
+  {
+    "id": "turn-29",
+    "speaker": "Simone",
+    "time": "12:25",
+    "text": "Quaint... serendipity. Very good, thank you!"
+  },
+  {
+    "id": "turn-30",
+    "speaker": "Louie",
+    "time": "12:43",
+    "text": "And if you just want to <span class=\"vocab-mark\" data-vkey=\"recap\" onclick=\"inspectVocab('recap')\">recap</span> the vocabulary without scrolling the transcript, you go to the dictionary tab with nice cards. I publish it on GitHub Pages with one single link forever, so you never have to search through files. The notes are already there for you!"
+  },
+  {
+    "id": "turn-31",
+    "speaker": "Simone",
+    "time": "13:28",
+    "text": "That is very convenient and helpful. Thank you!"
+  },
+  {
+    "id": "turn-32",
+    "speaker": "Louie",
+    "time": "13:36",
+    "text": "Now, let's return to <span class=\"vocab-mark\" data-vkey=\"in-the-loop\" onclick=\"inspectVocab('in-the-loop')\">in the loop</span> and its opposite, <span class=\"vocab-mark\" data-vkey=\"out-of-the-loop\" onclick=\"inspectVocab('out-of-the-loop')\">out of the loop</span>."
+  },
+  {
+    "id": "turn-33",
+    "speaker": "Simone",
+    "time": "13:54",
+    "text": "Yes, in the email context: if someone is added to an email conversation, they are <span class=\"vocab-mark\" data-vkey=\"in-the-loop\" onclick=\"inspectVocab('in-the-loop')\">in the loop</span>. On the contrary, if you are not receiving communication, you are <span class=\"vocab-mark\" data-vkey=\"out-of-the-loop\" onclick=\"inspectVocab('out-of-the-loop')\">out of the loop</span>."
+  },
+  {
+    "id": "turn-34",
+    "speaker": "Louie",
+    "time": "14:14",
+    "text": "Spot on! That's how we build business vocabulary. But I also believe in <span class=\"vocab-mark\" data-vkey=\"free-form\" onclick=\"inspectVocab('free-form')\">free-form</span> conversation because we learn so much more natural language that way."
+  },
+  {
+    "id": "turn-35",
+    "chapterId": "chap-3",
+    "chapterTitle": "Chapter III &bull; Quick Word Association & The Italian Table (15:10 &ndash; 20:30)",
+    "speaker": "Louie",
+    "time": "15:10",
+    "text": "Let's do a quick exercise where we describe words from categories without saying the actual word. I'll send you a link to pick a category and describe something for me to guess. Ready?"
+  },
+  {
+    "id": "turn-36",
+    "speaker": "Simone",
+    "time": "16:12",
+    "text": "I chose food! Let's start."
+  },
+  {
+    "id": "turn-37",
+    "speaker": "Simone",
+    "time": "16:54",
+    "text": "It is a fruit that is on a particular plant, and you use it to <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'do the wine'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;make wine&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;do the wine&rdquo;)</span></span>."
+  },
+  {
+    "id": "turn-38",
+    "speaker": "Louie",
+    "time": "17:20",
+    "text": "To make wine&mdash;grapes!"
+  },
+  {
+    "id": "turn-39",
+    "speaker": "Simone",
+    "time": "17:25",
+    "text": "Correct! Next one: this is a typical <span class=\"vocab-mark\" data-vkey=\"first-course\" onclick=\"inspectVocab('first-course')\">first course</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'first plate'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;first course (primo piatto)&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;first plate&rdquo;)</span></span> that we make with mushrooms."
+  },
+  {
+    "id": "turn-40",
+    "speaker": "Louie",
+    "time": "18:01",
+    "text": "Is it pizza or pasta?"
+  },
+  {
+    "id": "turn-41",
+    "speaker": "Simone",
+    "time": "18:06",
+    "text": "No, it's risotto!"
+  },
+  {
+    "id": "turn-42",
+    "speaker": "Louie",
+    "time": "18:08",
+    "text": "Oh, risotto! Fantastic. Earlier, you mentioned grapes grow on trees, but in English we say grapes grow on <span class=\"vocab-mark\" data-vkey=\"vine\" onclick=\"inspectVocab('vine')\">vines</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Vinegard'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;vines / vineyard&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Vinegard&rdquo;)</span></span>. Do you enjoy wine?"
+  },
+  {
+    "id": "turn-43",
+    "speaker": "Simone",
+    "time": "18:50",
+    "text": "No, <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'I don't drink the wines'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;I don't drink wine&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;I don't drink the wines&rdquo;)</span></span> at all!"
+  },
+  {
+    "id": "turn-44",
+    "speaker": "Louie",
+    "time": "19:01",
+    "text": "Fair enough! Now it's your turn to pick a category for me to describe."
+  },
+  {
+    "id": "turn-45",
+    "speaker": "Simone",
+    "time": "19:10",
+    "text": "Animals!"
+  },
+  {
+    "id": "turn-46",
+    "speaker": "Louie",
+    "time": "19:20",
+    "text": "Okay, three, two, one: black and white, native to China, loves bamboo."
+  },
+  {
+    "id": "turn-47",
+    "speaker": "Simone",
+    "time": "19:27",
+    "text": "It's a panda!"
+  },
+  {
+    "id": "turn-48",
+    "speaker": "Louie",
+    "time": "19:35",
+    "text": "Exactly right! Next: a small little bug, and it <span class=\"vocab-mark\" data-vkey=\"glow\" onclick=\"inspectVocab('glow')\">glows</span> in the dark."
+  },
+  {
+    "id": "turn-49",
+    "speaker": "Simone",
+    "time": "19:38",
+    "text": "I know what it looks like, but I don't know the name in English!"
+  },
+  {
+    "id": "turn-50",
+    "speaker": "Louie",
+    "time": "19:51",
+    "text": "It's a <span class=\"vocab-mark\" data-vkey=\"firefly\" onclick=\"inspectVocab('firefly')\">firefly</span>! Next: the king of the jungle."
+  },
+  {
+    "id": "turn-51",
+    "speaker": "Simone",
+    "time": "19:57",
+    "text": "The lion!"
+  },
+  {
+    "id": "turn-52",
+    "speaker": "Louie",
+    "time": "20:00",
+    "text": "And this bird flies incredibly fast and drinks <span class=\"vocab-mark\" data-vkey=\"nectar\" onclick=\"inspectVocab('nectar')\">nectar</span> from blossoms."
+  },
+  {
+    "id": "turn-53",
+    "speaker": "Simone",
+    "time": "20:06",
+    "text": "I understand the animal, but I don't remember the name in English or Italian!"
+  },
+  {
+    "id": "turn-54",
+    "speaker": "Louie",
+    "time": "20:20",
+    "text": "It's a <span class=\"vocab-mark\" data-vkey=\"hummingbird\" onclick=\"inspectVocab('hummingbird')\">hummingbird</span> (colibr&igrave; in Italian)! Its wings flap so fast that it can hover completely still."
+  },
+  {
+    "id": "turn-55",
+    "chapterId": "chap-4",
+    "chapterTitle": "Chapter IV &bull; Life in Bologna, Twins & Family Ties (20:38 &ndash; 26:10)",
+    "speaker": "Louie",
+    "time": "20:38",
+    "text": "<span class=\"vocab-mark\" data-vkey=\"whereabouts\" onclick=\"inspectVocab('whereabouts')\">Whereabouts</span> in Italy are you located?"
+  },
+  {
+    "id": "turn-56",
+    "speaker": "Simone",
+    "time": "20:44",
+    "text": "I'm in Bologna, in the north of Italy. Do you know it?"
+  },
+  {
+    "id": "turn-57",
+    "speaker": "Louie",
+    "time": "20:49",
+    "text": "Yes! Although the place I normally visited was Lucca in Tuscany, where my former partner's family lived. But now I'm in Hanoi, Vietnam, studying Vietnamese at university for international business. Before moving here, I worked in historical <span class=\"vocab-mark\" data-vkey=\"restoration\" onclick=\"inspectVocab('restoration')\">restoration</span>, rebuilding old buildings that are 600 to 700 years old."
+  },
+  {
+    "id": "turn-58",
+    "speaker": "Simone",
+    "time": "21:38",
+    "text": "Rebuilding historic buildings&mdash;that sounds like a very nice job!"
+  },
+  {
+    "id": "turn-59",
+    "speaker": "Louie",
+    "time": "22:06",
+    "text": "What are your interests and passions? What do you like to do in your <span class=\"vocab-mark\" data-vkey=\"spare-time\" onclick=\"inspectVocab('spare-time')\">spare time</span>?"
+  },
+  {
+    "id": "turn-60",
+    "speaker": "Simone",
+    "time": "22:23",
+    "text": "I spend a lot of time with my work, and with my family because I have twin daughters who are four years old!"
+  },
+  {
+    "id": "turn-61",
+    "speaker": "Louie",
+    "time": "22:37",
+    "text": "Congratulations! Wow, twins! At four years old, are you able to sleep through the night now?"
+  },
+  {
+    "id": "turn-62",
+    "speaker": "Simone",
+    "time": "23:00",
+    "text": "Yes, they are very good&mdash;they sleep all night now, except when they are ill or something goes wrong."
+  },
+  {
+    "id": "turn-63",
+    "speaker": "Louie",
+    "time": "23:14",
+    "text": "And are twins common in your family?"
+  },
+  {
+    "id": "turn-64",
+    "speaker": "Simone",
+    "time": "23:20",
+    "text": "Not so much. In our extended family we had some <span class=\"vocab-mark\" data-vkey=\"relatives\" onclick=\"inspectVocab('relatives')\">relatives</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'parents'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;relatives&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;parents&rdquo;)</span></span> who had twins, but they aren't very close to me."
+  },
+  {
+    "id": "turn-65",
+    "speaker": "Louie",
+    "time": "23:51",
+    "text": "We say <span class=\"vocab-mark\" data-vkey=\"relatives\" onclick=\"inspectVocab('relatives')\">relatives</span> or <span class=\"vocab-mark\" data-vkey=\"extended-family\" onclick=\"inspectVocab('extended-family')\">extended family</span>! How was the moment when you and your wife found out?"
+  },
+  {
+    "id": "turn-66",
+    "speaker": "Simone",
+    "time": "24:14",
+    "text": "When the doctor said it to me and my wife, I <span class=\"vocab-mark\" data-vkey=\"turn-red\" onclick=\"inspectVocab('turn-red')\">turned totally red</span> from shock! But now, it's very beautiful having twin daughters. They have a very special dynamic together."
+  },
+  {
+    "id": "turn-67",
+    "speaker": "Louie",
+    "time": "24:46",
+    "text": "They share a <span class=\"vocab-mark\" data-vkey=\"special-bond\" onclick=\"inspectVocab('special-bond')\">special bond</span> with each other that lasts a lifetime. It's truly wonderful."
+  },
+  {
+    "id": "turn-68",
+    "speaker": "Simone",
+    "time": "25:00",
+    "text": "Yes! Especially when I try to teach something to one of them, the other sister who isn't involved immediately steps in to help her."
+  },
+  {
+    "id": "turn-69",
+    "speaker": "Louie",
+    "time": "25:27",
+    "text": "That is so sweet! Do you have <span class=\"vocab-mark\" data-vkey=\"siblings\" onclick=\"inspectVocab('siblings')\">siblings</span> yourself? Brothers and sisters?"
+  },
+  {
+    "id": "turn-70",
+    "speaker": "Simone",
+    "time": "25:35",
+    "text": "Yes, I have an older brother who is 48, and an older sister who is 44."
+  },
+  {
+    "id": "turn-71",
+    "chapterId": "chap-5",
+    "chapterTitle": "Chapter V &bull; Board Games, Gaming & A New Zealand Honeymoon (26:14 &ndash; 41:35)",
+    "speaker": "Louie",
+    "time": "26:14",
+    "text": "Before family life kept you so busy, what were your hobbies and interests?"
+  },
+  {
+    "id": "turn-72",
+    "speaker": "Simone",
+    "time": "26:30",
+    "text": "Especially with my wife, we like playing video games together. And we have a group of friends where we really enjoy playing <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'boarding games'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;board games&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;boarding games&rdquo;)</span></span>."
+  },
+  {
+    "id": "turn-73",
+    "speaker": "Louie",
+    "time": "26:41",
+    "text": "What board games are you playing, and what video games do you and your wife play?"
+  },
+  {
+    "id": "turn-74",
+    "speaker": "Simone",
+    "time": "26:55",
+    "text": "With my wife, I play a mobile game that is very <span class=\"vocab-mark\" data-vkey=\"competitive\" onclick=\"inspectVocab('competitive')\">competitive</span> with 3v3 teams. And on PlayStation, we are playing God of War: Ragnarok. Before the twins, my friend and I completed Horizon Zero Dawn on Saturday afternoons."
+  },
+  {
+    "id": "turn-75",
+    "speaker": "Louie",
+    "time": "27:47",
+    "text": "Horizon Zero Dawn is brilliant, and I love the <span class=\"vocab-mark\" data-vkey=\"cinematic\" onclick=\"inspectVocab('cinematic')\">cinematic</span> scale of God of War&mdash;it feels just like a movie. What about your board game collection?"
+  },
+  {
+    "id": "turn-76",
+    "speaker": "Simone",
+    "time": "30:00",
+    "text": "Between my friend and me, we have a complete library of board games. It depends on how much time we have and how many people are playing."
+  },
+  {
+    "id": "turn-77",
+    "speaker": "Louie",
+    "time": "31:02",
+    "text": "For our next lesson, let's talk about board game <span class=\"vocab-mark\" data-vkey=\"mechanics\" onclick=\"inspectVocab('mechanics')\">mechanics</span>! For homework, pick two board games from your shelf, and I'll pick two from mine to discuss. I go to a board game night once a week here in Hanoi."
+  },
+  {
+    "id": "turn-78",
+    "speaker": "Simone",
+    "time": "32:02",
+    "text": "In our group, we are six or seven people: <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'three capital'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;three couples&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;three capital&rdquo;)</span></span> and two other friends. One couple is often <span class=\"vocab-mark\" data-vkey=\"abroad\" onclick=\"inspectVocab('abroad')\">abroad</span>, but my wife, my best friend, his wife, and I meet whenever we can."
+  },
+  {
+    "id": "turn-79",
+    "speaker": "Louie",
+    "time": "33:01",
+    "text": "How long have you known your best friend?"
+  },
+  {
+    "id": "turn-80",
+    "speaker": "Simone",
+    "time": "33:04",
+    "text": "Since birth! Our families were friends, so he was two when I was born. We have had a <span class=\"vocab-mark\" data-vkey=\"lifelong\" onclick=\"inspectVocab('lifelong')\">lifelong</span> friendship."
+  },
+  {
+    "id": "turn-81",
+    "speaker": "Louie",
+    "time": "33:38",
+    "text": "What's your favorite board game to play with him?"
+  },
+  {
+    "id": "turn-82",
+    "speaker": "Simone",
+    "time": "33:49",
+    "text": "Definitely 7 Wonders! It's a game where you build your <span class=\"vocab-mark\" data-vkey=\"civilization\" onclick=\"inspectVocab('civilization')\">civilization</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'civil team'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;civilization&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;civil team&rdquo;)</span></span>. To win, you collect <span class=\"vocab-mark\" data-vkey=\"victory-points\" onclick=\"inspectVocab('victory-points')\">victory points</span> through <span class=\"vocab-mark\" data-vkey=\"card-drafting\" onclick=\"inspectVocab('card-drafting')\">card drafting</span>."
+  },
+  {
+    "id": "turn-83",
+    "speaker": "Simone",
+    "time": "34:51",
+    "text": "You have military cards, science cards, and cards for city economy. You build card <span class=\"vocab-mark\" data-vkey=\"combo\" onclick=\"inspectVocab('combo')\">combos</span> across three distinct <span class=\"vocab-mark\" data-vkey=\"era\" onclick=\"inspectVocab('era')\">eras</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'three era'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;eras / ages&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;three era&rdquo;)</span></span> to maximize your score."
+  },
+  {
+    "id": "turn-84",
+    "speaker": "Louie",
+    "time": "36:12",
+    "text": "That sounds reminiscent of Civilization! Every night, my international friends and I play one game of Risk online. It is fiercely competitive."
+  },
+  {
+    "id": "turn-85",
+    "speaker": "Louie",
+    "time": "37:32",
+    "text": "At our Hanoi board game meetup, we also play the social deduction game Werewolf or Mafia with up to 30 people."
+  },
+  {
+    "id": "turn-86",
+    "speaker": "Simone",
+    "time": "38:34",
+    "text": "In Italy, that game is called <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Lupo Lupis'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Lupus in Tabula&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Lupo Lupis&rdquo;)</span></span>! It's very well known."
+  },
+  {
+    "id": "turn-87",
+    "speaker": "Louie",
+    "time": "39:22",
+    "text": "We play it in Vietnamese with custom rules and constant rule <span class=\"vocab-mark\" data-vkey=\"evolution\" onclick=\"inspectVocab('evolution')\">evolution</span>. I always tell myself I'll keep quiet, but <span class=\"vocab-mark\" data-vkey=\"to-no-avail\" onclick=\"inspectVocab('to-no-avail')\">to no avail</span>&mdash;I always talk too much!"
+  },
+  {
+    "id": "turn-88",
+    "chapterId": "chap-6",
+    "chapterTitle": "Chapter VI &bull; Cultural Contrasts, Lord of the Rings & Looking Ahead (41:40 &ndash; 50:50)",
+    "speaker": "Louie",
+    "time": "40:35",
+    "text": "In Vietnam, eating street food outside is completely normal&mdash;you'll see an entire family on one motorbike! Do you eat out often in Bologna?"
+  },
+  {
+    "id": "turn-89",
+    "speaker": "Simone",
+    "time": "40:29",
+    "text": "In the morning, coffee and breakfast outside, but in the evening we almost always cook and eat at home."
+  },
+  {
+    "id": "turn-90",
+    "speaker": "Louie",
+    "time": "41:40",
+    "text": "Have you traveled much abroad? Have you ever visited England?"
+  },
+  {
+    "id": "turn-91",
+    "speaker": "Simone",
+    "time": "41:50",
+    "text": "Not yet, but I would love to visit England with my family. My wife is a huge Harry Potter fan, so seeing the studio tour and film locations would be wonderful."
+  },
+  {
+    "id": "turn-92",
+    "speaker": "Simone",
+    "time": "42:18",
+    "text": "We don't have an HBO <span class=\"vocab-mark\" data-vkey=\"subscription\" onclick=\"inspectVocab('subscription')\">subscription</span> yet, but she is very eager to watch the new television series when it arrives."
+  },
+  {
+    "id": "turn-93",
+    "speaker": "Louie",
+    "time": "43:51",
+    "text": "I read all the Harry Potter books to my younger brother. Harry Potter and the <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Prison of Azkaban'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Prisoner of Azkaban&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Prison of Azkaban&rdquo;)</span></span> had such a great movie <span class=\"vocab-mark\" data-vkey=\"adaptation\" onclick=\"inspectVocab('adaptation')\">adaptation</span>."
+  },
+  {
+    "id": "turn-94",
+    "speaker": "Simone",
+    "time": "44:25",
+    "text": "My favorite cinematic work of all time is <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Lord of the Ring'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;The Lord of the Rings&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Lord of the Ring&rdquo;)</span></span>. I read the entire <span class=\"vocab-mark\" data-vkey=\"trilogy\" onclick=\"inspectVocab('trilogy')\">trilogy</span> before the third film came out."
+  },
+  {
+    "id": "turn-95",
+    "speaker": "Simone",
+    "time": "45:10",
+    "text": "When my wife and I got married, we spent our <span class=\"vocab-mark\" data-vkey=\"honeymoon\" onclick=\"inspectVocab('honeymoon')\">honeymoon</span> road-tripping through New Zealand!"
+  },
+  {
+    "id": "turn-96",
+    "speaker": "Louie",
+    "time": "45:25",
+    "text": "New Zealand for your honeymoon! What an extraordinary adventure. What was your <span class=\"vocab-mark\" data-vkey=\"itinerary\" onclick=\"inspectVocab('itinerary')\">itinerary</span>?"
+  },
+  {
+    "id": "turn-97",
+    "speaker": "Simone",
+    "time": "46:02",
+    "text": "We started in Auckland, rented a car, and drove down the North Island to Wellington. We visited <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'the Hobbiton Town'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Hobbiton&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;the Hobbiton Town&rdquo;)</span></span> in Matamata, and the rolling green <span class=\"vocab-mark\" data-vkey=\"scenery\" onclick=\"inspectVocab('scenery')\">scenery</span> was breathtaking&mdash;just like the movie."
+  },
+  {
+    "id": "turn-98",
+    "speaker": "Simone",
+    "time": "46:58",
+    "text": "It felt so strange to be standing in a place you know is a <span class=\"vocab-mark\" data-vkey=\"fantasy\" onclick=\"inspectVocab('fantasy')\">fantasy</span> realm from films, but you are physically right there."
+  },
+  {
+    "id": "turn-99",
+    "speaker": "Louie",
+    "time": "47:47",
+    "text": "The films are absolute cinematic masterpieces. But reading Tolkien can be so <span class=\"vocab-mark\" data-vkey=\"dense\" onclick=\"inspectVocab('dense')\">dense</span> with songs and history&mdash;it takes real dedication!"
+  },
+  {
+    "id": "turn-100",
+    "speaker": "Simone",
+    "time": "48:06",
+    "text": "Yes, especially the early chapter of The Fellowship of the Ring with <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Tom Bombay'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Tom Bombadil&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Tom Bombay&rdquo;)</span></span>&mdash;that part is notoriously slow to get through."
+  },
+  {
+    "id": "turn-101",
+    "speaker": "Louie",
+    "time": "49:02",
+    "text": "Simone, you have expressed so many fascinating thoughts today! Your vocabulary and foundation are far stronger than you give yourself credit for."
+  },
+  {
+    "id": "turn-102",
+    "speaker": "Simone",
+    "time": "49:25",
+    "text": "Thank you, Louie! Sometimes when I try to speak English, I feel <span class=\"vocab-mark\" data-vkey=\"tongue-tied\" onclick=\"inspectVocab('tongue-tied')\">tongue-tied</span> and I <span class=\"vocab-mark\" data-vkey=\"freeze-up\" onclick=\"inspectVocab('freeze-up')\">freeze up</span> because I search for a specific term and get locked in the sentence."
+  },
+  {
+    "id": "turn-103",
+    "speaker": "Louie",
+    "time": "50:17",
+    "text": "That happens to every language learner! In our lessons, you never have to worry about perfection. Chatting about board games and real experiences gives us plenty of <span class=\"vocab-mark\" data-vkey=\"food-for-thought\" onclick=\"inspectVocab('food-for-thought')\">food for thought</span>. For next lesson, prepare two board games from your collection, and we will build our vocabulary together!"
+  },
+  {
+    "id": "turn-104",
+    "speaker": "Simone",
+    "time": "50:33",
+    "text": "That sounds wonderful. Thank you very much, Louie!"
+  },
+  {
+    "id": "turn-105",
+    "speaker": "Louie",
+    "time": "50:48",
+    "text": "You are very welcome, Simone. Have a lovely evening in Bologna, give my best to your family, and I'll see you next lesson!"
+  }
+]

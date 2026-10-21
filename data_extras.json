@@ -1,0 +1,237 @@
+{
+  "naturalStrengths": [
+    {
+      "time": "06:14",
+      "phrase": "\"A sort of balance between two or more things\"",
+      "note": "Superb conceptual instinct defining a business 'trade-off' clearly and concisely without hesitating."
+    },
+    {
+      "time": "13:54",
+      "phrase": "\"In the loop / out of the loop\"",
+      "note": "Accurate corporate idiomatic fluency, distinguishing between being kept informed vs omitted from email updates."
+    },
+    {
+      "time": "04:37",
+      "phrase": "\"To resolve problems... and complete the system\"",
+      "note": "Professional technical support phrasing describing systems engineering and collaboration with sales."
+    },
+    {
+      "time": "24:46",
+      "phrase": "\"They share a special bond... help each other explain\"",
+      "note": "Touching, articulate description of the emotional connection and teamwork between his 4-year-old twin daughters."
+    },
+    {
+      "time": "33:49",
+      "phrase": "\"Card drafting, building combos & collecting victory points\"",
+      "note": "Impressive hobby fluency explaining 7 Wonders tabletop mechanics with natural cadence."
+    },
+    {
+      "time": "46:58",
+      "phrase": "\"To see a fantasy place, but you are physically there\"",
+      "note": "Poetic, evocative English describing the emotional feeling of walking through the real-world Hobbiton film set in New Zealand."
+    }
+  ],
+  "polishes": [
+    {
+      "time": "00:13",
+      "topic": "Preposition with Office Location",
+      "said": "I'm in office right now at the end of the day.",
+      "natural": "I'm at the office right now at the end of the day.",
+      "why": "In natural English, we say 'at the office' (or 'in the office' with the definite article). In Italian, 'in ufficio' lacks an article, which makes this a very natural instinct to gently polish!"
+    },
+    {
+      "time": "00:37",
+      "topic": "Infinitive of Purpose",
+      "said": "My company requested courses for improve my English.",
+      "natural": "My company requested courses to improve my English.",
+      "why": "When expressing purpose or reason for an action, English uses the full infinitive ('to improve') rather than 'for + base verb'. You can also say 'for improving', but 'to improve' is most elegant."
+    },
+    {
+      "time": "17:19",
+      "topic": "Natural Verb Collocation with Wine",
+      "said": "You can use it to do the wine.",
+      "natural": "You can use them to make wine.",
+      "why": "Grapes are plural ('them'), and in English we 'make wine' or 'produce wine' rather than 'do the wine' (a direct translation of Italian 'fare il vino')."
+    },
+    {
+      "time": "17:40",
+      "topic": "Italian Dining Nuance (Primo Piatto)",
+      "said": "This is a typical first plate with mushroom—risotto.",
+      "natural": "This is a typical first course with mushrooms—risotto.",
+      "why": "In Italian dining, 'primo piatto' is translated into English as 'first course' or 'starter'. Also, we pluralize 'mushrooms' when used as an ingredient."
+    },
+    {
+      "time": "18:50",
+      "topic": "Non-Countable Nouns for Beverages",
+      "said": "No, I don't drink the wines.",
+      "natural": "No, I don't drink wine.",
+      "why": "When talking about beverages in general, we omit the article 'the' and treat wine as an uncountable noun: 'I don't drink wine' or 'I'm not a wine drinker'."
+    },
+    {
+      "time": "23:20",
+      "topic": "False Friend: Italian 'Parenti' vs 'Parents'",
+      "said": "I had some parents that are twins.",
+      "natural": "I have some relatives who are twins.",
+      "why": "A classic Italian false friend! Italian 'parenti' means 'relatives' or 'extended family'. In English, 'parents' strictly means your mother and father (genitori)."
+    }
+  ],
+  "asrFixes": [
+    {
+      "time": "04:37",
+      "speaker": "Simone",
+      "wrong": "proca product",
+      "right": "project or product",
+      "note": "Simone was describing customer engineering specifications and products."
+    },
+    {
+      "time": "17:19",
+      "speaker": "Simone",
+      "wrong": "do the wine",
+      "right": "make wine",
+      "note": "Note-taker transcribed the literal translation of 'fare il vino' verbatim."
+    },
+    {
+      "time": "17:40",
+      "speaker": "Simone",
+      "wrong": "first plate",
+      "right": "first course",
+      "note": "Speech-to-text recorded Italian 'primo piatto' literally."
+    },
+    {
+      "time": "18:32",
+      "speaker": "Simone",
+      "wrong": "Vinegard",
+      "right": "vines / vineyard",
+      "note": "Simone asked about grapevines and vineyards, misheard as vinegar."
+    },
+    {
+      "time": "23:20",
+      "speaker": "Simone",
+      "wrong": "some parents that are twins",
+      "right": "some relatives who are twins",
+      "note": "Note-taker captured the Italian false friend 'parenti' without contextual awareness."
+    },
+    {
+      "time": "26:30",
+      "speaker": "Simone",
+      "wrong": "boarding games",
+      "right": "board games",
+      "note": "Automated note-taker consistently heard 'board games' as 'boarding games'."
+    },
+    {
+      "time": "32:16",
+      "speaker": "Simone",
+      "wrong": "three capital",
+      "right": "three couples",
+      "note": "Simone described their board game circle of three couples, misheard as capital."
+    },
+    {
+      "time": "34:16",
+      "speaker": "Simone",
+      "wrong": "civil team",
+      "right": "civilization",
+      "note": "In 7 Wonders, players build ancient civilizations, misheard as civil team."
+    },
+    {
+      "time": "34:51",
+      "speaker": "Simone",
+      "wrong": "three era",
+      "right": "three eras / ages",
+      "note": "7 Wonders takes place across three distinct historical eras."
+    },
+    {
+      "time": "38:34",
+      "speaker": "Simone",
+      "wrong": "Lupo Lupis",
+      "right": "Lupus in Tabula",
+      "note": "The famous Italian tabletop edition of the Mafia / Werewolf social deduction game."
+    },
+    {
+      "time": "43:59",
+      "speaker": "Louie",
+      "wrong": "Prison of Azkaban",
+      "right": "Prisoner of Azkaban",
+      "note": "The third Harry Potter book and Alfonso Cuaron film."
+    },
+    {
+      "time": "46:34",
+      "speaker": "Simone",
+      "wrong": "the Hobbiton Town",
+      "right": "Hobbiton Movie Set",
+      "note": "The preserved Lord of the Rings movie set in Matamata, New Zealand."
+    },
+    {
+      "time": "48:06",
+      "speaker": "Simone",
+      "wrong": "Tom Bombay",
+      "right": "Tom Bombadil",
+      "note": "The ancient, singing forest dweller in J.R.R. Tolkien's Fellowship of the Ring."
+    }
+  ],
+  "flashcardKeys": [
+    "trade-off",
+    "bottleneck",
+    "in-the-loop",
+    "relatives",
+    "special-bond",
+    "mechanics",
+    "card-drafting",
+    "itinerary",
+    "to-no-avail",
+    "freeze-up",
+    "first-course",
+    "food-for-thought"
+  ],
+  "quiz": [
+    {
+      "q": "1. When you weigh the benefit of high quality against a much higher financial cost, you are evaluating a ________.",
+      "options": ["trade-off", "bottleneck", "rebuttal"],
+      "correct": 0,
+      "explain": "'Trade-off' (05:52) refers to balancing two desirable qualities where gaining one means sacrificing another."
+    },
+    {
+      "q": "2. In English, how should an Italian speaker describe their aunts, uncles, and cousins to avoid the 'parenti' false friend?",
+      "options": ["my parents", "my relatives / extended family", "my siblings"],
+      "correct": 1,
+      "explain": "'Relatives' (23:51) refers to extended family members; 'parents' in English strictly means mother and father (genitori)."
+    },
+    {
+      "q": "3. When an engineer is added to an ongoing email thread so they receive every update, they are kept ________.",
+      "options": ["in the loop", "out of the loop", "in a bottleneck"],
+      "correct": 0,
+      "explain": "Being 'in the loop' (13:48) means being included in the flow of information and updates."
+    },
+    {
+      "q": "4. In the tabletop game 7 Wonders, players select one card and pass the remaining hand to their neighbor. This mechanism is called ________.",
+      "options": ["worker placement", "card drafting", "roll-and-write"],
+      "correct": 1,
+      "explain": "'Card drafting' (33:49) is the tabletop mechanic where players choose cards from a rotating communal hand."
+    },
+    {
+      "q": "5. What is the natural English equivalent of the Italian dining term 'il primo' (such as mushroom risotto)?",
+      "options": ["first plate", "first course", "principal dish"],
+      "correct": 1,
+      "explain": "In English dining (17:40), 'primo piatto' translates naturally to 'first course' or 'starter'."
+    },
+    {
+      "q": "6. When Louie tried to stay completely silent during the Werewolf / Lupus in Tabula game but talked anyway, his effort was ________.",
+      "options": ["cinematic", "to no avail", "second nature"],
+      "correct": 1,
+      "explain": "'To no avail' (39:22) means without success or positive result despite earnest trying."
+    }
+  ],
+  "reflectionPrompts": [
+    {
+      "title": "1. The Tabletop Showcase",
+      "prompt": "For your homework with Louie, choose two board games from your collection (e.g. 7 Wonders, a cooperative title, or a strategy favorite). How would you describe their core mechanics (drafting, area control, or bluffing), and what makes them enjoyable to play with your wife and friends?"
+    },
+    {
+      "title": "2. The Magic of Real-World Scenery",
+      "prompt": "Reflecting on your New Zealand honeymoon, what was the most surprising moment when stepping into a fictional world like Hobbiton in real life? How did seeing the landscape connect with your experience of reading Tolkien?"
+    },
+    {
+      "title": "3. Engineering Trade-offs & Communication",
+      "prompt": "In your technical support role, what is one recurring 'bottleneck' or customer challenge you encounter? How would you explain the trade-offs of fixing it to colleagues at headquarters without getting tongue-tied?"
+    }
+  ]
+}

@@ -1,0 +1,2830 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simone's Peaceful English Sanctuary | Lesson 01 Transcript &amp; Vocabulary</title>
+
+  <!-- Google Fonts: Cormorant Garamond, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            parchment: {
+              50: '#fbf9f5',
+              100: '#f6f1e7',
+              200: '#ede3d1',
+              300: '#dfd0b5',
+              400: '#cbb38e',
+              500: '#b6966b',
+            },
+            autumn: {
+              50: '#fcf6f0',
+              100: '#f7e9db',
+              200: '#eed0b5',
+              300: '#e2b086',
+              400: '#d38c57',
+              500: '#be6f38',
+              600: '#a3582b',
+              700: '#854524',
+              800: '#6c3921',
+            },
+            sage: {
+              50: '#f4f7f5',
+              100: '#e4ece7',
+              200: '#cadad1',
+              300: '#a5bfb1',
+              400: '#7b9f8d',
+              500: '#5b826f',
+              600: '#476858',
+              700: '#3a5448',
+              800: '#30443b',
+            },
+            slatewarm: {
+              700: '#3d4441',
+              800: '#2b312e',
+              900: '#1e2321',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- GSAP for Gentle Animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <!-- Popper & Tippy.js for Interactive Vocabulary Explanations -->
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css" />
+
+  <!-- Canvas Confetti for Gentle Practice Encouragement -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <style>
+    :root {
+      --bg-base: #f9f6f0;
+      --bg-card: rgba(255, 253, 249, 0.90);
+      --bg-subcard: rgba(255, 255, 255, 0.94);
+      --border-soft: #e6decb;
+      --border-accent: #d9c8b0;
+      --text-main: #2b312e;
+      --text-muted: #5c6660;
+      --grad-1: rgba(238, 208, 181, 0.42);
+      --grad-2: rgba(202, 218, 209, 0.48);
+      --grad-3: rgba(246, 241, 231, 0.70);
+    }
+
+    body[data-theme="winchester"] {
+      --bg-base: #f3f6f5;
+      --bg-card: rgba(252, 254, 253, 0.91);
+      --bg-subcard: rgba(255, 255, 255, 0.95);
+      --border-soft: #d7e2dc;
+      --border-accent: #b8ccc2;
+      --text-main: #26312d;
+      --text-muted: #52635c;
+      --grad-1: rgba(202, 218, 209, 0.50);
+      --grad-2: rgba(219, 228, 238, 0.48);
+      --grad-3: rgba(244, 240, 230, 0.55);
+    }
+
+    body[data-theme="twilight"] {
+      --bg-base: #f5efe6;
+      --bg-card: rgba(253, 249, 242, 0.92);
+      --bg-subcard: rgba(255, 252, 247, 0.96);
+      --border-soft: #e2d2be;
+      --border-accent: #cfaea0;
+      --text-main: #2d2622;
+      --text-muted: #665850;
+      --grad-1: rgba(226, 176, 134, 0.36);
+      --grad-2: rgba(214, 196, 176, 0.42);
+      --grad-3: rgba(235, 220, 202, 0.55);
+    }
+
+    body {
+      background-color: var(--bg-base);
+      background-image:
+        radial-gradient(at 8% 5%, var(--grad-1) 0px, transparent 52%),
+        radial-gradient(at 92% 18%, var(--grad-2) 0px, transparent 52%),
+        radial-gradient(at 50% 88%, var(--grad-3) 0px, transparent 58%);
+      background-attachment: fixed;
+      color: var(--text-main);
+      transition: background-color 0.5s ease, color 0.4s ease;
+      overflow-x: hidden;
+    }
+
+    .sanctuary-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-soft);
+      box-shadow: 0 12px 36px -10px rgba(91, 130, 111, 0.08), 0 4px 14px -3px rgba(43, 49, 46, 0.04);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .sanctuary-subcard {
+      background: var(--bg-subcard);
+      border: 1px solid var(--border-soft);
+      box-shadow: 0 4px 14px -4px rgba(43, 49, 46, 0.04);
+      transition: all 0.25s ease;
+    }
+
+    /* Inline Vocabulary Highlight in Transcript */
+    .vocab-mark {
+      display: inline-block;
+      background: linear-gradient(120deg, rgba(226, 176, 134, 0.25) 0%, rgba(165, 191, 177, 0.28) 100%);
+      border-bottom: 2px dashed #a3582b;
+      color: #5b3216;
+      font-weight: 600;
+      padding: 0px 5px;
+      margin: 0 1px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .vocab-mark:hover, .vocab-mark.active-vocab {
+      background: linear-gradient(120deg, rgba(190, 111, 56, 0.25) 0%, rgba(91, 130, 111, 0.32) 100%);
+      border-bottom-style: solid;
+      border-bottom-color: #476858;
+      transform: translateY(-1px);
+      box-shadow: 0 3px 10px rgba(163, 88, 43, 0.14);
+    }
+
+    body.hide-vocab-highlights .vocab-mark {
+      background: transparent !important;
+      border-bottom: none !important;
+      color: inherit !important;
+      font-weight: inherit !important;
+      padding: 0 !important;
+      box-shadow: none !important;
+    }
+
+    /* Note-taker fix badge */
+    .asr-fix-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.72rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #f4f7f5;
+      color: #476858;
+      border: 1px solid #cadad1;
+      padding: 1px 7px;
+      border-radius: 999px;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+
+    body.hide-asr-fixes .asr-fix-pill {
+      display: none !important;
+    }
+
+    /* Custom Tippy Tooltip Theme: Peaceful Autumn */
+    .tippy-box[data-theme~='autumn-sanctuary'] {
+      background-color: #fffdf9;
+      color: #2b312e;
+      border: 1px solid #dfd0b5;
+      border-radius: 1rem;
+      box-shadow: 0 20px 38px -8px rgba(61, 68, 65, 0.16), 0 6px 16px -4px rgba(163, 88, 43, 0.08);
+      padding: 0.35rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .tippy-box[data-theme~='autumn-sanctuary'][data-placement^='top'] > .tippy-arrow::before {
+      border-top-color: #dfd0b5;
+    }
+    .tippy-box[data-theme~='autumn-sanctuary'][data-placement^='bottom'] > .tippy-arrow::before {
+      border-bottom-color: #dfd0b5;
+    }
+
+    @keyframes gentleGlow {
+      0% { background-color: rgba(226, 176, 134, 0.45); transform: scale(1.005); }
+      50% { background-color: rgba(165, 191, 177, 0.38); }
+      100% { background-color: transparent; transform: scale(1); }
+    }
+    .turn-highlight-flash {
+      animation: gentleGlow 2.8s ease-out;
+    }
+
+    @media print {
+      .no-print, #autumn-breeze-canvas { display: none !important; }
+      body { background: #fff !important; }
+      .sanctuary-card, .sanctuary-subcard { box-shadow: none !important; border: 1px solid #ccc !important; }
+    }
+  </style>
+</head>
+<body data-theme="kensington" class="font-sans antialiased min-h-screen selection:bg-autumn-200 selection:text-slatewarm-900 relative">
+
+  <!-- CALMING LONDON AUTUMN BREEZE CANVAS OVERLAY -->
+  <canvas id="autumn-breeze-canvas" class="fixed inset-0 pointer-events-none z-20 opacity-80"></canvas>
+
+  <!-- STICKY PEACEFUL NAVIGATION & ATMOSPHERE BAR -->
+  <header class="sticky top-0 z-40 border-b border-[#e6decb]/90 bg-[#fbf9f5]/85 backdrop-blur-md no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand Identity -->
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-sage-600 via-sage-500 to-autumn-500 flex items-center justify-center text-white font-serif text-xl font-bold shadow-sm">
+          S
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-serif font-bold text-lg sm:text-xl tracking-tight text-slatewarm-900">Simone's English Sanctuary</span>
+            <span class="hidden sm:inline-flex items-center gap-1 px-2.5 py-0.5 text-[11px] font-medium rounded-full bg-sage-100 text-sage-800 border border-sage-200">
+              <i data-lucide="sparkles" class="w-3 h-3 text-autumn-600"></i>
+              Lesson 01 Notes
+            </span>
+          </div>
+          <p class="text-[11px] text-stone-500 hidden md:block">Bologna &amp; Hanoi &bull; Technical Support, Board Games, Lord of the Rings &amp; Family</p>
+        </div>
+      </div>
+
+      <!-- Calming Atmosphere Controls -->
+      <div class="flex flex-wrap items-center gap-2">
+        
+        <!-- Ambient Sound Player -->
+        <div class="flex items-center gap-1.5 bg-white/90 border border-[#dfd0b5] rounded-xl px-2.5 py-1 shadow-sm">
+          <button id="soundscape-btn" onclick="toggleSoundscape()" class="flex items-center gap-1.5 text-xs font-semibold text-sage-700 hover:text-sage-900 transition px-1.5 py-0.5 rounded-lg" title="Play soothing ambient soundscape">
+            <i data-lucide="wind" id="soundscape-icon" class="w-3.5 h-3.5 text-autumn-600"></i>
+            <span id="soundscape-label">Ambient Sound: Off</span>
+          </button>
+          <select id="soundscape-preset" onchange="changeSoundscapePreset(this.value)" class="text-[11px] bg-parchment-50 border border-parchment-200 rounded-lg px-1.5 py-0.5 text-stone-700 focus:outline-none">
+            <option value="breeze">Kensington Breeze</option>
+            <option value="rain">Soft London Rain</option>
+            <option value="study">Warm Study Hearth</option>
+          </select>
+          <input id="soundscape-volume" type="range" min="0.05" max="0.6" step="0.05" value="0.22" oninput="updateSoundscapeVolume(this.value)" class="w-14 accent-sage-600 cursor-pointer hidden sm:block" />
+        </div>
+
+        <!-- Falling Leaves Toggle -->
+        <button id="leaves-toggle-btn" onclick="cycleLeafBreeze()" class="px-2.5 py-1.5 rounded-xl bg-white/90 hover:bg-autumn-50 border border-[#dfd0b5] text-xs font-medium text-stone-700 flex items-center gap-1.5 shadow-sm transition">
+          <i data-lucide="leaf" class="w-3.5 h-3.5 text-autumn-600"></i>
+          <span id="leaves-label" class="hidden sm:inline">Leaves: Gentle</span>
+        </button>
+
+        <!-- UK Voice Speed -->
+        <div class="flex items-center gap-1 bg-white/90 border border-[#dfd0b5] rounded-xl px-2 py-1 shadow-sm text-xs">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5 text-sage-600"></i>
+          <button onclick="setVoiceRate(0.85)" id="rate-slow" class="px-1.5 py-0.5 rounded-md text-[11px] text-stone-600 hover:bg-parchment-100 transition">0.85&times;</button>
+          <button onclick="setVoiceRate(1.0)" id="rate-normal" class="px-1.5 py-0.5 rounded-md text-[11px] bg-sage-600 text-white font-semibold transition">UK 1&times;</button>
+        </div>
+
+        <!-- Theme Mood Selector -->
+        <div class="hidden lg:flex items-center gap-1 bg-white/90 border border-[#dfd0b5] rounded-xl p-1 text-[11px] shadow-sm">
+          <button onclick="setThemeMood('kensington')" id="theme-kensington" class="px-2 py-0.5 rounded-lg bg-autumn-100 text-autumn-800 font-semibold transition">Bath Stone</button>
+          <button onclick="setThemeMood('winchester')" id="theme-winchester" class="px-2 py-0.5 rounded-lg text-stone-600 hover:text-stone-900 transition">Winchester Mist</button>
+          <button onclick="setThemeMood('twilight')" id="theme-twilight" class="px-2 py-0.5 rounded-lg text-stone-600 hover:text-stone-900 transition">Warm Study</button>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-7 space-y-7 relative z-10">
+
+    <!-- HERO BANNER -->
+    <section class="sanctuary-card rounded-3xl p-6 sm:p-9 relative overflow-hidden">
+      <div class="absolute -right-12 -top-12 w-64 h-64 bg-autumn-200/30 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -left-12 -bottom-12 w-64 h-64 bg-sage-200/35 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-7 items-center">
+        <div class="lg:col-span-8 space-y-3.5">
+          <div class="inline-flex flex-wrap items-center gap-2 px-3 py-1 rounded-full bg-sage-100/90 border border-sage-200 text-sage-800 text-xs font-medium">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-autumn-600"></i>
+            <span>October 21, 2026 &bull; First Conversation with Louie &bull; Bologna, Hanoi &amp; The Tabletop Sanctuary</span>
+          </div>
+
+          <h1 class="font-serif text-3xl sm:text-4xl lg:text-[2.65rem] font-bold text-slatewarm-900 leading-[1.16]">
+            Welcome, Simone &mdash; Your <span class="text-autumn-700 italic font-semibold">Autumn Sanctuary</span> for English Reflection
+          </h1>
+
+          <p class="text-stone-600 text-sm sm:text-base leading-relaxed max-w-3xl">
+            Thank you so much for an engaging, wide-ranging first conversation! Just as promised at the end of class, here is your <strong class="text-slatewarm-800">tidy, forensic transcript</strong> with exact timestamps, <strong class="text-slatewarm-800">51 flagged vocabulary words &amp; idioms</strong>, and all the note-taker's funny spelling mishearings gently sorted out.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-2.5 pt-1 text-xs text-stone-700">
+            <span class="inline-flex items-center gap-1.5 bg-parchment-100/90 px-3 py-1.5 rounded-xl border border-parchment-300">
+              <i data-lucide="mouse-pointer-click" class="w-3.5 h-3.5 text-autumn-600"></i>
+              <span><strong>Tip 1:</strong> Hover or click any <span class="vocab-mark text-xs">highlighted word</span> in the transcript for definitions &amp; Italian translations</span>
+            </span>
+            <span class="inline-flex items-center gap-1.5 bg-sage-50/90 px-3 py-1.5 rounded-xl border border-sage-200">
+              <i data-lucide="headphones" class="w-3.5 h-3.5 text-sage-600"></i>
+              <span><strong>Tip 2:</strong> Use the ambient player at the top for relaxing study audio while reviewing your notes</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Lesson Summary Cards -->
+        <div class="lg:col-span-4 grid grid-cols-2 gap-3">
+          <div onclick="switchTab('transcript')" class="cursor-pointer p-4 rounded-2xl bg-parchment-50/95 border border-parchment-300 hover:border-autumn-400 transition shadow-sm group">
+            <div class="flex items-center justify-between text-autumn-700 mb-1">
+              <span class="text-[11px] font-mono font-semibold uppercase">50 Mins</span>
+              <i data-lucide="scroll-text" class="w-4 h-4 group-hover:scale-110 transition"></i>
+            </div>
+            <div class="font-serif font-bold text-slatewarm-900 text-lg">Full Transcript</div>
+            <p class="text-[11px] text-stone-600 mt-0.5">105 cleaned turns with inline vocab &amp; timestamps</p>
+          </div>
+
+          <div onclick="switchTab('vocab')" class="cursor-pointer p-4 rounded-2xl bg-sage-50/95 border border-sage-200 hover:border-sage-400 transition shadow-sm group">
+            <div class="flex items-center justify-between text-sage-700 mb-1">
+              <span class="text-[11px] font-mono font-semibold uppercase">51 Words</span>
+              <i data-lucide="book-open-check" class="w-4 h-4 group-hover:scale-110 transition"></i>
+            </div>
+            <div class="font-serif font-bold text-slatewarm-900 text-lg">Flagged Lexicon</div>
+            <p class="text-[11px] text-stone-600 mt-0.5">B2&ndash;C2 terms, UK audio &amp; Italian links</p>
+          </div>
+
+          <div onclick="switchTab('fixes')" class="cursor-pointer p-4 rounded-2xl bg-autumn-50/95 border border-autumn-200 hover:border-autumn-400 transition shadow-sm group">
+            <div class="flex items-center justify-between text-autumn-700 mb-1">
+              <span class="text-[11px] font-mono font-semibold uppercase">13 Fixes</span>
+              <i data-lucide="wand-sparkles" class="w-4 h-4 group-hover:scale-110 transition"></i>
+            </div>
+            <div class="font-serif font-bold text-slatewarm-900 text-lg">Note-Taker Fixes</div>
+            <p class="text-[11px] text-stone-600 mt-0.5">Sorted errors &amp; gentle phrasing polishes</p>
+          </div>
+
+          <div onclick="switchTab('places')" class="cursor-pointer p-4 rounded-2xl bg-parchment-50/95 border border-parchment-300 hover:border-sage-400 transition shadow-sm group">
+            <div class="flex items-center justify-between text-sage-700 mb-1">
+              <span class="text-[11px] font-mono font-semibold uppercase">4 Topics</span>
+              <i data-lucide="compass" class="w-4 h-4 group-hover:scale-110 transition"></i>
+            </div>
+            <div class="font-serif font-bold text-slatewarm-900 text-lg">Culture &amp; Practice</div>
+            <p class="text-[11px] text-stone-600 mt-0.5">Bologna, Hanoi, Hobbiton &amp; 7 Wonders</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5-TAB NAVIGATION BAR -->
+    <nav class="sanctuary-card rounded-2xl p-2 flex flex-wrap items-center justify-between gap-2 no-print" aria-label="Lesson Sections">
+      <div class="flex flex-wrap items-center gap-1.5 w-full sm:w-auto">
+        <button onclick="switchTab('transcript')" id="tab-btn-transcript" class="tab-btn flex-1 sm:flex-initial px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center justify-center gap-2 bg-sage-700 text-white shadow-sm">
+          <i data-lucide="message-square-quote" class="w-4 h-4"></i>
+          <span>1. Lesson Transcript &amp; Inline Vocab</span>
+          <span class="px-2 py-0.5 text-[10px] rounded-full bg-white/20 text-white font-mono">00:00&ndash;50:50</span>
+        </button>
+
+        <button onclick="switchTab('vocab')" id="tab-btn-vocab" class="tab-btn flex-1 sm:flex-initial px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center justify-center gap-2 text-stone-700 hover:bg-parchment-100">
+          <i data-lucide="book-marked" class="w-4 h-4 text-autumn-600"></i>
+          <span>2. Vocabulary Dictionary</span>
+          <span class="px-2 py-0.5 text-[10px] rounded-full bg-autumn-100 text-autumn-800 font-mono">51 Words</span>
+        </button>
+
+        <button onclick="switchTab('fixes')" id="tab-btn-fixes" class="tab-btn flex-1 sm:flex-initial px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center justify-center gap-2 text-stone-700 hover:bg-parchment-100">
+          <i data-lucide="sparkles" class="w-4 h-4 text-sage-600"></i>
+          <span>3. Note-Taker Fixes &amp; Gentle Notes</span>
+        </button>
+
+        <button onclick="switchTab('places')" id="tab-btn-places" class="tab-btn flex-1 sm:flex-initial px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center justify-center gap-2 text-stone-700 hover:bg-parchment-100">
+          <i data-lucide="landmark" class="w-4 h-4 text-autumn-600"></i>
+          <span>4. Cultural Places &amp; Topics</span>
+        </button>
+
+        <button onclick="switchTab('practice')" id="tab-btn-practice" class="tab-btn flex-1 sm:flex-initial px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center justify-center gap-2 text-stone-700 hover:bg-parchment-100">
+          <i data-lucide="coffee" class="w-4 h-4 text-sage-600"></i>
+          <span>5. Peaceful Practice Sanctuary</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- =================================================================== -->
+    <!-- TAB 1: FULL CONVERSATION TRANSCRIPT WITH INLINE VOCAB & SPOTLIGHT   -->
+    <!-- =================================================================== -->
+    <section id="tab-panel-transcript" class="tab-panel space-y-6">
+      
+      <!-- Transcript Controls & Chapter Bar -->
+      <div class="sanctuary-card rounded-3xl p-5 sm:p-6 space-y-4">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-[#e6decb] pb-4">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-mono uppercase tracking-widest text-sage-700 font-semibold">Interactive Conversation Transcript</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-full bg-autumn-100 text-autumn-800 font-medium">All Spelling Errors Sorted</span>
+            </div>
+            <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slatewarm-900 mt-0.5">
+              Full Lesson Conversation (00:00 &ndash; 50:50)
+            </h2>
+            <p class="text-xs sm:text-sm text-stone-600 mt-1">
+              Hover over any <span class="vocab-mark">highlighted word</span> to see its meaning, or click it to pin it in the right-hand Spotlight panel.
+            </p>
+          </div>
+
+          <!-- Search & Display Toggles -->
+          <div class="flex flex-wrap items-center gap-2 shrink-0">
+            <div class="relative">
+              <i data-lucide="search" class="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2"></i>
+              <input id="transcript-search" type="text" oninput="filterTranscript()" placeholder="Search transcript or time..." class="pl-9 pr-3 py-1.5 rounded-xl bg-white border border-[#dfd0b5] text-xs text-stone-800 focus:outline-none focus:border-sage-600 w-48" />
+            </div>
+
+            <select id="speaker-filter" onchange="filterTranscript()" class="px-3 py-1.5 rounded-xl bg-white border border-[#dfd0b5] text-xs font-medium text-stone-700">
+              <option value="all">Both Speakers</option>
+              <option value="Simone">Simone (Student) Only</option>
+              <option value="Louie">Louie (Tutor) Only</option>
+            </select>
+
+            <button onclick="toggleVocabHighlights()" id="btn-toggle-highlights" class="px-3 py-1.5 rounded-xl bg-autumn-100 text-autumn-800 border border-autumn-300 text-xs font-semibold flex items-center gap-1.5">
+              <i data-lucide="highlighter" class="w-3.5 h-3.5"></i>
+              <span>Vocab Highlights: On</span>
+            </button>
+
+            <button onclick="toggleAsrBadges()" id="btn-toggle-asr" class="px-3 py-1.5 rounded-xl bg-sage-100 text-sage-800 border border-sage-300 text-xs font-semibold flex items-center gap-1.5">
+              <i data-lucide="check-check" class="w-3.5 h-3.5"></i>
+              <span>Note-Taker Fixes: Visible</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chapters -->
+        <div class="flex flex-wrap items-center gap-1.5 pt-1">
+          <span class="text-[11px] font-mono uppercase tracking-wider text-stone-500 mr-1">Chapters:</span>
+          <button onclick="scrollToChapter('chap-1')" class="px-2.5 py-1 rounded-lg bg-parchment-100 hover:bg-autumn-100 text-stone-700 text-xs font-medium transition border border-parchment-200">
+            00:00 &bull; I. Welcome &amp; Technical Support
+          </button>
+          <button onclick="scrollToChapter('chap-2')" class="px-2.5 py-1 rounded-lg bg-parchment-100 hover:bg-autumn-100 text-stone-700 text-xs font-medium transition border border-parchment-200">
+            05:34 &bull; II. Trade-offs, Bottlenecks &amp; Demo
+          </button>
+          <button onclick="scrollToChapter('chap-3')" class="px-2.5 py-1 rounded-lg bg-parchment-100 hover:bg-autumn-100 text-stone-700 text-xs font-medium transition border border-parchment-200">
+            15:10 &bull; III. Word Association &amp; Italian Table
+          </button>
+          <button onclick="scrollToChapter('chap-4')" class="px-2.5 py-1 rounded-lg bg-parchment-100 hover:bg-autumn-100 text-stone-700 text-xs font-medium transition border border-parchment-200">
+            20:38 &bull; IV. Bologna, Twins &amp; Family Ties
+          </button>
+          <button onclick="scrollToChapter('chap-5')" class="px-2.5 py-1 rounded-lg bg-parchment-100 hover:bg-autumn-100 text-stone-700 text-xs font-medium transition border border-parchment-200">
+            26:14 &bull; V. Board Games, 7 Wonders &amp; Gaming
+          </button>
+          <button onclick="scrollToChapter('chap-6')" class="px-2.5 py-1 rounded-lg bg-parchment-100 hover:bg-autumn-100 text-stone-700 text-xs font-medium transition border border-parchment-200">
+            41:40 &bull; VI. New Zealand, Tolkien &amp; Looking Ahead
+          </button>
+        </div>
+      </div>
+
+      <!-- Transcript Columns: Stream on Left, Sticky Spotlight on Right -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        
+        <!-- Conversation Turns Container -->
+        <div class="lg:col-span-8 space-y-4" id="transcript-stream-container">
+          <!-- Rendered dynamically by JS -->
+        </div>
+
+        <!-- Sticky Right-Hand Vocabulary Spotlight Inspector -->
+        <aside class="lg:col-span-4 lg:sticky lg:top-20 space-y-4">
+          <div class="sanctuary-card rounded-3xl p-5 sm:p-6 border-t-4 border-t-autumn-500 space-y-4" id="vocab-inspector-card">
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-[11px] font-mono uppercase tracking-widest text-autumn-700 font-semibold flex items-center gap-1.5">
+                <i data-lucide="sparkle" class="w-3.5 h-3.5"></i>
+                Vocabulary Spotlight
+              </span>
+              <span id="insp-time" class="px-2.5 py-0.5 rounded-full bg-parchment-100 border border-parchment-300 font-mono text-xs text-stone-700 inline-flex items-center gap-1">
+                <i data-lucide="clock" class="w-3 h-3 text-stone-500"></i>
+                <span>05:52</span>
+              </span>
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between gap-2">
+                <h3 id="insp-word" class="font-serif text-2xl sm:text-3xl font-bold text-slatewarm-900">trade-off</h3>
+                <button id="insp-audio-btn" onclick="speakWord('trade-off')" class="p-2.5 rounded-xl bg-sage-100 hover:bg-sage-200 text-sage-800 transition shrink-0" title="Listen in British English">
+                  <i data-lucide="volume-2" class="w-4 h-4"></i>
+                </button>
+              </div>
+              <div class="flex flex-wrap items-center gap-2 mt-1">
+                <span id="insp-ipa" class="text-xs font-mono text-stone-500">/'trayd-awf/</span>
+                <span id="insp-pos" class="px-2 py-0.5 text-[11px] rounded-md bg-parchment-100 text-stone-700 font-medium">noun</span>
+                <span id="insp-level" class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800 font-mono font-semibold">B2 Business</span>
+              </div>
+            </div>
+
+            <div class="p-3.5 rounded-2xl bg-parchment-50 border border-parchment-200 space-y-1.5">
+              <div class="text-[11px] font-mono uppercase tracking-wider text-stone-500">Meaning &amp; Nuance</div>
+              <p id="insp-def" class="text-xs sm:text-sm text-slatewarm-800 leading-relaxed">
+                A situational decision where one acceptable benefit is given up in return for gaining a different desirable quality.
+              </p>
+            </div>
+
+            <div class="p-3.5 rounded-2xl bg-sage-50/80 border border-sage-200 space-y-1.5">
+              <div class="text-[11px] font-mono uppercase tracking-wider text-sage-700">How It Was Used in Our Lesson</div>
+              <p id="insp-quote" class="text-xs italic text-stone-700 leading-relaxed">
+                Simone: "It's a sort of balance between two or more things." / Louie: "You balance one benefit against another."
+              </p>
+            </div>
+
+            <div class="flex items-center justify-between pt-1 text-xs border-t border-[#e6decb]">
+              <span class="text-stone-500">Italian Equivalent:</span>
+              <span id="insp-it" class="font-semibold text-sage-800">compromesso / bilanciamento</span>
+            </div>
+          </div>
+
+          <!-- Thoughtful Teacher Note -->
+          <div class="sanctuary-card rounded-3xl p-5 space-y-3">
+            <div class="flex items-center gap-2 text-sage-800 font-serif font-bold text-lg">
+              <i data-lucide="heart-handshake" class="w-5 h-5 text-autumn-600"></i>
+              <span>Teacher's Note for Simone</span>
+            </div>
+            <p class="text-xs text-stone-600 leading-relaxed">
+              Simone, you have a natural gift for structural thinking and precise definitions. You defined "trade-off" and "bottleneck" with immediate clarity.
+            </p>
+            <p class="text-xs text-stone-600 leading-relaxed">
+              Whenever you feel "locked" or "tongue-tied", take a relaxed breath&mdash;you already possess the grammatical foundation to speak comfortably.
+            </p>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 2: VOCABULARY DICTIONARY                                        -->
+    <!-- =================================================================== -->
+    <section id="tab-panel-vocab" class="tab-panel hidden space-y-6">
+      <div class="sanctuary-card rounded-3xl p-6 sm:p-8 space-y-5">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-[#e6decb] pb-5">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-widest text-autumn-700 font-semibold">Timestamped Lexicon &bull; 51 Flagged Items</span>
+            <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slatewarm-900 mt-1">
+              Curated Vocabulary, Idioms &amp; Engineering Terminology
+            </h2>
+            <p class="text-xs sm:text-sm text-stone-600 mt-1">
+              Click the timestamp badge on any card to jump directly to where it was spoken in our transcript!
+            </p>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-2">
+            <input id="vocab-search" type="text" oninput="renderVocabGrid()" placeholder="Search word, meaning, Italian..." class="px-3 py-2 rounded-xl bg-white border border-[#dfd0b5] text-xs text-stone-800 w-52" />
+            <select id="vocab-level-filter" onchange="renderVocabGrid()" class="px-3 py-2 rounded-xl bg-white border border-[#dfd0b5] text-xs font-medium text-stone-700">
+              <option value="all">All Levels (B2&ndash;C2)</option>
+              <option value="C2">C2 Mastery</option>
+              <option value="C1">C1 Advanced</option>
+              <option value="B2">B2 Upper-Intermediate</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="vocab-cards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 3: NOTE-TAKER FIXES & GENTLE PHRASING NOTES                     -->
+    <!-- =================================================================== -->
+    <section id="tab-panel-fixes" class="tab-panel hidden space-y-6">
+      <div class="sanctuary-card rounded-3xl p-6 sm:p-8 space-y-6">
+        <div class="border-b border-[#e6decb] pb-4">
+          <span class="text-xs font-mono uppercase tracking-widest text-sage-700 font-semibold">Supportive Language Feedback</span>
+          <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slatewarm-900 mt-1">
+            Strengths First: Celebrating What You Said Brilliantly
+          </h2>
+          <p class="text-xs sm:text-sm text-stone-600 mt-1">
+            We never use red pens. Here are 6 moments where your natural instinct for English shone brightly, followed by 6 gentle phrasing polishes.
+          </p>
+        </div>
+
+        <!-- 6 Natural Strengths -->
+        <div class="p-5 rounded-2xl bg-sage-50/90 border border-sage-200 space-y-3">
+          <div class="flex items-center gap-2 text-sage-800 font-serif font-bold text-xl">
+            <i data-lucide="award" class="w-5 h-5 text-autumn-600"></i>
+            <span>Your Natural Strengths Observed Today</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs" id="strengths-container">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Gentle Polishes -->
+        <div class="space-y-4 pt-2">
+          <h3 class="font-serif text-2xl font-bold text-slatewarm-900">Gentle Phrasing Polishes</h3>
+          <p class="text-xs text-stone-600">Natural upgrades designed to make your English feel effortless and idiomatic.</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="gentle-polishes-grid">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Note-Taker Fixes Log -->
+      <div class="sanctuary-card rounded-3xl p-6 sm:p-8 space-y-5">
+        <div class="border-b border-[#e6decb] pb-4">
+          <span class="text-xs font-mono uppercase tracking-widest text-autumn-700 font-semibold">Transcript Forensic Clean-Up</span>
+          <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slatewarm-900 mt-1">
+            How Louie Sorted Out Automated Speech-to-Text Mishearings
+          </h2>
+          <p class="text-xs sm:text-sm text-stone-600 mt-1">
+            Automated speech recognition frequently mishears proper nouns, game titles, and cultural terms. Here is the complete clean-up log:
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="asr-fixes-grid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 4: CULTURAL PLACES & TOPICS                                     -->
+    <!-- =================================================================== -->
+    <section id="tab-panel-places" class="tab-panel hidden space-y-6">
+      <div class="sanctuary-card rounded-3xl p-6 sm:p-8 space-y-6">
+        <div class="border-b border-[#e6decb] pb-4">
+          <span class="text-xs font-mono uppercase tracking-widest text-autumn-700 font-semibold">Cultural Deep-Dives</span>
+          <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slatewarm-900 mt-1">
+            Cultural Places &amp; Topics Explored in Today's Lesson
+          </h2>
+          <p class="text-xs sm:text-sm text-stone-600 mt-1">
+            Every lesson connects practical language with travel, architecture, storytelling, and tabletop culture.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <!-- Card 1: Bologna -->
+          <div class="sanctuary-subcard rounded-2xl p-6 space-y-3 border-l-4 border-l-autumn-500">
+            <span class="text-xs font-mono text-autumn-700 font-semibold">00:00 &amp; 20:44 &bull; Emilia-Romagna</span>
+            <h3 class="font-serif text-2xl font-bold text-slatewarm-900">1. Bologna &amp; The Porticoes of Knowledge</h3>
+            <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+              Home to the world's oldest university in continuous operation (founded in 1088), Bologna is famous for its 38 kilometers of medieval covered porticoes, vibrant piazzas, and warm culinary gatherings. Its rich student culture also fosters one of Italy's most passionate tabletop and board game communities.
+            </p>
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-sage-100 text-sage-800">whereabouts</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-sage-100 text-sage-800">first-course</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-sage-100 text-sage-800">spare-time</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Hanoi -->
+          <div class="sanctuary-subcard rounded-2xl p-6 space-y-3 border-l-4 border-l-sage-600">
+            <span class="text-xs font-mono text-sage-700 font-semibold">21:20 &amp; 40:35 &bull; Vietnam</span>
+            <h3 class="font-serif text-2xl font-bold text-slatewarm-900">2. Hanoi: Life on Two Wheels &amp; Street Dining</h3>
+            <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+              Louie's journey from historical architectural restoration in England to university in Hanoi. Unlike Western car culture where people are separated by windshields, life in Vietnam unfolds on motorbikes and low stools along the pavement&mdash;where whole families eat together outdoors and greet each other like one large family.
+            </p>
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800">restoration</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800">abroad</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800">free-form</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Hobbiton -->
+          <div class="sanctuary-subcard rounded-2xl p-6 space-y-3 border-l-4 border-l-autumn-600">
+            <span class="text-xs font-mono text-autumn-700 font-semibold">45:10 &ndash; 47:15 &bull; New Zealand</span>
+            <h3 class="font-serif text-2xl font-bold text-slatewarm-900">3. Hobbiton &amp; The Green Hills of Matamata</h3>
+            <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+              Simone and his wife's unforgettable honeymoon road trip from Auckland to Wellington. Walking across the Alexander sheep farm, preserved as the permanent Hobbiton movie set. Simone noted the uncanny feeling of standing in a place you know is pure fantasy from books and cinema, yet feeling the morning breeze on your face.
+            </p>
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-sage-100 text-sage-800">honeymoon</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-sage-100 text-sage-800">itinerary</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-sage-100 text-sage-800">scenery</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-sage-100 text-sage-800">fantasy</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Tabletop Renaissance -->
+          <div class="sanctuary-subcard rounded-2xl p-6 space-y-3 border-l-4 border-l-sage-500">
+            <span class="text-xs font-mono text-sage-700 font-semibold">26:30 &ndash; 39:45 &bull; Tabletop Strategy</span>
+            <h3 class="font-serif text-2xl font-bold text-slatewarm-900">4. The Tabletop Renaissance: 7 Wonders &amp; Beyond</h3>
+            <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+              From Antoine Bauza's simultaneous card drafting across three ancient eras in <em>7 Wonders</em> to the psychological deduction of <em>Lupus in Tabula</em> and nightly global games of <em>Risk</em>. Modern board games offer a rich landscape of shared storytelling, tactical trade-offs, and genuine face-to-face connection.
+            </p>
+            <div class="flex flex-wrap gap-1.5 pt-1">
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800">mechanics</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800">card-drafting</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800">victory-points</span>
+              <span class="px-2 py-0.5 text-[11px] rounded-md bg-autumn-100 text-autumn-800">combo</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- TAB 5: PEACEFUL PRACTICE SANCTUARY                                  -->
+    <!-- =================================================================== -->
+    <section id="tab-panel-practice" class="tab-panel hidden space-y-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        
+        <!-- Left: Interactive Flashcards -->
+        <div class="lg:col-span-6 sanctuary-card rounded-3xl p-6 sm:p-8 space-y-5 flex flex-col justify-between">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono uppercase tracking-widest text-sage-700 font-semibold">Active Recall</span>
+              <span id="fc-counter" class="text-xs font-mono text-stone-500">Card 1 of 12</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-slatewarm-900">Interactive Vocabulary Cards</h3>
+            <p class="text-xs text-stone-600">Click the card to reveal the definition, Italian equivalent, and quote from our lesson.</p>
+          </div>
+
+          <div onclick="flipFlashcard()" class="cursor-pointer sanctuary-subcard rounded-2xl p-7 min-h-[240px] flex flex-col items-center justify-center text-center space-y-3 border-2 border-[#dfd0b5] hover:border-autumn-400 transition select-none">
+            <span id="fc-badge" class="px-2.5 py-0.5 rounded-full bg-autumn-100 text-autumn-800 text-[11px] font-mono">05:52 &bull; B2 Business</span>
+            <h4 id="fc-front-title" class="font-serif text-3xl font-bold text-slatewarm-900">trade-off</h4>
+            <p id="fc-sub" class="text-xs sm:text-sm text-stone-600 max-w-md leading-relaxed">
+              Click anywhere on this card to reveal the meaning &amp; lesson context
+            </p>
+            <div id="fc-back-details" class="hidden space-y-2 pt-2 border-t border-parchment-200 w-full">
+              <p id="fc-quote" class="text-xs italic text-sage-800"></p>
+              <p id="fc-it" class="text-xs font-semibold text-autumn-700"></p>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between gap-2 pt-2">
+            <button onclick="prevFlashcard()" class="px-4 py-2 rounded-xl bg-parchment-100 hover:bg-parchment-200 text-xs font-semibold text-stone-700 flex items-center gap-1.5 transition">
+              <i data-lucide="arrow-left" class="w-4 h-4"></i> Previous
+            </button>
+            <button onclick="speakCurrentFlashcard()" class="px-4 py-2 rounded-xl bg-sage-100 hover:bg-sage-200 text-xs font-semibold text-sage-800 flex items-center gap-1.5 transition">
+              <i data-lucide="volume-2" class="w-4 h-4"></i> Listen (UK)
+            </button>
+            <button onclick="nextFlashcard()" class="px-4 py-2 rounded-xl bg-sage-700 hover:bg-sage-800 text-xs font-semibold text-white flex items-center gap-1.5 transition">
+              Next <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: Context Quiz -->
+        <div class="lg:col-span-6 sanctuary-card rounded-3xl p-6 sm:p-8 space-y-5">
+          <div class="flex items-center justify-between">
+            <div>
+              <span class="text-xs font-mono uppercase tracking-widest text-autumn-700 font-semibold">No-Pressure Practice</span>
+              <h3 class="font-serif text-2xl font-bold text-slatewarm-900 mt-0.5">Match the Word to Conversation</h3>
+            </div>
+            <span id="quiz-score-badge" class="px-3 py-1 rounded-full bg-sage-100 text-sage-800 text-xs font-mono font-semibold">0 / 6 Completed</span>
+          </div>
+
+          <div id="quiz-container" class="space-y-4 max-h-[420px] overflow-y-auto pr-1">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Reflection Prompts for Next Lesson -->
+      <div class="sanctuary-card rounded-3xl p-6 sm:p-8 space-y-4 border-2 border-sage-300">
+        <div class="flex items-center gap-2 text-sage-800 font-serif font-bold text-xl">
+          <i data-lucide="compass" class="w-5 h-5 text-autumn-600"></i>
+          <span>Reflection Prompts for Next Lesson with Louie</span>
+        </div>
+        <p class="text-xs sm:text-sm text-stone-600">
+          Take a quiet moment over the week to think about these three prompts. There are no right or wrong answers&mdash;only ideas to fuel our next chat!
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1" id="prompts-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-xs text-stone-500 border-t border-[#e6decb]/80 mt-8 no-print">
+    <p class="font-serif italic text-base text-slatewarm-800 mb-1">"Speak freely, reflect quietly, and let the language become second nature."</p>
+    <p>Personal lesson companion prepared for Simone by Louie &bull; Bologna &amp; Hanoi Autumn 2026</p>
+  </footer>
+
+  <script>
+    // -------------------------------------------------------------------------
+    // 1. EMBEDDED DATA FOR SIMONE'S LESSON 01
+    // -------------------------------------------------------------------------
+    const VOCAB_DB = {
+    "foundation":  {
+                       "word":  "foundation",
+                       "ipa":  "/\u0027fown-day-shun/",
+                       "pos":  "noun",
+                       "level":  "B2",
+                       "time":  "02:22",
+                       "turnId":  "turn-7",
+                       "cat":  "learning",
+                       "def":  "The solid base of grammar, vocabulary, and structural understanding upon which further language fluency is built.",
+                       "quote":  "Louie (02:22): \"Your English has a very strong foundation and structure. You clearly have a logical process in mind.\"",
+                       "it":  "base / fondamenta"
+                   },
+    "counterpart":  {
+                        "word":  "counterpart",
+                        "ipa":  "/\u0027kown-ter-part/",
+                        "pos":  "noun",
+                        "level":  "C1",
+                        "time":  "02:37",
+                        "turnId":  "turn-9",
+                        "cat":  "business",
+                        "def":  "A colleague or professional holding a corresponding position or function in another team, office, or organization.",
+                        "quote":  "Louie (02:37): \"When explaining how you interact with different counterparts and stakeholders, you are actually quite quick at answering.\"",
+                        "it":  "controparte / collega omologo"
+                    },
+    "stakeholder":  {
+                        "word":  "stakeholder",
+                        "ipa":  "/\u0027stayk-hohl-der/",
+                        "pos":  "noun",
+                        "level":  "C1",
+                        "time":  "02:37",
+                        "turnId":  "turn-9",
+                        "cat":  "business",
+                        "def":  "Any individual, department, client, or group that has an active interest or stake in the outcome of a business process.",
+                        "quote":  "Louie (02:37): \"...dealing with different counterparts, different stakeholders across the company.\"",
+                        "it":  "portatore di interesse / stakeholder"
+                    },
+    "imitate":  {
+                    "word":  "imitate",
+                    "ipa":  "/\u0027im-i-tayt/",
+                    "pos":  "verb",
+                    "level":  "B2",
+                    "time":  "03:31",
+                    "turnId":  "turn-11",
+                    "cat":  "learning",
+                    "def":  "To naturally copy the cadence, rhythm, or phrasing of native speech to develop ease and muscle memory.",
+                    "quote":  "Louie (03:31): \"You will start to imitate natural cadences, and fluency becomes second nature.\"",
+                    "it":  "imitare / emulare"
+                },
+    "second-nature":  {
+                          "word":  "second nature",
+                          "ipa":  "/sek-und \u0027nay-cher/",
+                          "pos":  "idiom",
+                          "level":  "C1",
+                          "time":  "03:31",
+                          "turnId":  "turn-11",
+                          "cat":  "learning",
+                          "def":  "A behavior or habit that has become so instinctive and automatic through practice that it requires no conscious effort.",
+                          "quote":  "Louie (03:31): \"...fluency becomes second nature through gentle, natural conversation.\"",
+                          "it":  "una seconda natura / qualcosa di spontaneo"
+                      },
+    "troubleshoot":  {
+                         "word":  "troubleshoot",
+                         "ipa":  "/\u0027truh-bul-shoot/",
+                         "pos":  "verb",
+                         "level":  "C1",
+                         "time":  "04:37",
+                         "turnId":  "turn-14",
+                         "cat":  "business",
+                         "def":  "To trace, diagnose, and resolve technical problems or defects in machinery, software, or operating systems.",
+                         "quote":  "Simone (04:37): \"I work in technical support, so my job is to troubleshoot and resolve problems for our customers.\"",
+                         "it":  "risolvere problemi tecnici / fare troubleshooting"
+                     },
+    "rebuttal":  {
+                     "word":  "rebuttal",
+                     "ipa":  "/ri-\u0027buht-l/",
+                     "pos":  "noun",
+                     "level":  "C2",
+                     "time":  "05:14",
+                     "turnId":  "turn-15",
+                     "cat":  "business",
+                     "def":  "In rhetoric or discourse, a swift, structured response or reply addressing a question or argument.",
+                     "quote":  "Louie (05:14): \"Your rebuttal—your answering—is great. You\u0027re very quick and you give precise answers.\"",
+                     "it":  "replica pronta / risposta argomentata"
+                 },
+    "trade-off":  {
+                      "word":  "trade-off",
+                      "ipa":  "/\u0027trayd-awf/",
+                      "pos":  "noun",
+                      "level":  "B2",
+                      "time":  "05:52",
+                      "turnId":  "turn-16",
+                      "cat":  "business",
+                      "def":  "A situational decision where one acceptable benefit is given up in return for gaining a different desirable quality.",
+                      "quote":  "Simone (06:14): \"It\u0027s a sort of balance between two or more things.\" / Louie: \"You balance one benefit against another.\"",
+                      "it":  "compromesso / bilanciamento"
+                  },
+    "bottleneck":  {
+                       "word":  "bottleneck",
+                       "ipa":  "/\u0027bot-l-nek/",
+                       "pos":  "noun",
+                       "level":  "B2",
+                       "time":  "07:10",
+                       "turnId":  "turn-20",
+                       "cat":  "business",
+                       "def":  "A stage in an operation or production pipeline where capacity is constrained, causing overall delays.",
+                       "quote":  "Louie (08:12): \"A bottleneck is when one stage of a process or operation cannot keep up with the rest.\"",
+                       "it":  "collo di bottiglia / strozzatura"
+                   },
+    "take-the-pressure-off":  {
+                                  "word":  "take the pressure off",
+                                  "ipa":  "/tayk thuh \u0027presh-er awf/",
+                                  "pos":  "idiom",
+                                  "level":  "C1",
+                                  "time":  "11:28",
+                                  "turnId":  "turn-26",
+                                  "cat":  "idioms",
+                                  "def":  "To relieve someone of tension, anxiety, or heavy expectations so they can feel comfortable and relaxed.",
+                                  "quote":  "Louie (11:28): \"It takes the pressure off of taking notes in the lesson and missing something.\"",
+                                  "it":  "togliere la pressione / alleggerire lo stress"
+                              },
+    "recap":  {
+                  "word":  "recap",
+                  "ipa":  "/\u0027ree-kap/",
+                  "pos":  "verb",
+                  "level":  "B2",
+                  "time":  "12:43",
+                  "turnId":  "turn-30",
+                  "cat":  "learning",
+                  "def":  "To briefly review, summarize, or restate the main points of a discussion or study session.",
+                  "quote":  "Louie (12:43): \"Notes are very easy to recap and go over at the end of the lesson or whenever you\u0027re available.\"",
+                  "it":  "ricapitolare / riassumere"
+              },
+    "in-the-loop":  {
+                        "word":  "in the loop",
+                        "ipa":  "/in thuh \u0027loop/",
+                        "pos":  "idiom",
+                        "level":  "B2",
+                        "time":  "13:48",
+                        "turnId":  "turn-32",
+                        "cat":  "business",
+                        "def":  "Kept fully informed, updated, and involved in ongoing communications or project decisions.",
+                        "quote":  "Simone (13:54): \"In the mail context, if someone is added to an email thread, they are in the loop.\"",
+                        "it":  "al corrente / nel giro delle comunicazioni"
+                    },
+    "out-of-the-loop":  {
+                            "word":  "out of the loop",
+                            "ipa":  "/owt uhv thuh \u0027loop/",
+                            "pos":  "idiom",
+                            "level":  "B2",
+                            "time":  "13:54",
+                            "turnId":  "turn-33",
+                            "cat":  "business",
+                            "def":  "Excluded from important information, unaware of developments, or omitted from updates.",
+                            "quote":  "Simone (13:54) \u0026 Louie (14:14): \"And out of the loop is just not getting the information or communication.\"",
+                            "it":  "tagliato fuori / non informato"
+                        },
+    "free-form":  {
+                      "word":  "free-form",
+                      "ipa":  "/\u0027free-form/",
+                      "pos":  "adjective",
+                      "level":  "C1",
+                      "time":  "14:24",
+                      "turnId":  "turn-34",
+                      "cat":  "learning",
+                      "def":  "Not conforming to a rigid structure or predetermined script; spontaneous, organic, and open.",
+                      "quote":  "Louie (14:24): \"I also believe in free-form conversation because we learn way more information.\"",
+                      "it":  "a forma libera / spontaneo"
+                  },
+    "first-course":  {
+                         "word":  "first course",
+                         "ipa":  "/furst \u0027kors/",
+                         "pos":  "noun collocation",
+                         "level":  "B2",
+                         "time":  "17:40",
+                         "turnId":  "turn-39",
+                         "cat":  "everyday",
+                         "def":  "The opening substantial dish of a formal meal, such as pasta, soup, or risotto (equivalent to Italian \u0027il primo\u0027).",
+                         "quote":  "Simone (17:40): \"This is a typical first course in Italy that we often prepare with mushrooms—risotto.\"",
+                         "it":  "primo piatto (il primo)"
+                     },
+    "vine":  {
+                 "word":  "vine",
+                 "ipa":  "/vyn/",
+                 "pos":  "noun",
+                 "level":  "B2",
+                 "time":  "18:34",
+                 "turnId":  "turn-42",
+                 "cat":  "everyday",
+                 "def":  "A climbing woody-stemmed plant that supports bunches of grapes for eating or winemaking.",
+                 "quote":  "Louie (18:38): \"We say in England, grapes grow on vines (V-I-N-E-S).\"",
+                 "it":  "vite (pianta della vigna)"
+             },
+    "glow":  {
+                 "word":  "glow",
+                 "ipa":  "/gloh/",
+                 "pos":  "verb",
+                 "level":  "B2",
+                 "time":  "19:35",
+                 "turnId":  "turn-48",
+                 "cat":  "nature",
+                 "def":  "To emit a steady, soft, radiant light without producing sparks or fire.",
+                 "quote":  "Louie (19:35): \"It\u0027s a small little bug, and it glows in the dark.\"",
+                 "it":  "brillare / emettere luce / risplendere"
+             },
+    "firefly":  {
+                    "word":  "firefly",
+                    "ipa":  "/\u0027fy-er-fly/",
+                    "pos":  "noun",
+                    "level":  "B2",
+                    "time":  "19:51",
+                    "turnId":  "turn-50",
+                    "cat":  "nature",
+                    "def":  "A soft-bodied nocturnal beetle capable of producing bioluminescent flashes from its abdomen.",
+                    "quote":  "Louie (19:51): \"It\u0027s a firefly—a bioluminescent flying beetle.\"",
+                    "it":  "lucciola"
+                },
+    "nectar":  {
+                   "word":  "nectar",
+                   "ipa":  "/\u0027nek-ter/",
+                   "pos":  "noun",
+                   "level":  "B2",
+                   "time":  "20:00",
+                   "turnId":  "turn-52",
+                   "cat":  "nature",
+                   "def":  "A sugar-rich fluid secreted by flowering plants to encourage pollination by insects and birds.",
+                   "quote":  "Louie (20:00): \"This bird flies very fast and it drinks nectar from blossoms.\"",
+                   "it":  "nettare"
+               },
+    "hummingbird":  {
+                        "word":  "hummingbird",
+                        "ipa":  "/\u0027huhm-ing-burd/",
+                        "pos":  "noun",
+                        "level":  "B2",
+                        "time":  "20:20",
+                        "turnId":  "turn-54",
+                        "cat":  "nature",
+                        "def":  "A tiny, iridescent American bird capable of hovering mid-air by beating its wings up to 80 times per second.",
+                        "quote":  "Louie (20:20): \"It\u0027s a hummingbird (colibri in Italian)! It moves so rapidly it appears to hover in place.\"",
+                        "it":  "colibri"
+                    },
+    "whereabouts":  {
+                        "word":  "whereabouts",
+                        "ipa":  "/\u0027wair-uh-bowts/",
+                        "pos":  "adverb / noun",
+                        "level":  "B2",
+                        "time":  "20:38",
+                        "turnId":  "turn-55",
+                        "cat":  "everyday",
+                        "def":  "In or near what approximate place or area.",
+                        "quote":  "Louie (20:38): \"Whereabouts in Italy are you located?\"",
+                        "it":  "in che zona / dove di preciso"
+                    },
+    "restoration":  {
+                        "word":  "restoration",
+                        "ipa":  "/res-ter-\u0027ay-shun/",
+                        "pos":  "noun",
+                        "level":  "B2",
+                        "time":  "20:49",
+                        "turnId":  "turn-57",
+                        "cat":  "culture",
+                        "def":  "The meticulous trade or art of repairing and returning ancient architecture to its authentic historic condition.",
+                        "quote":  "Louie (20:49): \"Before moving to Vietnam, I worked in historical restoration, rebuilding old buildings 600–700 years old.\"",
+                        "it":  "restauro storico / conservazione"
+                    },
+    "spare-time":  {
+                       "word":  "spare time",
+                       "ipa":  "/spair \u0027tym/",
+                       "pos":  "noun collocation",
+                       "level":  "B2",
+                       "time":  "22:06",
+                       "turnId":  "turn-59",
+                       "cat":  "everyday",
+                       "def":  "Free time outside of career responsibilities, family care, and household chores.",
+                       "quote":  "Louie (22:06): \"What do you like to do in your spare time?\"",
+                       "it":  "tempo libero"
+                   },
+    "relatives":  {
+                      "word":  "relatives",
+                      "ipa":  "/\u0027rel-uh-tivz/",
+                      "pos":  "noun",
+                      "level":  "B2",
+                      "time":  "23:51",
+                      "turnId":  "turn-65",
+                      "cat":  "family",
+                      "def":  "Members of one\u0027s extended family (cousins, uncles, aunts, grandparents). Distinct from \u0027parents\u0027 (mother and father).",
+                      "quote":  "Louie (23:51): \"In English we say relatives for extended family, whereas \u0027parents\u0027 refers strictly to mother and father.\"",
+                      "it":  "parenti (falso amico: \u0027parents\u0027 significa genitori)"
+                  },
+    "turn-red":  {
+                     "word":  "turn red",
+                     "ipa":  "/turn \u0027red/",
+                     "pos":  "idiom",
+                     "level":  "B2",
+                     "time":  "24:14",
+                     "turnId":  "turn-66",
+                     "cat":  "idioms",
+                     "def":  "To blush intensely on one\u0027s face as a reaction to sudden shock, surprise, or emotional intensity.",
+                     "quote":  "Simone (24:14): \"When the doctor said it to me and my wife, I turned totally red from shock!\"",
+                     "it":  "arrossire / diventare rosso per l\u0027emozione"
+                 },
+    "special-bond":  {
+                         "word":  "special bond",
+                         "ipa":  "/spesh-ul \u0027bond/",
+                         "pos":  "noun collocation",
+                         "level":  "B2",
+                         "time":  "24:46",
+                         "turnId":  "turn-67",
+                         "cat":  "family",
+                         "def":  "A rare, profound mutual understanding and protective emotional closeness between two people.",
+                         "quote":  "Louie (24:46): \"Twins share a special bond that lasts a lifetime. It is truly magical.\"",
+                         "it":  "legame speciale / affinita profonda"
+                     },
+    "siblings":  {
+                     "word":  "siblings",
+                     "ipa":  "/\u0027sib-lingz/",
+                     "pos":  "noun",
+                     "level":  "B2",
+                     "time":  "25:27",
+                     "turnId":  "turn-69",
+                     "cat":  "family",
+                     "def":  "Brothers or sisters; individuals who share the same parents.",
+                     "quote":  "Louie (25:27): \"Do you have siblings yourself? Brothers and sisters?\"",
+                     "it":  "fratelli e sorelle (fratelli in senso neutro)"
+                 },
+    "competitive":  {
+                        "word":  "competitive",
+                        "ipa":  "/kuhm-\u0027pet-i-tiv/",
+                        "pos":  "adjective",
+                        "level":  "B2",
+                        "time":  "26:55",
+                        "turnId":  "turn-74",
+                        "cat":  "gaming",
+                        "def":  "Involving passionate rivalry and strategic skill aimed at testing oneself against other players.",
+                        "quote":  "Simone (26:55): \"It is very competitive because you enter in a team of three people to win against another team.\"",
+                        "it":  "competitivo / agguerrito"
+                    },
+    "cinematic":  {
+                      "word":  "cinematic",
+                      "ipa":  "/sin-uh-\u0027mat-ik/",
+                      "pos":  "adjective",
+                      "level":  "C1",
+                      "time":  "27:47",
+                      "turnId":  "turn-75",
+                      "cat":  "gaming",
+                      "def":  "Possessing the sweeping visual majesty, camera direction, and narrative weight of high-budget film.",
+                      "quote":  "Louie (27:47): \"I like the cinematic feel of God of War—it feels like being inside a magnificent movie.\"",
+                      "it":  "cinematografico / dal respiro filmico"
+                  },
+    "mechanics":  {
+                      "word":  "mechanics",
+                      "ipa":  "/muh-\u0027kan-iks/",
+                      "pos":  "noun (plural)",
+                      "level":  "C1",
+                      "time":  "31:02",
+                      "turnId":  "turn-77",
+                      "cat":  "gaming",
+                      "def":  "The underlying systems, rule engines, and structural dynamics that dictate how a tabletop or digital game functions.",
+                      "quote":  "Louie (31:02): \"Describing the mechanics of the games, what we like about how they work.\"",
+                      "it":  "meccaniche di gioco"
+                  },
+    "abroad":  {
+                   "word":  "abroad",
+                   "ipa":  "/uh-\u0027brawd/",
+                   "pos":  "adverb",
+                   "level":  "B2",
+                   "time":  "32:02",
+                   "turnId":  "turn-78",
+                   "cat":  "travel",
+                   "def":  "In or traveling to foreign countries across national borders.",
+                   "quote":  "Simone (32:02): \"And one couple is often abroad, so it\u0027s difficult to meet up all together.\"",
+                   "it":  "all\u0027estero"
+               },
+    "lifelong":  {
+                     "word":  "lifelong",
+                     "ipa":  "/\u0027lyf-lawng/",
+                     "pos":  "adjective",
+                     "level":  "C1",
+                     "time":  "33:04",
+                     "turnId":  "turn-80",
+                     "cat":  "family",
+                     "def":  "Enduring, continuing, or remaining constant across an entire human lifespan.",
+                     "quote":  "Simone (33:04): \"I know my best friend from my birth—our families were friends, so we have had a lifelong friendship.\"",
+                     "it":  "di una vita intera / duraturo"
+                 },
+    "civilization":  {
+                         "word":  "civilization",
+                         "ipa":  "/siv-uh-ly-\u0027zay-shun/",
+                         "pos":  "noun",
+                         "level":  "B2",
+                         "time":  "33:49",
+                         "turnId":  "turn-82",
+                         "cat":  "gaming",
+                         "def":  "An advanced society with complex cultural, urban, economic, and scientific achievements.",
+                         "quote":  "Simone (33:49): \"Then you use these cards to build your civilization across the ages.\"",
+                         "it":  "civilta"
+                     },
+    "victory-points":  {
+                           "word":  "victory points",
+                           "ipa":  "/\u0027vik-ter-ee poynts/",
+                           "pos":  "noun collocation",
+                           "level":  "B2",
+                           "time":  "33:49",
+                           "turnId":  "turn-82",
+                           "cat":  "gaming",
+                           "def":  "The definitive numerical score units accumulated in modern Euro and strategy tabletop games to decide the winner.",
+                           "quote":  "Simone (33:49): \"It\u0027s a building game where you have to collect victory points through smart drafting.\"",
+                           "it":  "punti vittoria"
+                       },
+    "card-drafting":  {
+                          "word":  "card drafting",
+                          "ipa":  "/\u0027kard draf-ting/",
+                          "pos":  "noun collocation",
+                          "level":  "C1",
+                          "time":  "33:49",
+                          "turnId":  "turn-82",
+                          "cat":  "gaming",
+                          "def":  "A board game mechanism where players pick one card from a hand and pass the remaining hand to their neighbor.",
+                          "quote":  "Simone (33:49): \"To collect points, you have to draft some cards—select one and pass the deck to the next player.\"",
+                          "it":  "card drafting / selezione e passaggio carte"
+                      },
+    "combo":  {
+                  "word":  "combo",
+                  "ipa":  "/\u0027kom-boh/",
+                  "pos":  "noun",
+                  "level":  "B2",
+                  "time":  "34:51",
+                  "turnId":  "turn-83",
+                  "cat":  "gaming",
+                  "def":  "A clever combination of card synergies, abilities, or moves that amplify each other\u0027s effects.",
+                  "quote":  "Simone (34:51): \"You can use these cards to build the combo to score the highest points.\"",
+                  "it":  "combo / combinazione sinergica"
+              },
+    "era":  {
+                "word":  "era",
+                "ipa":  "/\u0027eer-uh/",
+                "pos":  "noun",
+                "level":  "B2",
+                "time":  "34:51",
+                "turnId":  "turn-83",
+                "cat":  "gaming",
+                "def":  "A distinct epoch or stage of history marked by notable characteristics or developmental progress.",
+                "quote":  "Simone (34:51): \"There are three distinct eras or ages in the game.\"",
+                "it":  "era / epoca / eta"
+            },
+    "evolution":  {
+                      "word":  "evolution",
+                      "ipa":  "/ev-uh-\u0027loo-shun/",
+                      "pos":  "noun",
+                      "level":  "B2",
+                      "time":  "39:22",
+                      "turnId":  "turn-87",
+                      "cat":  "gaming",
+                      "def":  "The continuous, gradual process of change, adaptation, and refinement in rules, traditions, or systems.",
+                      "quote":  "Louie (39:22): \"With custom rules, the game is always changing and evolving into new variations.\"",
+                      "it":  "evoluzione / trasformazione continua"
+                  },
+    "to-no-avail":  {
+                        "word":  "to no avail",
+                        "ipa":  "/too noh uh-\u0027vayl/",
+                        "pos":  "idiom",
+                        "level":  "C2",
+                        "time":  "39:22",
+                        "turnId":  "turn-87",
+                        "cat":  "idioms",
+                        "def":  "Without success, effect, or positive result despite earnest efforts.",
+                        "quote":  "Louie (39:22): \"I always promise myself I\u0027ll keep quiet, but to no avail—I always talk too much!\"",
+                        "it":  "invano / inutilmente / senza successo"
+                    },
+    "subscription":  {
+                         "word":  "subscription",
+                         "ipa":  "/suhb-\u0027skrip-shun/",
+                         "pos":  "noun",
+                         "level":  "B2",
+                         "time":  "42:18",
+                         "turnId":  "turn-92",
+                         "cat":  "everyday",
+                         "def":  "A recurring payment agreement granting continuous access to an entertainment service or digital library.",
+                         "quote":  "Simone (42:18): \"We don\u0027t have the HBO subscription yet, but she really wants to get it.\"",
+                         "it":  "abbonamento"
+                     },
+    "adaptation":  {
+                       "word":  "adaptation",
+                       "ipa":  "/ad-ap-\u0027tay-shun/",
+                       "pos":  "noun",
+                       "level":  "B2",
+                       "time":  "43:51",
+                       "turnId":  "turn-93",
+                       "cat":  "culture",
+                       "def":  "A film, television, or theatrical recreation crafted from an original literary text or novel.",
+                       "quote":  "Louie (43:51): \"The Prisoner of Azkaban movie is such a stylish adaptation—very entertaining.\"",
+                       "it":  "adattamento cinematografico"
+                   },
+    "trilogy":  {
+                    "word":  "trilogy",
+                    "ipa":  "/\u0027tril-uh-jee/",
+                    "pos":  "noun",
+                    "level":  "B2",
+                    "time":  "44:25",
+                    "turnId":  "turn-94",
+                    "cat":  "culture",
+                    "def":  "A coordinated collection of three literary or cinematic creations forming a continuous narrative saga.",
+                    "quote":  "Simone (44:25): \"I read the entire trilogy of The Lord of the Rings before the films finished coming out.\"",
+                    "it":  "trilogia"
+                },
+    "honeymoon":  {
+                      "word":  "honeymoon",
+                      "ipa":  "/\u0027huhn-ee-moon/",
+                      "pos":  "noun",
+                      "level":  "B2",
+                      "time":  "45:10",
+                      "turnId":  "turn-95",
+                      "cat":  "travel",
+                      "def":  "A celebratory holiday taken by a newly wedded couple immediately following their marriage ceremony.",
+                      "quote":  "Simone (45:10): \"When my wife and I got married, we spent our honeymoon road-tripping through New Zealand!\"",
+                      "it":  "luna di miele / viaggio di nozze"
+                  },
+    "itinerary":  {
+                      "word":  "itinerary",
+                      "ipa":  "/eye-\u0027tin-er-air-ee/",
+                      "pos":  "noun",
+                      "level":  "C1",
+                      "time":  "45:25",
+                      "turnId":  "turn-96",
+                      "cat":  "travel",
+                      "def":  "A comprehensive planned schedule of destinations, dates, and routes arranged for an expedition.",
+                      "quote":  "Louie (45:25): \"What was your itinerary, your travel route across the North Island?\"",
+                      "it":  "itinerario di viaggio"
+                  },
+    "scenery":  {
+                    "word":  "scenery",
+                    "ipa":  "/\u0027seen-er-ee/",
+                    "pos":  "noun",
+                    "level":  "B2",
+                    "time":  "46:02",
+                    "turnId":  "turn-97",
+                    "cat":  "travel",
+                    "def":  "The majestic natural physical panorama of mountains, meadows, and vistas in a countryside region.",
+                    "quote":  "Simone (46:02): \"The rolling green scenery of New Zealand was breathtaking.\"",
+                    "it":  "paesaggio / panorama naturale"
+                },
+    "fantasy":  {
+                    "word":  "fantasy",
+                    "ipa":  "/\u0027fan-tuh-see/",
+                    "pos":  "noun",
+                    "level":  "B2",
+                    "time":  "46:58",
+                    "turnId":  "turn-98",
+                    "cat":  "culture",
+                    "def":  "A narrative genre characterized by magical realms, imaginary mythologies, and heroic quests.",
+                    "quote":  "Simone (46:58): \"It\u0027s strange to see a place you know is a fantasy place, yet you are physically there.\"",
+                    "it":  "mondo fantastico / fantasy"
+                },
+    "dense":  {
+                  "word":  "dense",
+                  "ipa":  "/dens/",
+                  "pos":  "adjective",
+                  "level":  "C1",
+                  "time":  "47:47",
+                  "turnId":  "turn-99",
+                  "cat":  "learning",
+                  "def":  "Packed tightly with extensive detail, historical exposition, and poetic lore; challenging to read quickly.",
+                  "quote":  "Louie (47:47): \"Reading Lord of the Rings can be so dense with lore and poetry—it takes serious dedication.\"",
+                  "it":  "denso / impegnativo / ricco di dettagli"
+              },
+    "tongue-tied":  {
+                        "word":  "tongue-tied",
+                        "ipa":  "/\u0027tuhng-tyd/",
+                        "pos":  "idiom",
+                        "level":  "C1",
+                        "time":  "49:25",
+                        "turnId":  "turn-102",
+                        "cat":  "idioms",
+                        "def":  "Unable to speak easily, fluently, or freely because of sudden shyness, nervousness, or searching for vocabulary.",
+                        "quote":  "Simone (49:25): \"Sometimes when I speak English, I feel tongue-tied because I search for a specific word and can\u0027t find it.\"",
+                        "it":  "con la lingua legata / bloccato nel parlare"
+                    },
+    "freeze-up":  {
+                      "word":  "freeze up",
+                      "ipa":  "/freez \u0027uhp/",
+                      "pos":  "phrasal verb",
+                      "level":  "B2",
+                      "time":  "49:25",
+                      "turnId":  "turn-102",
+                      "cat":  "learning",
+                      "def":  "To suddenly become unable to speak or continue a conversation because of performance anxiety or self-doubt.",
+                      "quote":  "Simone (49:25): \"And then I freeze up in the conversation when I can\u0027t locate the exact term.\"",
+                      "it":  "bloccarsi / paralizzarsi per l\u0027ansia"
+                  },
+    "food-for-thought":  {
+                             "word":  "food for thought",
+                             "ipa":  "/food fer \u0027thawt/",
+                             "pos":  "idiom",
+                             "level":  "C1",
+                             "time":  "50:17",
+                             "turnId":  "turn-103",
+                             "cat":  "idioms",
+                             "def":  "Stimulating insights, ideas, or experiences worthy of quiet reflection and future application.",
+                             "quote":  "Louie (50:17): \"Chatting about board games and real experiences gives us plenty of food for thought.\"",
+                             "it":  "spunto di riflessione / cibo per la mente"
+                         },
+    "extended-family":  {
+                            "word":  "extended family",
+                            "ipa":  "/ek-sten-did \u0027fam-uh-lee/",
+                            "pos":  "noun collocation",
+                            "level":  "B2",
+                            "time":  "23:51",
+                            "turnId":  "turn-65",
+                            "cat":  "family",
+                            "def":  "A family structure branching beyond parents and children to encompass aunts, uncles, cousins, and in-laws.",
+                            "quote":  "Louie (23:51): \"...extended family like cousins and grandparents.\"",
+                            "it":  "famiglia allargata / parentado"
+                        }
+};
+    const TRANSCRIPT_TURNS = [
+  {
+    "id": "turn-1",
+    "chapterId": "chap-1",
+    "chapterTitle": "Chapter I &bull; Welcome & The Workplace English Foundation (00:00 &ndash; 05:30)",
+    "speaker": "Louie",
+    "time": "00:00",
+    "text": "Hello, hello there, everyone, and how are you today? Is it&mdash;is it Simone? Is that correct, or Simon?"
+  },
+  {
+    "id": "turn-2",
+    "speaker": "Simone",
+    "time": "00:07",
+    "text": "Simone. I'm fine! I'm <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'in office'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;at the office&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;in office&rdquo;)</span></span> right now, at the end of my workday. But I'm doing well."
+  },
+  {
+    "id": "turn-3",
+    "speaker": "Louie",
+    "time": "00:21",
+    "text": "Very good, very good! Well, thank you very much for your time today. We chatted briefly before, but I would love to hear directly from you: what brings us here today?"
+  },
+  {
+    "id": "turn-4",
+    "speaker": "Simone",
+    "time": "00:37",
+    "text": "My company requested us to take some courses to improve my English, and of course for all my colleagues. In the past, we had English courses with one teacher and typically four people from my company. I think it will be much more helpful to have a one-to-one lesson to get more speaking practice."
+  },
+  {
+    "id": "turn-5",
+    "speaker": "Louie",
+    "time": "01:23",
+    "text": "Practice makes a world of difference! And how much English do you speak in your company presently?"
+  },
+  {
+    "id": "turn-6",
+    "speaker": "Simone",
+    "time": "01:32",
+    "text": "Often in writing emails. We have connections with our <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'headquarter'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;headquarters&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;headquarter&rdquo;)</span></span> where we have to explain issues or problems that our customers report to us. Typically we do that by email, but sometimes we have presentations or meetings with customers and headquarters, so we have to understand what our colleagues say and explain the customer's reasoning."
+  },
+  {
+    "id": "turn-7",
+    "speaker": "Louie",
+    "time": "02:22",
+    "text": "You know what, I have to commend you! Your English has a very interesting and strong <span class=\"vocab-mark\" data-vkey=\"foundation\" onclick=\"inspectVocab('foundation')\">foundation</span>. You clearly have a good logical process of English."
+  },
+  {
+    "id": "turn-8",
+    "speaker": "Simone",
+    "time": "02:36",
+    "text": "Really? That's encouraging."
+  },
+  {
+    "id": "turn-9",
+    "speaker": "Louie",
+    "time": "02:37",
+    "text": "Listening to you talk even now in your response, I can see it in your explanation of communicating with different <span class=\"vocab-mark\" data-vkey=\"counterpart\" onclick=\"inspectVocab('counterpart')\">counterparts</span> and different <span class=\"vocab-mark\" data-vkey=\"stakeholder\" onclick=\"inspectVocab('stakeholder')\">stakeholders</span>. You are actually quite quick at answering! Where you can really get improvement is definitely with your rhythm and pronunciation."
+  },
+  {
+    "id": "turn-10",
+    "speaker": "Simone",
+    "time": "03:19",
+    "text": "Okay, that makes sense."
+  },
+  {
+    "id": "turn-11",
+    "speaker": "Louie",
+    "time": "03:19",
+    "text": "With my other students, that comes with light exercises and lots of conversation. You will naturally start to <span class=\"vocab-mark\" data-vkey=\"imitate\" onclick=\"inspectVocab('imitate')\">imitate</span> natural cadence, and fluency becomes <span class=\"vocab-mark\" data-vkey=\"second-nature\" onclick=\"inspectVocab('second-nature')\">second nature</span>. We'll look at two kinds of vocabulary: general vocabulary and workplace vocabulary."
+  },
+  {
+    "id": "turn-12",
+    "speaker": "Simone",
+    "time": "03:48",
+    "text": "Okay, perfect."
+  },
+  {
+    "id": "turn-13",
+    "speaker": "Louie",
+    "time": "03:48",
+    "text": "Before we go any further, what do you do in your daily role, if I may ask?"
+  },
+  {
+    "id": "turn-14",
+    "speaker": "Simone",
+    "time": "04:37",
+    "text": "I work in technical support, so my job is to <span class=\"vocab-mark\" data-vkey=\"troubleshoot\" onclick=\"inspectVocab('troubleshoot')\">troubleshoot</span> and resolve problems for our customers. We offer alternative solutions with our systems for their machines, and we collaborate with colleagues in sales to propose products that complete the customer's setup."
+  },
+  {
+    "id": "turn-15",
+    "speaker": "Louie",
+    "time": "05:10",
+    "text": "Fantastic answer! What you've done before has clearly worked. We call it a <span class=\"vocab-mark\" data-vkey=\"rebuttal\" onclick=\"inspectVocab('rebuttal')\">rebuttal</span>&mdash;your ability to answer is great. You are very quick and you give precise answers. Really impressive!"
+  },
+  {
+    "id": "turn-16",
+    "chapterId": "chap-2",
+    "chapterTitle": "Chapter II &bull; Workplace Vocabulary & The System Demo (05:34 &ndash; 15:00)",
+    "speaker": "Louie",
+    "time": "05:34",
+    "text": "Let's talk about some vocabulary and keep it within your realm. Can you tell me what a <span class=\"vocab-mark\" data-vkey=\"trade-off\" onclick=\"inspectVocab('trade-off')\">trade-off</span> is? How would you describe or define it?"
+  },
+  {
+    "id": "turn-17",
+    "speaker": "Simone",
+    "time": "06:14",
+    "text": "Trade-off? It's a sort of balance between two or more things."
+  },
+  {
+    "id": "turn-18",
+    "speaker": "Louie",
+    "time": "06:41",
+    "text": "Exactly that! For example, the <span class=\"vocab-mark\" data-vkey=\"trade-off\" onclick=\"inspectVocab('trade-off')\">trade-off</span> of buying an expensive phone is that it has higher quality, but it is much more costly. You balance one benefit against another."
+  },
+  {
+    "id": "turn-19",
+    "speaker": "Simone",
+    "time": "07:00",
+    "text": "Yes, exactly. A compromise."
+  },
+  {
+    "id": "turn-20",
+    "speaker": "Louie",
+    "time": "07:00",
+    "text": "Very good! And what about the word <span class=\"vocab-mark\" data-vkey=\"bottleneck\" onclick=\"inspectVocab('bottleneck')\">bottleneck</span> in business or systems engineering?"
+  },
+  {
+    "id": "turn-21",
+    "speaker": "Simone",
+    "time": "07:21",
+    "text": "I know what it means in my mind, but it's difficult to explain in English! It is a major difficulty or constraint for a specific scenario."
+  },
+  {
+    "id": "turn-22",
+    "speaker": "Louie",
+    "time": "08:12",
+    "text": "A <span class=\"vocab-mark\" data-vkey=\"bottleneck\" onclick=\"inspectVocab('bottleneck')\">bottleneck</span> is when part of the process or operation cannot keep up with other parts of the business. For example, your sales team might be selling loads of services, but HR has a bottleneck because they cannot hire and train enough staff to keep up with customer demand. Do you ever get bottlenecks in your job?"
+  },
+  {
+    "id": "turn-23",
+    "speaker": "Simone",
+    "time": "09:25",
+    "text": "We have cases of bottlenecks with our products. For example, when a customer uses our system in their machines, but the <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'proca product'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;project or product&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;proca product&rdquo;)</span></span> we sold does not fit the specific requirements of the customer, it creates a delay for the whole project."
+  },
+  {
+    "id": "turn-24",
+    "speaker": "Louie",
+    "time": "09:50",
+    "text": "Very good real-world example! It creates a bottleneck within their process, and the rest of the company suffers. Next is the idiom <span class=\"vocab-mark\" data-vkey=\"in-the-loop\" onclick=\"inspectVocab('in-the-loop')\">in the loop</span>. Have you heard that before?"
+  },
+  {
+    "id": "turn-25",
+    "speaker": "Simone",
+    "time": "10:29",
+    "text": "Yes, we use it often in emails."
+  },
+  {
+    "id": "turn-26",
+    "speaker": "Louie",
+    "time": "10:29",
+    "text": "Before we unpack that, let me mention: I give comprehensive notes! About half an hour after class, you get an interactive companion document. Let me share my screen to show you the demo so this can <span class=\"vocab-mark\" data-vkey=\"take-the-pressure-off\" onclick=\"inspectVocab('take-the-pressure-off')\">take the pressure off</span> taking notes while we chat."
+  },
+  {
+    "id": "turn-27",
+    "speaker": "Simone",
+    "time": "11:15",
+    "text": "Okay, great!"
+  },
+  {
+    "id": "turn-28",
+    "speaker": "Louie",
+    "time": "11:15",
+    "text": "Here is the interactive transcript with exact timestamps. If you hover over any highlighted word, it tells you what it means, its CEFR level (B2&ndash;C2), and pronunciation. If you click on it, the details appear in the sticky side panel with British RP audio so you can listen anytime."
+  },
+  {
+    "id": "turn-29",
+    "speaker": "Simone",
+    "time": "12:25",
+    "text": "Quaint... serendipity. Very good, thank you!"
+  },
+  {
+    "id": "turn-30",
+    "speaker": "Louie",
+    "time": "12:43",
+    "text": "And if you just want to <span class=\"vocab-mark\" data-vkey=\"recap\" onclick=\"inspectVocab('recap')\">recap</span> the vocabulary without scrolling the transcript, you go to the dictionary tab with nice cards. I publish it on GitHub Pages with one single link forever, so you never have to search through files. The notes are already there for you!"
+  },
+  {
+    "id": "turn-31",
+    "speaker": "Simone",
+    "time": "13:28",
+    "text": "That is very convenient and helpful. Thank you!"
+  },
+  {
+    "id": "turn-32",
+    "speaker": "Louie",
+    "time": "13:36",
+    "text": "Now, let's return to <span class=\"vocab-mark\" data-vkey=\"in-the-loop\" onclick=\"inspectVocab('in-the-loop')\">in the loop</span> and its opposite, <span class=\"vocab-mark\" data-vkey=\"out-of-the-loop\" onclick=\"inspectVocab('out-of-the-loop')\">out of the loop</span>."
+  },
+  {
+    "id": "turn-33",
+    "speaker": "Simone",
+    "time": "13:54",
+    "text": "Yes, in the email context: if someone is added to an email conversation, they are <span class=\"vocab-mark\" data-vkey=\"in-the-loop\" onclick=\"inspectVocab('in-the-loop')\">in the loop</span>. On the contrary, if you are not receiving communication, you are <span class=\"vocab-mark\" data-vkey=\"out-of-the-loop\" onclick=\"inspectVocab('out-of-the-loop')\">out of the loop</span>."
+  },
+  {
+    "id": "turn-34",
+    "speaker": "Louie",
+    "time": "14:14",
+    "text": "Spot on! That's how we build business vocabulary. But I also believe in <span class=\"vocab-mark\" data-vkey=\"free-form\" onclick=\"inspectVocab('free-form')\">free-form</span> conversation because we learn so much more natural language that way."
+  },
+  {
+    "id": "turn-35",
+    "chapterId": "chap-3",
+    "chapterTitle": "Chapter III &bull; Quick Word Association & The Italian Table (15:10 &ndash; 20:30)",
+    "speaker": "Louie",
+    "time": "15:10",
+    "text": "Let's do a quick exercise where we describe words from categories without saying the actual word. I'll send you a link to pick a category and describe something for me to guess. Ready?"
+  },
+  {
+    "id": "turn-36",
+    "speaker": "Simone",
+    "time": "16:12",
+    "text": "I chose food! Let's start."
+  },
+  {
+    "id": "turn-37",
+    "speaker": "Simone",
+    "time": "16:54",
+    "text": "It is a fruit that is on a particular plant, and you use it to <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'do the wine'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;make wine&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;do the wine&rdquo;)</span></span>."
+  },
+  {
+    "id": "turn-38",
+    "speaker": "Louie",
+    "time": "17:20",
+    "text": "To make wine&mdash;grapes!"
+  },
+  {
+    "id": "turn-39",
+    "speaker": "Simone",
+    "time": "17:25",
+    "text": "Correct! Next one: this is a typical <span class=\"vocab-mark\" data-vkey=\"first-course\" onclick=\"inspectVocab('first-course')\">first course</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'first plate'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;first course (primo piatto)&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;first plate&rdquo;)</span></span> that we make with mushrooms."
+  },
+  {
+    "id": "turn-40",
+    "speaker": "Louie",
+    "time": "18:01",
+    "text": "Is it pizza or pasta?"
+  },
+  {
+    "id": "turn-41",
+    "speaker": "Simone",
+    "time": "18:06",
+    "text": "No, it's risotto!"
+  },
+  {
+    "id": "turn-42",
+    "speaker": "Louie",
+    "time": "18:08",
+    "text": "Oh, risotto! Fantastic. Earlier, you mentioned grapes grow on trees, but in English we say grapes grow on <span class=\"vocab-mark\" data-vkey=\"vine\" onclick=\"inspectVocab('vine')\">vines</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Vinegard'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;vines / vineyard&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Vinegard&rdquo;)</span></span>. Do you enjoy wine?"
+  },
+  {
+    "id": "turn-43",
+    "speaker": "Simone",
+    "time": "18:50",
+    "text": "No, <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'I don't drink the wines'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;I don't drink wine&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;I don't drink the wines&rdquo;)</span></span> at all!"
+  },
+  {
+    "id": "turn-44",
+    "speaker": "Louie",
+    "time": "19:01",
+    "text": "Fair enough! Now it's your turn to pick a category for me to describe."
+  },
+  {
+    "id": "turn-45",
+    "speaker": "Simone",
+    "time": "19:10",
+    "text": "Animals!"
+  },
+  {
+    "id": "turn-46",
+    "speaker": "Louie",
+    "time": "19:20",
+    "text": "Okay, three, two, one: black and white, native to China, loves bamboo."
+  },
+  {
+    "id": "turn-47",
+    "speaker": "Simone",
+    "time": "19:27",
+    "text": "It's a panda!"
+  },
+  {
+    "id": "turn-48",
+    "speaker": "Louie",
+    "time": "19:35",
+    "text": "Exactly right! Next: a small little bug, and it <span class=\"vocab-mark\" data-vkey=\"glow\" onclick=\"inspectVocab('glow')\">glows</span> in the dark."
+  },
+  {
+    "id": "turn-49",
+    "speaker": "Simone",
+    "time": "19:38",
+    "text": "I know what it looks like, but I don't know the name in English!"
+  },
+  {
+    "id": "turn-50",
+    "speaker": "Louie",
+    "time": "19:51",
+    "text": "It's a <span class=\"vocab-mark\" data-vkey=\"firefly\" onclick=\"inspectVocab('firefly')\">firefly</span>! Next: the king of the jungle."
+  },
+  {
+    "id": "turn-51",
+    "speaker": "Simone",
+    "time": "19:57",
+    "text": "The lion!"
+  },
+  {
+    "id": "turn-52",
+    "speaker": "Louie",
+    "time": "20:00",
+    "text": "And this bird flies incredibly fast and drinks <span class=\"vocab-mark\" data-vkey=\"nectar\" onclick=\"inspectVocab('nectar')\">nectar</span> from blossoms."
+  },
+  {
+    "id": "turn-53",
+    "speaker": "Simone",
+    "time": "20:06",
+    "text": "I understand the animal, but I don't remember the name in English or Italian!"
+  },
+  {
+    "id": "turn-54",
+    "speaker": "Louie",
+    "time": "20:20",
+    "text": "It's a <span class=\"vocab-mark\" data-vkey=\"hummingbird\" onclick=\"inspectVocab('hummingbird')\">hummingbird</span> (colibr&igrave; in Italian)! Its wings flap so fast that it can hover completely still."
+  },
+  {
+    "id": "turn-55",
+    "chapterId": "chap-4",
+    "chapterTitle": "Chapter IV &bull; Life in Bologna, Twins & Family Ties (20:38 &ndash; 26:10)",
+    "speaker": "Louie",
+    "time": "20:38",
+    "text": "<span class=\"vocab-mark\" data-vkey=\"whereabouts\" onclick=\"inspectVocab('whereabouts')\">Whereabouts</span> in Italy are you located?"
+  },
+  {
+    "id": "turn-56",
+    "speaker": "Simone",
+    "time": "20:44",
+    "text": "I'm in Bologna, in the north of Italy. Do you know it?"
+  },
+  {
+    "id": "turn-57",
+    "speaker": "Louie",
+    "time": "20:49",
+    "text": "Yes! Although the place I normally visited was Lucca in Tuscany, where my former partner's family lived. But now I'm in Hanoi, Vietnam, studying Vietnamese at university for international business. Before moving here, I worked in historical <span class=\"vocab-mark\" data-vkey=\"restoration\" onclick=\"inspectVocab('restoration')\">restoration</span>, rebuilding old buildings that are 600 to 700 years old."
+  },
+  {
+    "id": "turn-58",
+    "speaker": "Simone",
+    "time": "21:38",
+    "text": "Rebuilding historic buildings&mdash;that sounds like a very nice job!"
+  },
+  {
+    "id": "turn-59",
+    "speaker": "Louie",
+    "time": "22:06",
+    "text": "What are your interests and passions? What do you like to do in your <span class=\"vocab-mark\" data-vkey=\"spare-time\" onclick=\"inspectVocab('spare-time')\">spare time</span>?"
+  },
+  {
+    "id": "turn-60",
+    "speaker": "Simone",
+    "time": "22:23",
+    "text": "I spend a lot of time with my work, and with my family because I have twin daughters who are four years old!"
+  },
+  {
+    "id": "turn-61",
+    "speaker": "Louie",
+    "time": "22:37",
+    "text": "Congratulations! Wow, twins! At four years old, are you able to sleep through the night now?"
+  },
+  {
+    "id": "turn-62",
+    "speaker": "Simone",
+    "time": "23:00",
+    "text": "Yes, they are very good&mdash;they sleep all night now, except when they are ill or something goes wrong."
+  },
+  {
+    "id": "turn-63",
+    "speaker": "Louie",
+    "time": "23:14",
+    "text": "And are twins common in your family?"
+  },
+  {
+    "id": "turn-64",
+    "speaker": "Simone",
+    "time": "23:20",
+    "text": "Not so much. In our extended family we had some <span class=\"vocab-mark\" data-vkey=\"relatives\" onclick=\"inspectVocab('relatives')\">relatives</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'parents'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;relatives&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;parents&rdquo;)</span></span> who had twins, but they aren't very close to me."
+  },
+  {
+    "id": "turn-65",
+    "speaker": "Louie",
+    "time": "23:51",
+    "text": "We say <span class=\"vocab-mark\" data-vkey=\"relatives\" onclick=\"inspectVocab('relatives')\">relatives</span> or <span class=\"vocab-mark\" data-vkey=\"extended-family\" onclick=\"inspectVocab('extended-family')\">extended family</span>! How was the moment when you and your wife found out?"
+  },
+  {
+    "id": "turn-66",
+    "speaker": "Simone",
+    "time": "24:14",
+    "text": "When the doctor said it to me and my wife, I <span class=\"vocab-mark\" data-vkey=\"turn-red\" onclick=\"inspectVocab('turn-red')\">turned totally red</span> from shock! But now, it's very beautiful having twin daughters. They have a very special dynamic together."
+  },
+  {
+    "id": "turn-67",
+    "speaker": "Louie",
+    "time": "24:46",
+    "text": "They share a <span class=\"vocab-mark\" data-vkey=\"special-bond\" onclick=\"inspectVocab('special-bond')\">special bond</span> with each other that lasts a lifetime. It's truly wonderful."
+  },
+  {
+    "id": "turn-68",
+    "speaker": "Simone",
+    "time": "25:00",
+    "text": "Yes! Especially when I try to teach something to one of them, the other sister who isn't involved immediately steps in to help her."
+  },
+  {
+    "id": "turn-69",
+    "speaker": "Louie",
+    "time": "25:27",
+    "text": "That is so sweet! Do you have <span class=\"vocab-mark\" data-vkey=\"siblings\" onclick=\"inspectVocab('siblings')\">siblings</span> yourself? Brothers and sisters?"
+  },
+  {
+    "id": "turn-70",
+    "speaker": "Simone",
+    "time": "25:35",
+    "text": "Yes, I have an older brother who is 48, and an older sister who is 44."
+  },
+  {
+    "id": "turn-71",
+    "chapterId": "chap-5",
+    "chapterTitle": "Chapter V &bull; Board Games, Gaming & A New Zealand Honeymoon (26:14 &ndash; 41:35)",
+    "speaker": "Louie",
+    "time": "26:14",
+    "text": "Before family life kept you so busy, what were your hobbies and interests?"
+  },
+  {
+    "id": "turn-72",
+    "speaker": "Simone",
+    "time": "26:30",
+    "text": "Especially with my wife, we like playing video games together. And we have a group of friends where we really enjoy playing <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'boarding games'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;board games&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;boarding games&rdquo;)</span></span>."
+  },
+  {
+    "id": "turn-73",
+    "speaker": "Louie",
+    "time": "26:41",
+    "text": "What board games are you playing, and what video games do you and your wife play?"
+  },
+  {
+    "id": "turn-74",
+    "speaker": "Simone",
+    "time": "26:55",
+    "text": "With my wife, I play a mobile game that is very <span class=\"vocab-mark\" data-vkey=\"competitive\" onclick=\"inspectVocab('competitive')\">competitive</span> with 3v3 teams. And on PlayStation, we are playing God of War: Ragnarok. Before the twins, my friend and I completed Horizon Zero Dawn on Saturday afternoons."
+  },
+  {
+    "id": "turn-75",
+    "speaker": "Louie",
+    "time": "27:47",
+    "text": "Horizon Zero Dawn is brilliant, and I love the <span class=\"vocab-mark\" data-vkey=\"cinematic\" onclick=\"inspectVocab('cinematic')\">cinematic</span> scale of God of War&mdash;it feels just like a movie. What about your board game collection?"
+  },
+  {
+    "id": "turn-76",
+    "speaker": "Simone",
+    "time": "30:00",
+    "text": "Between my friend and me, we have a complete library of board games. It depends on how much time we have and how many people are playing."
+  },
+  {
+    "id": "turn-77",
+    "speaker": "Louie",
+    "time": "31:02",
+    "text": "For our next lesson, let's talk about board game <span class=\"vocab-mark\" data-vkey=\"mechanics\" onclick=\"inspectVocab('mechanics')\">mechanics</span>! For homework, pick two board games from your shelf, and I'll pick two from mine to discuss. I go to a board game night once a week here in Hanoi."
+  },
+  {
+    "id": "turn-78",
+    "speaker": "Simone",
+    "time": "32:02",
+    "text": "In our group, we are six or seven people: <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'three capital'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;three couples&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;three capital&rdquo;)</span></span> and two other friends. One couple is often <span class=\"vocab-mark\" data-vkey=\"abroad\" onclick=\"inspectVocab('abroad')\">abroad</span>, but my wife, my best friend, his wife, and I meet whenever we can."
+  },
+  {
+    "id": "turn-79",
+    "speaker": "Louie",
+    "time": "33:01",
+    "text": "How long have you known your best friend?"
+  },
+  {
+    "id": "turn-80",
+    "speaker": "Simone",
+    "time": "33:04",
+    "text": "Since birth! Our families were friends, so he was two when I was born. We have had a <span class=\"vocab-mark\" data-vkey=\"lifelong\" onclick=\"inspectVocab('lifelong')\">lifelong</span> friendship."
+  },
+  {
+    "id": "turn-81",
+    "speaker": "Louie",
+    "time": "33:38",
+    "text": "What's your favorite board game to play with him?"
+  },
+  {
+    "id": "turn-82",
+    "speaker": "Simone",
+    "time": "33:49",
+    "text": "Definitely 7 Wonders! It's a game where you build your <span class=\"vocab-mark\" data-vkey=\"civilization\" onclick=\"inspectVocab('civilization')\">civilization</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'civil team'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;civilization&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;civil team&rdquo;)</span></span>. To win, you collect <span class=\"vocab-mark\" data-vkey=\"victory-points\" onclick=\"inspectVocab('victory-points')\">victory points</span> through <span class=\"vocab-mark\" data-vkey=\"card-drafting\" onclick=\"inspectVocab('card-drafting')\">card drafting</span>."
+  },
+  {
+    "id": "turn-83",
+    "speaker": "Simone",
+    "time": "34:51",
+    "text": "You have military cards, science cards, and cards for city economy. You build card <span class=\"vocab-mark\" data-vkey=\"combo\" onclick=\"inspectVocab('combo')\">combos</span> across three distinct <span class=\"vocab-mark\" data-vkey=\"era\" onclick=\"inspectVocab('era')\">eras</span> <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'three era'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;eras / ages&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;three era&rdquo;)</span></span> to maximize your score."
+  },
+  {
+    "id": "turn-84",
+    "speaker": "Louie",
+    "time": "36:12",
+    "text": "That sounds reminiscent of Civilization! Every night, my international friends and I play one game of Risk online. It is fiercely competitive."
+  },
+  {
+    "id": "turn-85",
+    "speaker": "Louie",
+    "time": "37:32",
+    "text": "At our Hanoi board game meetup, we also play the social deduction game Werewolf or Mafia with up to 30 people."
+  },
+  {
+    "id": "turn-86",
+    "speaker": "Simone",
+    "time": "38:34",
+    "text": "In Italy, that game is called <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Lupo Lupis'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Lupus in Tabula&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Lupo Lupis&rdquo;)</span></span>! It's very well known."
+  },
+  {
+    "id": "turn-87",
+    "speaker": "Louie",
+    "time": "39:22",
+    "text": "We play it in Vietnamese with custom rules and constant rule <span class=\"vocab-mark\" data-vkey=\"evolution\" onclick=\"inspectVocab('evolution')\">evolution</span>. I always tell myself I'll keep quiet, but <span class=\"vocab-mark\" data-vkey=\"to-no-avail\" onclick=\"inspectVocab('to-no-avail')\">to no avail</span>&mdash;I always talk too much!"
+  },
+  {
+    "id": "turn-88",
+    "chapterId": "chap-6",
+    "chapterTitle": "Chapter VI &bull; Cultural Contrasts, Lord of the Rings & Looking Ahead (41:40 &ndash; 50:50)",
+    "speaker": "Louie",
+    "time": "40:35",
+    "text": "In Vietnam, eating street food outside is completely normal&mdash;you'll see an entire family on one motorbike! Do you eat out often in Bologna?"
+  },
+  {
+    "id": "turn-89",
+    "speaker": "Simone",
+    "time": "40:29",
+    "text": "In the morning, coffee and breakfast outside, but in the evening we almost always cook and eat at home."
+  },
+  {
+    "id": "turn-90",
+    "speaker": "Louie",
+    "time": "41:40",
+    "text": "Have you traveled much abroad? Have you ever visited England?"
+  },
+  {
+    "id": "turn-91",
+    "speaker": "Simone",
+    "time": "41:50",
+    "text": "Not yet, but I would love to visit England with my family. My wife is a huge Harry Potter fan, so seeing the studio tour and film locations would be wonderful."
+  },
+  {
+    "id": "turn-92",
+    "speaker": "Simone",
+    "time": "42:18",
+    "text": "We don't have an HBO <span class=\"vocab-mark\" data-vkey=\"subscription\" onclick=\"inspectVocab('subscription')\">subscription</span> yet, but she is very eager to watch the new television series when it arrives."
+  },
+  {
+    "id": "turn-93",
+    "speaker": "Louie",
+    "time": "43:51",
+    "text": "I read all the Harry Potter books to my younger brother. Harry Potter and the <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Prison of Azkaban'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Prisoner of Azkaban&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Prison of Azkaban&rdquo;)</span></span> had such a great movie <span class=\"vocab-mark\" data-vkey=\"adaptation\" onclick=\"inspectVocab('adaptation')\">adaptation</span>."
+  },
+  {
+    "id": "turn-94",
+    "speaker": "Simone",
+    "time": "44:25",
+    "text": "My favorite cinematic work of all time is <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Lord of the Ring'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;The Lord of the Rings&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Lord of the Ring&rdquo;)</span></span>. I read the entire <span class=\"vocab-mark\" data-vkey=\"trilogy\" onclick=\"inspectVocab('trilogy')\">trilogy</span> before the third film came out."
+  },
+  {
+    "id": "turn-95",
+    "speaker": "Simone",
+    "time": "45:10",
+    "text": "When my wife and I got married, we spent our <span class=\"vocab-mark\" data-vkey=\"honeymoon\" onclick=\"inspectVocab('honeymoon')\">honeymoon</span> road-tripping through New Zealand!"
+  },
+  {
+    "id": "turn-96",
+    "speaker": "Louie",
+    "time": "45:25",
+    "text": "New Zealand for your honeymoon! What an extraordinary adventure. What was your <span class=\"vocab-mark\" data-vkey=\"itinerary\" onclick=\"inspectVocab('itinerary')\">itinerary</span>?"
+  },
+  {
+    "id": "turn-97",
+    "speaker": "Simone",
+    "time": "46:02",
+    "text": "We started in Auckland, rented a car, and drove down the North Island to Wellington. We visited <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'the Hobbiton Town'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Hobbiton&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;the Hobbiton Town&rdquo;)</span></span> in Matamata, and the rolling green <span class=\"vocab-mark\" data-vkey=\"scenery\" onclick=\"inspectVocab('scenery')\">scenery</span> was breathtaking&mdash;just like the movie."
+  },
+  {
+    "id": "turn-98",
+    "speaker": "Simone",
+    "time": "46:58",
+    "text": "It felt so strange to be standing in a place you know is a <span class=\"vocab-mark\" data-vkey=\"fantasy\" onclick=\"inspectVocab('fantasy')\">fantasy</span> realm from films, but you are physically right there."
+  },
+  {
+    "id": "turn-99",
+    "speaker": "Louie",
+    "time": "47:47",
+    "text": "The films are absolute cinematic masterpieces. But reading Tolkien can be so <span class=\"vocab-mark\" data-vkey=\"dense\" onclick=\"inspectVocab('dense')\">dense</span> with songs and history&mdash;it takes real dedication!"
+  },
+  {
+    "id": "turn-100",
+    "speaker": "Simone",
+    "time": "48:06",
+    "text": "Yes, especially the early chapter of The Fellowship of the Ring with <span class=\"asr-fix-pill\" title=\"Note-taker wrote 'Tom Bombay'\"><i data-lucide=\"check-check\" class=\"w-3 h-3 text-sage-600 inline\"></i> Fixed: &ldquo;Tom Bombadil&rdquo; <span class=\"text-stone-400\">(note-taker wrote: &ldquo;Tom Bombay&rdquo;)</span></span>&mdash;that part is notoriously slow to get through."
+  },
+  {
+    "id": "turn-101",
+    "speaker": "Louie",
+    "time": "49:02",
+    "text": "Simone, you have expressed so many fascinating thoughts today! Your vocabulary and foundation are far stronger than you give yourself credit for."
+  },
+  {
+    "id": "turn-102",
+    "speaker": "Simone",
+    "time": "49:25",
+    "text": "Thank you, Louie! Sometimes when I try to speak English, I feel <span class=\"vocab-mark\" data-vkey=\"tongue-tied\" onclick=\"inspectVocab('tongue-tied')\">tongue-tied</span> and I <span class=\"vocab-mark\" data-vkey=\"freeze-up\" onclick=\"inspectVocab('freeze-up')\">freeze up</span> because I search for a specific term and get locked in the sentence."
+  },
+  {
+    "id": "turn-103",
+    "speaker": "Louie",
+    "time": "50:17",
+    "text": "That happens to every language learner! In our lessons, you never have to worry about perfection. Chatting about board games and real experiences gives us plenty of <span class=\"vocab-mark\" data-vkey=\"food-for-thought\" onclick=\"inspectVocab('food-for-thought')\">food for thought</span>. For next lesson, prepare two board games from your collection, and we will build our vocabulary together!"
+  },
+  {
+    "id": "turn-104",
+    "speaker": "Simone",
+    "time": "50:33",
+    "text": "That sounds wonderful. Thank you very much, Louie!"
+  },
+  {
+    "id": "turn-105",
+    "speaker": "Louie",
+    "time": "50:48",
+    "text": "You are very welcome, Simone. Have a lovely evening in Bologna, give my best to your family, and I'll see you next lesson!"
+  }
+]
+;
+    const EXTRAS = {
+  "naturalStrengths": [
+    {
+      "time": "06:14",
+      "phrase": "\"A sort of balance between two or more things\"",
+      "note": "Superb conceptual instinct defining a business 'trade-off' clearly and concisely without hesitating."
+    },
+    {
+      "time": "13:54",
+      "phrase": "\"In the loop / out of the loop\"",
+      "note": "Accurate corporate idiomatic fluency, distinguishing between being kept informed vs omitted from email updates."
+    },
+    {
+      "time": "04:37",
+      "phrase": "\"To resolve problems... and complete the system\"",
+      "note": "Professional technical support phrasing describing systems engineering and collaboration with sales."
+    },
+    {
+      "time": "24:46",
+      "phrase": "\"They share a special bond... help each other explain\"",
+      "note": "Touching, articulate description of the emotional connection and teamwork between his 4-year-old twin daughters."
+    },
+    {
+      "time": "33:49",
+      "phrase": "\"Card drafting, building combos & collecting victory points\"",
+      "note": "Impressive hobby fluency explaining 7 Wonders tabletop mechanics with natural cadence."
+    },
+    {
+      "time": "46:58",
+      "phrase": "\"To see a fantasy place, but you are physically there\"",
+      "note": "Poetic, evocative English describing the emotional feeling of walking through the real-world Hobbiton film set in New Zealand."
+    }
+  ],
+  "polishes": [
+    {
+      "time": "00:13",
+      "topic": "Preposition with Office Location",
+      "said": "I'm in office right now at the end of the day.",
+      "natural": "I'm at the office right now at the end of the day.",
+      "why": "In natural English, we say 'at the office' (or 'in the office' with the definite article). In Italian, 'in ufficio' lacks an article, which makes this a very natural instinct to gently polish!"
+    },
+    {
+      "time": "00:37",
+      "topic": "Infinitive of Purpose",
+      "said": "My company requested courses for improve my English.",
+      "natural": "My company requested courses to improve my English.",
+      "why": "When expressing purpose or reason for an action, English uses the full infinitive ('to improve') rather than 'for + base verb'. You can also say 'for improving', but 'to improve' is most elegant."
+    },
+    {
+      "time": "17:19",
+      "topic": "Natural Verb Collocation with Wine",
+      "said": "You can use it to do the wine.",
+      "natural": "You can use them to make wine.",
+      "why": "Grapes are plural ('them'), and in English we 'make wine' or 'produce wine' rather than 'do the wine' (a direct translation of Italian 'fare il vino')."
+    },
+    {
+      "time": "17:40",
+      "topic": "Italian Dining Nuance (Primo Piatto)",
+      "said": "This is a typical first plate with mushroom—risotto.",
+      "natural": "This is a typical first course with mushrooms—risotto.",
+      "why": "In Italian dining, 'primo piatto' is translated into English as 'first course' or 'starter'. Also, we pluralize 'mushrooms' when used as an ingredient."
+    },
+    {
+      "time": "18:50",
+      "topic": "Non-Countable Nouns for Beverages",
+      "said": "No, I don't drink the wines.",
+      "natural": "No, I don't drink wine.",
+      "why": "When talking about beverages in general, we omit the article 'the' and treat wine as an uncountable noun: 'I don't drink wine' or 'I'm not a wine drinker'."
+    },
+    {
+      "time": "23:20",
+      "topic": "False Friend: Italian 'Parenti' vs 'Parents'",
+      "said": "I had some parents that are twins.",
+      "natural": "I have some relatives who are twins.",
+      "why": "A classic Italian false friend! Italian 'parenti' means 'relatives' or 'extended family'. In English, 'parents' strictly means your mother and father (genitori)."
+    }
+  ],
+  "asrFixes": [
+    {
+      "time": "04:37",
+      "speaker": "Simone",
+      "wrong": "proca product",
+      "right": "project or product",
+      "note": "Simone was describing customer engineering specifications and products."
+    },
+    {
+      "time": "17:19",
+      "speaker": "Simone",
+      "wrong": "do the wine",
+      "right": "make wine",
+      "note": "Note-taker transcribed the literal translation of 'fare il vino' verbatim."
+    },
+    {
+      "time": "17:40",
+      "speaker": "Simone",
+      "wrong": "first plate",
+      "right": "first course",
+      "note": "Speech-to-text recorded Italian 'primo piatto' literally."
+    },
+    {
+      "time": "18:32",
+      "speaker": "Simone",
+      "wrong": "Vinegard",
+      "right": "vines / vineyard",
+      "note": "Simone asked about grapevines and vineyards, misheard as vinegar."
+    },
+    {
+      "time": "23:20",
+      "speaker": "Simone",
+      "wrong": "some parents that are twins",
+      "right": "some relatives who are twins",
+      "note": "Note-taker captured the Italian false friend 'parenti' without contextual awareness."
+    },
+    {
+      "time": "26:30",
+      "speaker": "Simone",
+      "wrong": "boarding games",
+      "right": "board games",
+      "note": "Automated note-taker consistently heard 'board games' as 'boarding games'."
+    },
+    {
+      "time": "32:16",
+      "speaker": "Simone",
+      "wrong": "three capital",
+      "right": "three couples",
+      "note": "Simone described their board game circle of three couples, misheard as capital."
+    },
+    {
+      "time": "34:16",
+      "speaker": "Simone",
+      "wrong": "civil team",
+      "right": "civilization",
+      "note": "In 7 Wonders, players build ancient civilizations, misheard as civil team."
+    },
+    {
+      "time": "34:51",
+      "speaker": "Simone",
+      "wrong": "three era",
+      "right": "three eras / ages",
+      "note": "7 Wonders takes place across three distinct historical eras."
+    },
+    {
+      "time": "38:34",
+      "speaker": "Simone",
+      "wrong": "Lupo Lupis",
+      "right": "Lupus in Tabula",
+      "note": "The famous Italian tabletop edition of the Mafia / Werewolf social deduction game."
+    },
+    {
+      "time": "43:59",
+      "speaker": "Louie",
+      "wrong": "Prison of Azkaban",
+      "right": "Prisoner of Azkaban",
+      "note": "The third Harry Potter book and Alfonso Cuaron film."
+    },
+    {
+      "time": "46:34",
+      "speaker": "Simone",
+      "wrong": "the Hobbiton Town",
+      "right": "Hobbiton Movie Set",
+      "note": "The preserved Lord of the Rings movie set in Matamata, New Zealand."
+    },
+    {
+      "time": "48:06",
+      "speaker": "Simone",
+      "wrong": "Tom Bombay",
+      "right": "Tom Bombadil",
+      "note": "The ancient, singing forest dweller in J.R.R. Tolkien's Fellowship of the Ring."
+    }
+  ],
+  "flashcardKeys": [
+    "trade-off",
+    "bottleneck",
+    "in-the-loop",
+    "relatives",
+    "special-bond",
+    "mechanics",
+    "card-drafting",
+    "itinerary",
+    "to-no-avail",
+    "freeze-up",
+    "first-course",
+    "food-for-thought"
+  ],
+  "quiz": [
+    {
+      "q": "1. When you weigh the benefit of high quality against a much higher financial cost, you are evaluating a ________.",
+      "options": ["trade-off", "bottleneck", "rebuttal"],
+      "correct": 0,
+      "explain": "'Trade-off' (05:52) refers to balancing two desirable qualities where gaining one means sacrificing another."
+    },
+    {
+      "q": "2. In English, how should an Italian speaker describe their aunts, uncles, and cousins to avoid the 'parenti' false friend?",
+      "options": ["my parents", "my relatives / extended family", "my siblings"],
+      "correct": 1,
+      "explain": "'Relatives' (23:51) refers to extended family members; 'parents' in English strictly means mother and father (genitori)."
+    },
+    {
+      "q": "3. When an engineer is added to an ongoing email thread so they receive every update, they are kept ________.",
+      "options": ["in the loop", "out of the loop", "in a bottleneck"],
+      "correct": 0,
+      "explain": "Being 'in the loop' (13:48) means being included in the flow of information and updates."
+    },
+    {
+      "q": "4. In the tabletop game 7 Wonders, players select one card and pass the remaining hand to their neighbor. This mechanism is called ________.",
+      "options": ["worker placement", "card drafting", "roll-and-write"],
+      "correct": 1,
+      "explain": "'Card drafting' (33:49) is the tabletop mechanic where players choose cards from a rotating communal hand."
+    },
+    {
+      "q": "5. What is the natural English equivalent of the Italian dining term 'il primo' (such as mushroom risotto)?",
+      "options": ["first plate", "first course", "principal dish"],
+      "correct": 1,
+      "explain": "In English dining (17:40), 'primo piatto' translates naturally to 'first course' or 'starter'."
+    },
+    {
+      "q": "6. When Louie tried to stay completely silent during the Werewolf / Lupus in Tabula game but talked anyway, his effort was ________.",
+      "options": ["cinematic", "to no avail", "second nature"],
+      "correct": 1,
+      "explain": "'To no avail' (39:22) means without success or positive result despite earnest trying."
+    }
+  ],
+  "reflectionPrompts": [
+    {
+      "title": "1. The Tabletop Showcase",
+      "prompt": "For your homework with Louie, choose two board games from your collection (e.g. 7 Wonders, a cooperative title, or a strategy favorite). How would you describe their core mechanics (drafting, area control, or bluffing), and what makes them enjoyable to play with your wife and friends?"
+    },
+    {
+      "title": "2. The Magic of Real-World Scenery",
+      "prompt": "Reflecting on your New Zealand honeymoon, what was the most surprising moment when stepping into a fictional world like Hobbiton in real life? How did seeing the landscape connect with your experience of reading Tolkien?"
+    },
+    {
+      "title": "3. Engineering Trade-offs & Communication",
+      "prompt": "In your technical support role, what is one recurring 'bottleneck' or customer challenge you encounter? How would you explain the trade-offs of fixing it to colleagues at headquarters without getting tongue-tied?"
+    }
+  ]
+}
+;
+
+    const POLISHES = EXTRAS.polishes;
+    const ASR_FIXES = EXTRAS.asrFixes;
+    const FLASHCARD_KEYS = EXTRAS.flashcardKeys;
+    const QUIZ = EXTRAS.quiz;
+    const STRENGTHS = EXTRAS.naturalStrengths;
+    const PROMPTS = EXTRAS.reflectionPrompts;
+
+    let currentCardIndex = 0;
+    let isCardFlipped = false;
+    let quizAnswered = new Set();
+
+    // -------------------------------------------------------------------------
+    // 2. HELPER FUNCTIONS FOR INLINE RENDERING
+    // -------------------------------------------------------------------------
+    function v(key, displayWord) {
+      const item = VOCAB_DB[key];
+      const label = displayWord || (item ? item.word : key);
+      return `<span class="vocab-mark" data-vkey="${key}" onclick="inspectVocab('${key}')">${label}</span>`;
+    }
+
+    function fixBadge(corrected, rawMistake) {
+      return `<span class="asr-fix-pill" title="Note-taker wrote '${rawMistake}'"><i data-lucide="check-check" class="w-3 h-3 text-sage-600 inline"></i> Fixed: &ldquo;${corrected}&rdquo; <span class="text-stone-400">(note-taker wrote: &ldquo;${rawMistake}&rdquo;)</span></span>`;
+    }
+
+    // -------------------------------------------------------------------------
+    // 3. TRANSCRIPT RENDERING & CHAPTERS
+    // -------------------------------------------------------------------------
+    function renderTranscript() {
+      const container = document.getElementById('transcript-stream-container');
+      const searchVal = (document.getElementById('transcript-search')?.value || '').toLowerCase().trim();
+      const speakerFilter = document.getElementById('speaker-filter')?.value || 'all';
+
+      let html = '';
+      TRANSCRIPT_TURNS.forEach(turn => {
+        if (turn.chapterTitle && speakerFilter === 'all' && !searchVal) {
+          html += `
+            <div id="${turn.chapterId}" class="pt-4 pb-1">
+              <div class="px-4 py-2.5 rounded-2xl bg-gradient-to-r from-sage-100/90 via-parchment-100 to-autumn-50 border border-sage-200 flex items-center gap-2 text-xs sm:text-sm font-serif font-bold text-sage-800 shadow-sm">
+                <i data-lucide="bookmark" class="w-4 h-4 text-autumn-600 shrink-0"></i>
+                <span>${turn.chapterTitle}</span>
+              </div>
+            </div>
+          `;
+        }
+
+        if (speakerFilter !== 'all' && turn.speaker !== speakerFilter) return;
+        const plainText = turn.text.replace(/<[^>]+>/g, '').toLowerCase();
+        if (searchVal && !plainText.includes(searchVal) && !turn.time.includes(searchVal)) return;
+
+        const isSimone = turn.speaker === 'Simone';
+        const cardStyle = isSimone
+          ? 'bg-[#fffdf9] border-l-4 border-l-autumn-500 border border-[#e6decb]'
+          : 'bg-[#f8faf8] border-l-4 border-l-sage-600 border border-[#d8e4dc]';
+        const badgeStyle = isSimone
+          ? 'bg-autumn-100 text-autumn-800 border-autumn-200'
+          : 'bg-sage-100 text-sage-800 border-sage-200';
+        const speakerIcon = isSimone ? 'user' : 'graduation-cap';
+        const speakerLabel = isSimone ? 'Simone (Student)' : 'Louie (Tutor)';
+        const iconColor = isSimone ? 'text-autumn-600' : 'text-sage-600';
+
+        html += `
+          <article id="${turn.id}" class="rounded-2xl p-4 sm:p-5 ${cardStyle} shadow-sm transition-all duration-300 space-y-2">
+            <div class="flex items-center justify-between gap-2">
+              <div class="flex items-center gap-2">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold border ${badgeStyle}">
+                  <i data-lucide="${speakerIcon}" class="w-3.5 h-3.5 ${iconColor}"></i>
+                  <span>${speakerLabel}</span>
+                </span>
+                <span class="font-mono text-xs text-stone-500 flex items-center gap-1">
+                  <i data-lucide="clock" class="w-3 h-3"></i>
+                  <span>${turn.time}</span>
+                </span>
+              </div>
+              <button onclick="speakPlainTurn('${turn.id}')" class="text-stone-400 hover:text-sage-700 transition p-1 rounded-lg" title="Listen in British English">
+                <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+            <div class="text-sm sm:text-[15px] text-slatewarm-800 leading-relaxed font-sans">
+              ${turn.text}
+            </div>
+          </article>
+        `;
+      });
+
+      container.innerHTML = html;
+      lucide.createIcons();
+      initVocabTooltips();
+    }
+
+    function initVocabTooltips() {
+      document.querySelectorAll('.vocab-mark').forEach(el => {
+        const key = el.getAttribute('data-vkey');
+        const item = VOCAB_DB[key];
+        if (!item) return;
+
+        if (el._tippy) el._tippy.destroy();
+
+        tippy(el, {
+          theme: 'autumn-sanctuary',
+          allowHTML: true,
+          interactive: true,
+          animation: 'shift-away',
+          maxWidth: 320,
+          content: `
+            <div class="p-2.5 space-y-2 text-left">
+              <div class="flex items-center justify-between gap-2 border-b border-parchment-200 pb-1.5">
+                <div>
+                  <span class="font-serif font-bold text-base text-slatewarm-900">${item.word}</span>
+                  <span class="block font-mono text-[10px] text-stone-500">${item.ipa} &bull; ${item.pos}</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <span class="px-1.5 py-0.5 rounded bg-autumn-100 text-autumn-800 font-mono text-[10px] font-bold">${item.level}</span>
+                  <span class="px-1.5 py-0.5 rounded bg-sage-100 text-sage-800 font-mono text-[10px] inline-flex items-center gap-1"><i data-lucide="clock" class="w-2.5 h-2.5"></i>${item.time}</span>
+                </div>
+              </div>
+              <p class="text-xs text-stone-700 leading-snug">${item.def}</p>
+              <div class="flex items-center justify-between pt-1 text-[11px] border-t border-parchment-200">
+                <span class="text-sage-800 font-semibold">${item.it}</span>
+                <button onclick="speakWord('${item.word.replace(/'/g, "\\'")}')" class="px-2 py-0.5 rounded bg-sage-700 text-white text-[10px] font-semibold inline-flex items-center gap-1"><i data-lucide="volume-2" class="w-2.5 h-2.5"></i> Listen UK</button>
+              </div>
+            </div>
+          `
+        });
+      });
+      lucide.createIcons();
+    }
+
+    function inspectVocab(key) {
+      const item = VOCAB_DB[key];
+      if (!item) return;
+
+      document.querySelectorAll('.vocab-mark').forEach(el => {
+        el.classList.toggle('active-vocab', el.getAttribute('data-vkey') === key);
+      });
+
+      document.getElementById('insp-time').innerHTML = `<i data-lucide="clock" class="w-3 h-3 text-stone-500 inline mr-1"></i><span>${item.time}</span>`;
+      document.getElementById('insp-word').textContent = item.word;
+      document.getElementById('insp-ipa').textContent = item.ipa;
+      document.getElementById('insp-pos').textContent = item.pos;
+      document.getElementById('insp-level').textContent = `${item.level} ${item.cat}`;
+      document.getElementById('insp-def').textContent = item.def;
+      document.getElementById('insp-quote').textContent = item.quote;
+      document.getElementById('insp-it').textContent = item.it;
+      document.getElementById('insp-audio-btn').setAttribute('onclick', `speakWord('${item.word.replace(/\s*\(.*?\)/g, '').replace(/'/g, "\\'")}')`);
+      lucide.createIcons();
+    }
+
+    function renderVocabGrid() {
+      const grid = document.getElementById('vocab-cards-grid');
+      const search = (document.getElementById('vocab-search')?.value || '').toLowerCase().trim();
+      const levelFilter = document.getElementById('vocab-level-filter')?.value || 'all';
+
+      const entries = Object.entries(VOCAB_DB).filter(([key, item]) => {
+        if (levelFilter !== 'all' && item.level !== levelFilter) return false;
+        if (search) {
+          const hay = `${item.word} ${item.def} ${item.it} ${item.time} ${item.cat}`.toLowerCase();
+          if (!hay.includes(search)) return false;
+        }
+        return true;
+      });
+
+      grid.innerHTML = entries.map(([key, item]) => `
+        <div class="sanctuary-subcard rounded-2xl p-5 flex flex-col justify-between space-y-3 hover:border-autumn-400">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between gap-2">
+              <div class="flex items-center gap-1.5">
+                <span class="px-2 py-0.5 rounded-md bg-autumn-100 text-autumn-800 font-mono text-[11px] font-bold">${item.level}</span>
+                <span class="px-2 py-0.5 rounded-md bg-parchment-100 text-stone-600 text-[11px]">${item.pos}</span>
+              </div>
+              <button onclick="jumpToTranscriptTurn('${item.turnId}', '${key}')" class="px-2.5 py-0.5 rounded-full bg-sage-100 hover:bg-sage-200 text-sage-800 font-mono text-[11px] font-semibold flex items-center gap-1 transition">
+                <i data-lucide="clock" class="w-3 h-3"></i>
+                <span>${item.time}</span>
+                <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+              </button>
+            </div>
+
+            <div class="flex items-center justify-between gap-2 pt-1">
+              <div>
+                <h3 class="font-serif text-xl font-bold text-slatewarm-900">${item.word}</h3>
+                <span class="text-xs font-mono text-stone-500">${item.ipa}</span>
+              </div>
+              <button onclick="speakWord('${item.word.replace(/\s*\(.*?\)/g, '').replace(/'/g, "\\'")}')" class="p-2 rounded-xl bg-parchment-100 hover:bg-sage-100 text-sage-800 transition">
+                <i data-lucide="volume-2" class="w-4 h-4"></i>
+              </button>
+            </div>
+
+            <p class="text-xs sm:text-sm text-stone-700 leading-relaxed">${item.def}</p>
+            <p class="text-xs italic text-stone-500 bg-parchment-50 p-2.5 rounded-xl border border-parchment-200">${item.quote}</p>
+          </div>
+
+          <div class="pt-2 border-t border-parchment-200 flex items-center justify-between text-xs">
+            <span class="text-sage-800 font-medium">${item.it}</span>
+            <button onclick="jumpToTranscriptTurn('${item.turnId}', '${key}')" class="text-autumn-700 hover:underline font-semibold text-[11px] inline-flex items-center gap-1">
+              <span>See in Transcript</span>
+              <i data-lucide="arrow-right" class="w-3 h-3"></i>
+            </button>
+          </div>
+        </div>
+      `).join('');
+      lucide.createIcons();
+    }
+
+    function jumpToTranscriptTurn(turnId, vocabKey) {
+      switchTab('transcript');
+      setTimeout(() => {
+        if (vocabKey) inspectVocab(vocabKey);
+        const el = document.getElementById(turnId);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          el.classList.remove('turn-highlight-flash');
+          void el.offsetWidth;
+          el.classList.add('turn-highlight-flash');
+        }
+      }, 100);
+    }
+
+    // -------------------------------------------------------------------------
+    // 4. FIXES, STRENGTHS & POLISHES
+    // -------------------------------------------------------------------------
+    function renderFixes() {
+      // Natural Strengths
+      document.getElementById('strengths-container').innerHTML = STRENGTHS.map(s => `
+        <div class="p-3.5 rounded-xl bg-white/90 border border-sage-200 space-y-1">
+          <span class="font-mono text-[11px] text-sage-700 font-semibold inline-flex items-center gap-1"><i data-lucide="clock" class="w-2.5 h-2.5"></i>${s.time}</span>
+          <div class="font-bold text-slatewarm-900 text-xs">${s.phrase}</div>
+          <p class="text-stone-600 text-[11px] leading-relaxed">${s.note}</p>
+        </div>
+      `).join('');
+
+      // Gentle Polishes
+      document.getElementById('gentle-polishes-grid').innerHTML = POLISHES.map(p => `
+        <div class="sanctuary-subcard rounded-2xl p-5 space-y-2.5 border-l-4 border-l-sage-500">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold text-sage-800">${p.topic}</span>
+            <span class="px-2 py-0.5 rounded-full bg-parchment-100 font-mono text-[11px] text-stone-600 inline-flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3"></i><span>${p.time}</span></span>
+          </div>
+          <div class="p-2.5 rounded-xl bg-autumn-50/70 border border-autumn-200/80 text-xs text-stone-600">
+            <span class="font-semibold text-autumn-800">In the moment:</span> "${p.said}"
+          </div>
+          <div class="p-2.5 rounded-xl bg-sage-50 border border-sage-200 text-xs text-slatewarm-900 flex items-center justify-between gap-2">
+            <div><span class="font-semibold text-sage-800">Natural Polish:</span> <strong>"${p.natural}"</strong></div>
+            <button onclick="speakWord('${p.natural.replace(/'/g, "\\'")}')" class="p-1.5 rounded-lg bg-white text-sage-700 hover:bg-sage-100 shrink-0">
+              <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+          <p class="text-xs text-stone-600 leading-relaxed">${p.why}</p>
+        </div>
+      `).join('');
+
+      // ASR Fixes
+      document.getElementById('asr-fixes-grid').innerHTML = ASR_FIXES.map(f => `
+        <div class="sanctuary-subcard rounded-2xl p-4 space-y-2 border-t-2 border-t-autumn-400">
+          <div class="flex items-center justify-between text-[11px] font-mono text-stone-500">
+            <span class="font-semibold text-slatewarm-800">${f.speaker}</span>
+            <span class="inline-flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3"></i><span>${f.time}</span></span>
+          </div>
+          <div class="text-xs line-through text-stone-400">Note-taker wrote: "${f.wrong}"</div>
+          <div class="text-sm font-serif font-bold text-sage-800">Actually said: "${f.right}"</div>
+          <p class="text-xs text-stone-600 leading-relaxed">${f.note}</p>
+        </div>
+      `).join('');
+
+      // Reflection Prompts
+      document.getElementById('prompts-container').innerHTML = PROMPTS.map(pr => `
+        <div class="sanctuary-subcard rounded-2xl p-4 space-y-2 border-l-4 border-l-sage-500">
+          <h4 class="font-serif font-bold text-base text-slatewarm-900">${pr.title}</h4>
+          <p class="text-xs text-stone-600 leading-relaxed">${pr.prompt}</p>
+        </div>
+      `).join('');
+
+      lucide.createIcons();
+    }
+
+    // -------------------------------------------------------------------------
+    // 5. FLASHCARDS & QUIZ
+    // -------------------------------------------------------------------------
+    function renderFlashcard() {
+      const key = FLASHCARD_KEYS[currentCardIndex];
+      const item = VOCAB_DB[key];
+      if (!item) return;
+
+      document.getElementById('fc-counter').textContent = `Card ${currentCardIndex + 1} of ${FLASHCARD_KEYS.length}`;
+      document.getElementById('fc-badge').textContent = `${item.time} \u2022 ${item.pos} (${item.level})`;
+
+      const titleEl = document.getElementById('fc-front-title');
+      const subEl = document.getElementById('fc-sub');
+      const backEl = document.getElementById('fc-back-details');
+
+      if (!isCardFlipped) {
+        titleEl.textContent = item.word;
+        subEl.textContent = `${item.ipa} \u2014 Click card to reveal meaning & lesson context`;
+        backEl.classList.add('hidden');
+      } else {
+        titleEl.textContent = item.word;
+        subEl.textContent = item.def;
+        document.getElementById('fc-quote').textContent = item.quote;
+        document.getElementById('fc-it').textContent = `Connessione in italiano: ${item.it}`;
+        backEl.classList.remove('hidden');
+      }
+    }
+
+    function flipFlashcard() { isCardFlipped = !isCardFlipped; renderFlashcard(); }
+    function nextFlashcard() { isCardFlipped = false; currentCardIndex = (currentCardIndex + 1) % FLASHCARD_KEYS.length; renderFlashcard(); }
+    function prevFlashcard() { isCardFlipped = false; currentCardIndex = (currentCardIndex - 1 + FLASHCARD_KEYS.length) % FLASHCARD_KEYS.length; renderFlashcard(); }
+    function speakCurrentFlashcard() { const item = VOCAB_DB[FLASHCARD_KEYS[currentCardIndex]]; if (item) speakWord(item.word); }
+
+    function renderQuiz() {
+      document.getElementById('quiz-container').innerHTML = QUIZ.map((q, qIdx) => `
+        <div class="sanctuary-subcard rounded-2xl p-4 space-y-2.5">
+          <p class="text-xs sm:text-sm font-medium text-slatewarm-900">${q.q}</p>
+          <div class="flex flex-wrap gap-2">
+            ${q.options.map((opt, oIdx) => `
+              <button id="qbtn-${qIdx}-${oIdx}" onclick="answerQuiz(${qIdx}, ${oIdx})" class="px-3 py-1.5 rounded-xl border border-[#dfd0b5] bg-parchment-50 hover:bg-autumn-100 text-xs font-medium text-stone-700 transition">
+                ${opt}
+              </button>
+            `).join('')}
+          </div>
+          <p id="qexp-${qIdx}" class="hidden text-xs text-sage-800 bg-sage-50 p-2.5 rounded-xl border border-sage-200"></p>
+        </div>
+      `).join('');
+    }
+
+    function answerQuiz(qIdx, oIdx) {
+      const q = QUIZ[qIdx];
+      const expEl = document.getElementById(`qexp-${qIdx}`);
+      q.options.forEach((_, idx) => {
+        const btn = document.getElementById(`qbtn-${qIdx}-${idx}`);
+        if (idx === q.correct) btn.className = 'px-3 py-1.5 rounded-xl border border-sage-500 bg-sage-600 text-white text-xs font-semibold';
+        else if (idx === oIdx) btn.className = 'px-3 py-1.5 rounded-xl border border-autumn-300 bg-autumn-100 text-autumn-900 text-xs';
+      });
+      expEl.innerHTML = `<span class="inline-flex items-center gap-1.5"><i data-lucide="sparkles" class="w-3.5 h-3.5 text-sage-600"></i><span>${q.explain}</span></span>`;
+      expEl.classList.remove('hidden');
+
+      if (oIdx === q.correct && !quizAnswered.has(qIdx)) {
+        quizAnswered.add(qIdx);
+        document.getElementById('quiz-score-badge').textContent = `${quizAnswered.size} / ${QUIZ.length} Completed`;
+        if (quizAnswered.size === QUIZ.length && typeof confetti === 'function') {
+          confetti({ particleCount: 55, spread: 60, origin: { y: 0.7 }, colors: ['#be6f38', '#5b826f', '#e2b086'] });
+        }
+      }
+      lucide.createIcons();
+    }
+
+    // -------------------------------------------------------------------------
+    // 6. UI TOGGLES, SPEECH & TAB SWITCHING
+    // -------------------------------------------------------------------------
+    function switchTab(tabName) {
+      ['transcript', 'vocab', 'fixes', 'places', 'practice'].forEach(t => {
+        const panel = document.getElementById(`tab-panel-${t}`);
+        const btn = document.getElementById(`tab-btn-${t}`);
+        if (t === tabName) {
+          panel.classList.remove('hidden');
+          btn.className = 'tab-btn flex-1 sm:flex-initial px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center justify-center gap-2 bg-sage-700 text-white shadow-sm';
+          gsap.fromTo(panel, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' });
+        } else {
+          panel.classList.add('hidden');
+          btn.className = 'tab-btn flex-1 sm:flex-initial px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center justify-center gap-2 text-stone-700 hover:bg-parchment-100';
+        }
+      });
+    }
+
+    function filterTranscript() { renderTranscript(); }
+    function scrollToChapter(chapId) {
+      document.getElementById('speaker-filter').value = 'all';
+      document.getElementById('transcript-search').value = '';
+      renderTranscript();
+      const el = document.getElementById(chapId);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    let highlightsOn = true;
+    function toggleVocabHighlights() {
+      highlightsOn = !highlightsOn;
+      document.body.classList.toggle('hide-vocab-highlights', !highlightsOn);
+      document.getElementById('btn-toggle-highlights').querySelector('span').textContent = `Vocab Highlights: ${highlightsOn ? 'On' : 'Off'}`;
+    }
+
+    let asrBadgesOn = true;
+    function toggleAsrBadges() {
+      asrBadgesOn = !asrBadgesOn;
+      document.body.classList.toggle('hide-asr-fixes', !asrBadgesOn);
+      document.getElementById('btn-toggle-asr').querySelector('span').textContent = `Note-Taker Fixes: ${asrBadgesOn ? 'Visible' : 'Hidden'}`;
+    }
+
+    function setThemeMood(mood) { document.body.setAttribute('data-theme', mood); }
+    let speechRate = 1.0;
+    function setVoiceRate(rate) { speechRate = rate; }
+
+    function speakWord(text) {
+      if (!('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'en-GB';
+      utter.rate = speechRate;
+      window.speechSynthesis.speak(utter);
+    }
+
+    function speakPlainTurn(turnId) {
+      const turn = TRANSCRIPT_TURNS.find(t => t.id === turnId);
+      if (!turn) return;
+      const temp = document.createElement('div');
+      temp.innerHTML = turn.text;
+      temp.querySelectorAll('.asr-fix-pill').forEach(el => el.remove());
+      speakWord(temp.textContent || '');
+    }
+
+    // -------------------------------------------------------------------------
+    // 7. WEB AUDIO PROCEDURAL SOUNDSCAPE
+    // -------------------------------------------------------------------------
+    let audioCtx = null, soundscapePlaying = false, masterGain = null, lfoTimer = null, currentFilter = null;
+    function buildNoiseBuffer(ctx) {
+      const bufferSize = ctx.sampleRate * 4;
+      const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+      const output = buffer.getChannelData(0);
+      let b0=0,b1=0,b2=0,b3=0,b4=0,b5=0,b6=0;
+      for (let i = 0; i < bufferSize; i++) {
+        const white = Math.random() * 2 - 1;
+        b0 = 0.99886 * b0 + white * 0.0555179;
+        b1 = 0.99332 * b1 + white * 0.0750759;
+        b2 = 0.96900 * b2 + white * 0.1538520;
+        b3 = 0.86650 * b3 + white * 0.3104856;
+        b4 = 0.55000 * b4 + white * 0.5329522;
+        b5 = -0.7616 * b5 - white * 0.0168980;
+        output[i] = (b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362) * 0.04;
+        b6 = white * 0.115926;
+      }
+      return buffer;
+    }
+
+    function toggleSoundscape() {
+      const label = document.getElementById('soundscape-label');
+      if (!soundscapePlaying) {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        if (!audioCtx) audioCtx = new AudioContext();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const noiseSource = audioCtx.createBufferSource();
+        noiseSource.buffer = buildNoiseBuffer(audioCtx);
+        noiseSource.loop = true;
+        currentFilter = audioCtx.createBiquadFilter();
+        masterGain = audioCtx.createGain();
+        masterGain.gain.value = parseFloat(document.getElementById('soundscape-volume').value || '0.22');
+        noiseSource.connect(currentFilter);
+        currentFilter.connect(masterGain);
+        masterGain.connect(audioCtx.destination);
+        noiseSource.start();
+        audioCtx._activeSource = noiseSource;
+        soundscapePlaying = true;
+        changeSoundscapePreset(document.getElementById('soundscape-preset').value);
+        label.textContent = 'Ambient: Playing';
+      } else {
+        if (lfoTimer) clearInterval(lfoTimer);
+        if (audioCtx && audioCtx._activeSource) { try { audioCtx._activeSource.stop(); } catch (e) {} }
+        soundscapePlaying = false;
+        label.textContent = 'Ambient: Off';
+      }
+    }
+
+    function changeSoundscapePreset(preset) {
+      if (!currentFilter || !audioCtx) return;
+      if (lfoTimer) clearInterval(lfoTimer);
+      if (preset === 'breeze') {
+        currentFilter.type = 'bandpass';
+        currentFilter.frequency.value = 340;
+      } else if (preset === 'rain') {
+        currentFilter.type = 'lowpass';
+        currentFilter.frequency.value = 880;
+      } else {
+        currentFilter.type = 'lowpass';
+        currentFilter.frequency.value = 240;
+      }
+    }
+    function updateSoundscapeVolume(val) { if (masterGain && audioCtx) masterGain.gain.value = parseFloat(val); }
+
+    // -------------------------------------------------------------------------
+    // 8. CANVAS FALLING LEAVES
+    // -------------------------------------------------------------------------
+    const canvas = document.getElementById('autumn-breeze-canvas');
+    const ctx = canvas.getContext('2d');
+    let leaves = [], leafMode = 1, breezeTime = 0;
+    const LEAF_COLORS = ['rgba(190,111,56,0.42)', 'rgba(211,140,87,0.40)', 'rgba(165,191,177,0.42)', 'rgba(203,179,142,0.45)'];
+    function resizeCanvas() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+    function rebuildLeaves() {
+      const count = leafMode === 1 ? 15 : leafMode === 2 ? 30 : 0;
+      leaves = Array.from({ length: count }, () => ({
+        x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+        size: 6 + Math.random() * 8, speedY: 0.35 + Math.random() * 0.55, speedX: 0.25 + Math.random() * 0.45,
+        angle: Math.random() * Math.PI * 2, spin: (Math.random() - 0.5) * 0.014, swayOffset: Math.random() * 100,
+        color: LEAF_COLORS[Math.floor(Math.random() * LEAF_COLORS.length)]
+      }));
+    }
+    function cycleLeafBreeze() {
+      leafMode = (leafMode + 1) % 3;
+      document.getElementById('leaves-label').textContent = leafMode === 1 ? 'Leaves: Gentle' : leafMode === 2 ? 'Leaves: Breeze' : 'Leaves: Still';
+      rebuildLeaves();
+    }
+    function animateLeaves() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      if (leafMode !== 0) {
+        breezeTime += 0.01;
+        leaves.forEach(l => {
+          l.y += l.speedY; l.x += l.speedX + Math.sin(breezeTime + l.swayOffset) * 0.45; l.angle += l.spin;
+          if (l.y > canvas.height + 20) { l.y = -20; l.x = Math.random() * canvas.width; }
+          if (l.x > canvas.width + 20) l.x = -20;
+          ctx.save(); ctx.translate(l.x, l.y); ctx.rotate(l.angle); ctx.fillStyle = l.color;
+          ctx.beginPath(); ctx.ellipse(0, 0, l.size, l.size * 0.52, 0, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+        });
+      }
+      requestAnimationFrame(animateLeaves);
+    }
+
+    // -------------------------------------------------------------------------
+    // 9. INITIALIZATION
+    // -------------------------------------------------------------------------
+    window.addEventListener('DOMContentLoaded', () => {
+      renderTranscript();
+      renderVocabGrid();
+      renderFixes();
+      renderFlashcard();
+      renderQuiz();
+      inspectVocab('trade-off');
+      rebuildLeaves();
+      animateLeaves();
+      lucide.createIcons();
+    });
+  </script>
+</body>
+</html>
