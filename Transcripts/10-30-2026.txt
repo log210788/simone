@@ -1,0 +1,535 @@
+﻿# Krisp ID: 01a18cac9bf8731d9a2a4a9a1c5f55ba | Started (BKK): 2026-10-30 23:00 | Duration: 60.3 min
+Lewis | 00:00
+ Hey Simon, how are you doing today? Hello, can you hear me?
+Simon | 00:06
+ Do you...?
+Lewis | 00:06
+ Very good.
+Simon | 00:06
+ Hear me?
+Lewis | 00:07
+ Yes, I can hear you okay, and how are you doing today?
+Simon | 00:13
+ I'm fine. I'm a little bit tired, but it's okay because we are near the weekend.
+Lewis | 00:22
+ Yes. Okay, well, lets let's start. We have a warmup game today. A little bit of a warm up game. And this is going to practice your listening. Okay... Right, okay, so I'm gonna share my screen the so it's gonna be some instructions. Here we go and I hope you can see...
+Simon | 00:48
+ Yes.
+Lewis | 00:49
+ I have a fish. Okay, and can you see the fish made out of toothpicks?
+Simon | 00:57
+ Okay, yes.
+Lewis | 00:58
+ Yes, and it's your job, okay, to make the fish swim the other way. The other way by moving three sticks. Three sticks? You have to move three of the sticks, and I have numbers here as well.
+Simon | 01:16
+ Okay.
+Maybe trying to connect number eight between five and six, seven and one...
+Lewis | 01:34
+ Okay, 5 is six. That's one. Yup...
+Simon | 01:48
+ In the cross with two, three, and five, and seven. In the cross with the five and eight.
+Lewis | 02:00
+ Well then you are the fastest student who ever did it. Well done, very good job. Okay, fantastic, so let's put these here so some new instructions. Okay, the reason I have to do it is because I vibed coded this.
+Okay, I vibed coded it but...
+Simon | 02:28
+ Okay.
+Lewis | 02:29
+ I cannot understand my AI model, cannot understand the positions I want it to be, and it just doesn't work. So this is a wine glass, so we forget about these for now. Okay? We'll leave these over here.
+But this is a wine glass, okay? As you can see. The problem is, an olive has fallen into the wine glass. Now, it's your job to remake the wine glass without the olive. But you can only move two sticks...
+Simon | 03:05
+ Okay. I shift the number two on the left.
+Lewis | 03:13
+ Okay, to the left.
+Simon | 03:16
+ Yes. Stop.
+Lewis | 03:18
+ Good, very good...
+Simon | 03:19
+ And then I connect 52.
+Lewis | 03:22
+ Okay, very good, very nice. Okay, very good. Are you ready for the next round? Okay, I want to need some more sticks, okay, so let's start making these. This can go the way again, I'm very sorry. I know it sounds like it seems like AI could do this, but it my AI model could not do it. Here we go. SIS...
+Simon | 04:01
+ What do you have? Used to do this game?
+Lewis | 04:06
+ So I used Claude, not Claude. Sorry, I used an antigravity with Gemini 3.8.
+Simon | 04:16
+ Okay.
+Lewis | 04:16
+ Okay, basically it's like... Because in future lessons, we're going to play an instruction-based game. So we need to just... What you're doing amazingly, to be fair, but we just needed a lesson in advance about instructions, which is going fantastically well. Okay, here we go.
+Alright, okay, almost that. I think we're finished now. Maybe just three more. Okay, is that enough? Okay, I just need to make sure it's actually doable. Maybe don't... Too many... Second... Just need to make sure it's actually doable.
+Okay, I see you. I made a mistake. Here we go. Okay, one more line, two, three, sorry about this.
+Hi, okay, get... So is that right? No, I'm pretty sure it is. Just to make sure... One, two, three...
+I can't remember how to set this up, sorry. One second. I just want to make sure I think it's too late. One second, sorry, can see my mistake.
+Okay, we had it right in the beginning. Sorry about that. Okay, share the screen. Okay, so new instructions. Okay, so you have 1234567 boxes.
+Okay, and you have to reduce them down by two five boxes. Okay, so you have seven. You need to reduce them down to five boxes, and you have to move three sticks. Okay. Three sticks from here.
+Simon | 07:38
+ Only three sticks.
+Can you remember me the number of squares...?
+Lewis | 08:05
+ There's seven. But you have to bring them down to five...
+Simon | 08:09
+ To too FI.
+Think I have two to move some sticks inside the bigger square in order to have a bigger square that count one and not four, for example. But I don't know how to. To move 5. To move three.
+Lewis | 08:57
+ Should say that each box will be the same size.
+Simon | 09:04
+ It b with the same side?
+Lewis | 09:07
+ It will be the same size.
+So I think you're quite good at puzzles.
+Simon | 09:25
+ Yeah, but I don't know how to do it.
+Lewis | 09:30
+ I'll give you number hints. When it's finished, it will look lovely. It will look very neat and tidy.
+Simon | 09:42
+ It would look lovely.
+Lewis | 09:46
+ It will look pleasant to the eye.
+Simon | 10:02
+ I lock the. And I don't find the solution...
+Lewis | 10:08
+ No promise, no problem at all. I should say, as well, just for the sake of time it is. It will be symmetrical.
+Simon | 10:19
+ Symmetrical.
+Symmetrical with five squares.
+Lewis | 10:36
+ Yes...
+Simon | 11:04
+ I cannot think of the first move to do.
+Lewis | 11:08
+ No problem. Which one? Let me show you...
+Simon | 11:12
+ Okay, half...
+Lewis | 11:12
+ Yeah...
+Simon | 11:12
+ Of it.
+Lewis | 11:14
+ Well, it's up to you. I mean I can what I could if you really want some people love puzzles if you.
+Simon | 11:19
+ Or maybe can you give me the first move?
+Lewis | 11:24
+ Okay, I'll give you the first move.
+Simon | 11:34
+ Okay, I found it.
+Lewis | 11:37
+ Yeah...
+Simon | 11:37
+ So if you move, 2020 6th to the five and then seven to nine. Between nine and 26. Okay.
+Lewis | 11:49
+ It's quite nice. It...
+Simon | 11:51
+ No. It's very simple. But I was stuck in the start...
+Lewis | 11:58
+ Okay, no problem. So I just have one more. You're very good at following instructions. This is very good. So I just have one question. When you're in the class, are you using a work computer or a home computer?
+Simon | 12:12
+ Work computer.
+Lewis | 12:13
+ Okay, no problem. So I'm going to send you an address, not a file. One day when you're in a setting with your own computer... We can do it. It's a communication game. It's a puzzle communication game where we have to work together. So the plan was never to play it today. It was never...
+Simon | 12:36
+ Okay.
+Lewis | 12:36
+ To play today. It was for the future when we do play it, because it is truly a fantastic communication game. Okay, it's truly fantastic, but let me give you the address first.
+Simon | 12:50
+ But why? I cannot use it to the world's computer.
+Lewis | 12:55
+ I just... Sorry, I presume. I don't know...
+Simon | 13:00
+ Okay.
+Lewis | 13:00
+ I just presume sorry I mean, maybe you can. Here we go. So. GitHub. Or a student? Yeah. I get off, a student first to tech. Okay, just get the URL.
+Simon | 13:24
+ Because in our company, you are not allowed to use our own computer for personal tasks. But we can use this, our work computer, to do our work tasks and to do this discussion. So if
+it's not something dangerous, but...
+Lewis | 13:50
+ Not at all. Not at all. I'll put it in the chat, but this is, in a future lesson, right? You just click on this link, it's my GitHub, and it has the game on there and you just download it. It's very lightweight and then it's a you have to uncompress it, right?
+It's zip is zipped cause just cause you have to, get out.
+Simon | 14:12
+ Okay, so if it is this the case, I think I have to do to use my own computer, but...
+Lewis | 14:21
+ Exactly. It was never the aim to do this today. It was to have it ready in the future for that lesson.
+Simon | 14:28
+ No...
+Lewis | 14:28
+ It's a great communication game, and you need one more thing to go with it for that lesson. I'll put it here on mine as well, the bomb manual. So there's...
+Simon | 14:44
+ Maybe if you share me the link, maybe I try to share it to RRT and then I ask if, it's okay to...
+Lewis | 14:52
+ Yes.
+Simon | 14:53
+ Use it.
+Lewis | 14:54
+ And just so you know what it looks like, because I have it here, so I've. I put the link into the chat. So the links in the chat. Just so you know what it looks like, here it is. Da, da, da. Where is it? Claude. Here we go. Just so you know what it looks like when it opens up, I'm sure it's basically... I'll show you now. Might as well do it, but I think you would love it as well as you love board games.
+Simon | 15:32
+ But it is the first link to GitHub or the second bomb manual.
+Lewis | 15:38
+ So the first link is to download this from GitHub. The second is a PDF because I'll show you. For example...
+Simon | 15:45
+ How? Okay.
+Lewis | 15:46
+ So the first part is that we have to diffuse the bomb together. Okay, so here we go. So the screen is for your eyes only. You are not allowed to look at the bomb disposal manual. So I see the bomb, but in this case, you would look at the manual, and we...
+Simon | 16:06
+ Okay.
+Lewis | 16:06
+ Would have to communicate. There's a timer, and we would have to talk and communicate quite fast about...
+Simon | 16:14
+ Okay.
+Lewis | 16:14
+ How to diffuse the bomb. So it's a great exercise. It truly is fantastic because we have symbols we have to interpret, we have wires, we have to follow the instructions. Same with the button, okay?
+Simon | 16:31
+ Okay.
+Lewis | 16:32
+ And we have to rotate it, and words are clumsy. And we will by doing this to exercise, we will learn how to talk more efficiently and quicker as well.
+Simon | 16:45
+ Okay. Okay. Okay.
+Lewis | 16:45
+ It's fantastic, but that's for another day. That's for another day. This is a great game, a great exercise. Okay, here we go, but today we have something else. But now let's set up for a future lesson.
+Simon | 16:58
+ Okay.
+Lewis | 16:59
+ Okay, so let us go here and let us go here. Do, my first board. This is very bright. Okay, where has this gone? Second? Okay, yeah, I need this. We can bring this back. Okay, good, sorry about that. Here we go, there we go.
+Okay. So I'm going to where it be gone. I put this here and that pre... Yes, there we are. So I had to remove my windows. Okay, so I'm going to write three words on the board. Okay?
+Simon | 18:02
+ Okay.
+Lewis | 18:03
+ Please, can you tell me which I want you to draw a line of what you think is the least severe to the most severe? Okay, so I'll give you a from the...
+Simon | 18:18
+ The most.
+Lewis | 18:19
+ So the smallest to the biggest.
+Simon | 18:22
+ Okay.
+Lewis | 18:22
+ Okay, inwards. So let's start with... Here we go. Let's go workar. You got a workaround, so let's have a workaround, then we'll have an overhaul, okay? Then we have a patch, okay? So why don't we do this? Why don't we put a nice minus here?
+I'll write it. Pen. So, zero my no, that's very bad, I think, like this, I think, but 123. Okay, so which one is the smallest out of these?
+Simon | 19:27
+ I don't know the meaning of overhaul.
+Lewis | 19:30
+ That's no problem. That's great.
+Simon | 19:32
+ Okay...
+Lewis | 19:32
+ So which one do you think comes first? Which ones do you know already?
+Simon | 19:41
+ I think Patch is the third one.
+Lewis | 19:45
+ The patch is the third one. Okay...
+Simon | 19:47
+ Yes. We're around in the middle. Then over rolled in the first position.
+Lewis | 19:56
+ Interesting. So I he's actually, all different, all wrong, it's all wrong. No. So a workaround is the smallest, okay? A patch is the middle, and an overhaul is the largest by a large amount. So I'll explain what they are. A work. A workaround is something you do just to make it work. Okay. Like, you know. I'm supposed to. You know, ima when I was younger, we had a. You know, the door handle... It fell off my bedroom door, and...
+Simon | 20:41
+ Okay...
+Lewis | 20:42
+ I was so lazy. Instead of doing anything, I think I used to put my finger in and twist my finger...
+Simon | 20:47
+ Yeah.
+Lewis | 20:47
+ Yeah, my dad went crazy, he's like, "Fix it." I was like, "Okay, so that's a workaround." Okay... A patch would be if it's a little bit... It's a fix. Okay, it's a fix, so I put a new door handle on. It's a patch. Okay, I put a new door handle. An overhaul is if I get a whole new door. So for example, in a computer system or... On a computer system, a workaround is we'll let the program... We'll just put this little code in, and it's okay for now. It might break, but it's okay. A patch is the fix is the correct fix, the patch fixes the problem.
+Okay. An overhaul is we're just going to rebuild it.
+Simon | 21:42
+ Okay.
+Lewis | 21:42
+ We're just going to rebuild the whole thing.
+Simon | 21:45
+ In my work, I usually use... I know the meaning of workaround and patch because we usually use this term with our customers, for example, if they want to use our product, our software feature. But our software feature is not... Think for the specific object of the customer. Then we try to do our work around in order to reach the objective of the customer but without modifying our function. The pet if there is a problem on the function or the feature of the software, you need to fix it.
+So you need a patch but I don't use the...
+Lewis | 22:47
+ Yeah...
+Simon | 22:51
+ Overall. In my work. So I didn't need it.
+Lewis | 22:56
+ It is the extreme. It's definitely when, how can I say, when everything has gone wrong or you just want...
+Simon | 23:08
+ Okay.
+Lewis | 23:08
+ To rebuild the system. Okay, we're going to start again, but we've done too many patches, we've done too many workarounds, we're just going to build the whole thing again. Okay...
+Simon | 23:20
+ A complete restructuring of the architecture.
+Lewis | 23:23
+ Exactly. A complete restart right from scratch. Yeah, okay, very good. Okay, we have the...
+Simon | 23:29
+ Okay. Interesting. This, these terms.
+Lewis | 23:32
+ Yeah, I think it's good to see them after each other. I think it's quite nice. Okay, so the next one is we have offered them random 00. It's even better. Okay, system, redundancy, how much of a redo do you see?
+Okay, it's one. Then we have backup. Okay, let up and made redundant.
+Okay, made redundant. Okay, what about these?
+Simon | 24:36
+ I think system redundancy is bigger than backup, but I don't catch the difference of system redundancy and made redundant.
+Lewis | 24:51
+ Okay, so you're right, so system redundancy is bigger than backup, right? But made redundant is when you make something redundant, it just doesn't... It's not necessary. It's made redundant, it's just not necessary. Okay? You make something redundant, you don't need it anymore.
+It's not even in the system. Okay, so you've made something redundant. It's less than everything because you're not storing it, you don't need it anymore.
+Simon | 25:30
+ Okay...
+Lewis | 25:32
+ Backup is exactly... We're going to back up our data. Yeah, we're going to back it up in two, three places, but system redundancy is huge, right? System redundancy is so big that it will save everything.
+It's redundant, right? It will save it. Okay, if that makes sense.
+Simon | 25:51
+ Yeah, same situation as before. I use in my work theca and system redundancy as term, but, I don't. I didn't know the meaning of a major redundant. Maybe I use, expression like, I don't have to...
+Lewis | 26:20
+ Well, I give...
+Simon | 26:21
+ Do to say something similar to made redundant.
+Lewis | 26:25
+ I... How we use redundant in many ways so you... We can make people redundant. Aren't they not necessary anymore? Okay. We don't need them. Okay, now I can make... We can improve the system so much, okay, that the part of it we just don't even need anymore, we don't even need to back it up. We can get rid of it.
+Okay, so that's it. It's not like this is the smallest, this is the next biggest, and this is the biggest. This lesson is to show you business words, okay? How they interact with each other.
+So made redundant is just not necessary anymore. Okay...
+Simon | 27:14
+ Okay.
+Lewis | 27:14
+ Like, yeah, like and but backup. The contrast between made redundant and backup is we want to save it, okay? We want to keep it, but system redundancy, it's not quite the same as Backu is, but it's larger.
+It's more important. Okay. So we're seeing the kind of the linkage between the words. Okay. So have you made anything redundant in your workplace?
+Simon | 27:49
+ I think... Yes, but I don't have an example right now.
+Lewis | 27:57
+ Okay, no problem at all. I can give you an example if you like. Okay, so let's just go talk because this... Sorry, okay, so, for example, in my workplace, we did inventory. Okay, and how we used to do inventory was we used to print out sheets of paper. We used to get a pen and a clipboard. We went round and we counted everything by hand. It's terrible, what a... Waste. So obviously it's wasting money, so what do we do? We built a barcode scanning system. Okay, so you scan the barcode like you would, and then you can put in the amount. Okay? The next thing is, some of our items look unique, they might not be in packaging, so we put in object identification. Okay, so you don't have to scan the barcode. You can just film it.
+Simon | 29:09
+ Okay.
+Lewis | 29:09
+ So we made two systems redundant, okay, to make redundant...
+Simon | 29:16
+ Okay. Okay.
+Lewis | 29:16
+ We got rid of the clipboard system, it's made redundant. Then we got rid of the barcode system, boom, it's made redundant. Now we just fill using...
+Simon | 29:27
+ Only you now.
+Lewis | 29:29
+ Yes, we just film. So. But the for example, the you couldn't really do it with I'm sure you could do it with the boxes, but we would have unpackaged items so they look unique. So we would have a we have a huge database of the images, and we just film it. The reason why we like to film it is because when it's in the office, you can.
+If there's if you think there's an error, you can go back to the film... And you can see how it was filmed and you can go, okay, this item is at this position. It's not filming. It's a panoramic camera. A panoramic... When they stitch the images together. Yeah, so then when you... If you're in the office, you don't have to walk back downstairs, you can just...
+Simon | 30:17
+ Very good.
+Lewis | 30:18
+ Thank you very much. Thank you very much. We did. We built it, but it wasn't. We didn't. We had a client. So I got a contract to go and work for a company from my company. So, and they were they had 60 sites and they were, I kid you, not doing inventory with pen and paper.
+And they were complaining about labor costs to for their sites. It would take about at least two or three employees to do the stock count and five hours. And I said, you're crazy, you're all crazy. And so, immediately, we I built a basic, you know, built I used off the shelf, software.
+Like, for example, I'll get a component from GitHub, I'll get another one and mash them together and. And we quickly made the barcode scanning system. Because the reason I did it like that is that on Sunday night, they could do the scat the but the inventory while their staff levels high.
+So they had on their not every site, but on most sites they had two floors. So what it meant was their low, they low paid staff. So because obviously their managers are highly paid, normally they get their manager in on Monday morning to do inventory, which is a huge waste of that person's time because they have loads of things to do.
+So what would happen now in that company is on Sunday night, while they're fully staffed, the normal staff will get out their phones because they all have their phones in their pocket, and then they will start scanning the bar codes.
+Okay, this is the...
+Simon | 32:01
+ Okay.
+Lewis | 32:02
+ Situation. What happens is it pushes all the data to the cloud. So first of all, no one's looking through a sheet and tallying up. The computer's doing it and preparing it all for the manager. Yeah.
+So it was a huge... The first situation was a huge success, the second one was even better because we reviewed what they were doing. So, some barcodes might be on the back of a product. So what would happen is they would have to pick up and lift it and turn it to scan it and then put it back down like a bottle.
+Like a bottle...
+Simon | 32:33
+ Yeah.
+Lewis | 32:34
+ Right? So while watching the video footage of staff members doing this, we realized we need a better way. So we got training, open source training data, and then we trained a model just to film that.
+Then an added benefit was the panoramic view. Yeah...
+Simon | 32:50
+ So you utilized the system, and how much time do you spend to do it...
+Lewis | 32:59
+ I think the first one, the barcode iteration, took about four days before...
+Simon | 33:04
+ For this?
+Lewis | 33:06
+ AI. Yeah, but like I said, there are smarter people than I. You just... How can I say find the components, right? So I needed the database system, I needed the cloud pushing software, and you just combine them together, right?
+Simon | 33:21
+ Okay.
+Lewis | 33:21
+ Yeah, normal. Then reviewing the video footage because I'm a big... In my company, I edit the CCTB. So for example, I will review the CCTV of workflows and then I will... Because obviously my staff can't watch the CCTV, right? They don't have the time.
+So what I'll do is I'll edit the main events of that week when we're busy or something in those sites, and then I will give it to them so they can review it and they can see how they wasted their time.
+Right? Most people do not show their staff CCTV for security reasons, but I understand that as well. But I think it's a tool. Then my staff can be like, "Yeah, I see. We were busy and I made this mistake. I can see, I did this, I can do that."
+So anyway, that's why I normally do in my company. So I review the CCTV in their companies and I started to see how they're wasting time. We got it down to stocktake to one member of staff in two hours in all sites, which was no and no manager because the manager is expensive.
+The problem is, the manager knows everything, right? A normal employee might not know everything, but with this system, even with the barcode, you can have zero knowledge, right? You just have to know that barcodes exist.
+Yeah, it was great. We that I was on that project for three months. Yeah, we... My company was dying because of Covid.
+Simon | 35:09
+ Okay.
+Lewis | 35:10
+ So, for example, I do historical architecture, right? So, I rebuild old buildings with my company. However, we build the businesses inside and we do consultation for other companies for all different things.
+The problem about building businesses with staff during Covid is do you know furlough? Furlough, yeah. So...
+Simon | 35:40
+ No, I don't know it.
+Lewis | 35:40
+ Furlough is when the government during Covid will pay your employees. They say, "Don't go to work," but we will pay, right?
+Simon | 35:51
+ Okay.
+Lewis | 35:51
+ So. It's. It's very nice. It' its it's very nice of the government. But they have to draw a line, okay? There has to be a point where the government says, no, we're not going to pay your staff, which is understandable.
+And the line was this if your business is never traded. Okay? So if your business has never made a penny or a cent or a dollar, you. We're not going to pay your staff while we tell them to stay at home.
+Okay? The problem is for me, is that I had three companies about to open. Fully staffed. Fully staffed. So, yeah, so, I needed new revenue streams, so I would consult for other companies, but companies that would never normally consult for.
+And so one of them was in one company. Why are we wasting money? And I was like, let's have a look while you're wasting money. And it's it, two things. They're wasting money on that training and travel time.
+So they're training. What were they doing? They had the wrong approach to training. They would, have, they had a bad work culture. Their where their trainers were for the company were they were seen as, like, the best in the company.
+And they were, how can I say, bullying. They were bullying, and...
+Simon | 37:33
+ I don't understand.
+Lewis | 37:35
+ Bullying is like your rubbish. We're the best, your rubbish. So it had a bad company culture, very bad company culture. So, the first thing was to look at their way they actually train, right, and their interval.
+So it was quite simple. What they did was they worked on a two-week initial training. The training was six months, but what they said was in two or three weeks, you have a test.
+Okay? So what was happening was, in the lower-level employees, they weren't checking up on them. So employees were getting to three weeks. There were huge problems, and they got let out of the company because they didn't meet the standard, and the company wasted money time and money was really bad.
+But why are they doing this? Why are they allowing this to happen? It's because they're not doing something so simple. I say this to employees in most companies, right? You have a test in three weeks, okay?
+But I'm going to test you in one and a half weeks time, okay? And we want to know why you're rubbish. We want you to... We like you. We want you to work here. But it's... We all can be rubbish at a job at first.
+It's a big change. But we're going to do a test. And we're going to be brutal on that test. We're going to make it like the real test, everything. We're going to be honest and give you the complete feedback as if it was the third week.
+Then we're going to put all the resources we can into making you win so the employee gets a kick up their bum. First of all. Second of all, everyone in the company knows their weaknesses. They know their weaknesses and we can get them trained up and into the next stage.
+Before they were... They had no safety controls in BAS training, they were saying, "Let's see you in three weeks. We hope you have a nice time here." It seems so simple, right? But, some companies just don't think why they're losing, so it's that... How do I say it? How do I say this travel distance? Am I boring you? I'm very sorry I talk too much about things I love. I'm very sorry...
+Simon | 40:18
+ It's okay. It's okay. Yeah. I try to listen and understand.
+Lewis | 40:22
+ Okay?
+Simon | 40:23
+ It is not... So easy.
+Lewis | 40:25
+ I'm sorry. We'll go back to the lesson because I talk. You get you what it. What it is I have my work, my business work brain, and, you know, when it... Opens up the. Yeah, I'll stop. Okay, we'll continue...
+Simon | 40:40
+ I know the feeling because, when I'm starting to do our work, here in the office, and I cannot complete it in my time. When I come back home, I continue to thinking about it.
+Lewis | 40:59
+ Yeah...
+Simon | 40:59
+ During... When I try to go to sleep. My daughter... I continued thinking. [Laughter] So it's normal.
+Lewis | 41:13
+ I do apologize. I just caught myself in the act, I'm very sorry. Okay, so let us continue. So...
+Simon | 41:23
+ Just a question. Do you can you confirm that this ward is voca that we are exciting right now are in the note of the last one?
+Lewis | 41:36
+ But this will be in the note of this lesson. Yes, there'll be, they'll be...
+Simon | 41:40
+ Yes.
+Lewis | 41:40
+ In the note of this lesson. You're welcome. Okay, here we go. So now this one here, there we go. Okay, so next one we have to do is design floor. Okay, design floor. Then we have a bottleneck and bug...
+Troyi bug. So which one would you say is the least?
+Simon | 42:32
+ I am not pretty sure about the meaning of the ZF, but I think I have an explanation. The first one is bug, then bottleneck, and then design flow.
+Lewis | 42:49
+ Yes, exactly. So a bug is a little thing that can go wrong, it's like a...
+Simon | 42:55
+ No.
+Lewis | 42:55
+ Gremlin. You know what that is? A bottleneck is when I think...
+Simon | 43:00
+ It's a limitation of some function, some feature. But...
+Lewis | 43:09
+ Yeah, it's when there's a limitation, like you said, one part of the process cannot keep up with the rest. Okay, so maybe on a manufacturing line or something. Okay, and the last one is design flow. This is critical. This is when, say, you design a car, okay, but the wheels don't spin at all, or the engine just does not work. Something just is so fundamentally wrong.
+Okay, fundamentally wrong, right? Like in the design, it just does not work. But it was unseen a design flaw. Okay, for example, imagine if you have a glass to drink beer out of... And it just never had the bottom.
+So when you pour beer in, the beer just falls out. That's a design flaw...
+Simon | 44:09
+ [Laughter] Grass with all...
+Lewis | 44:10
+ Yes, exactly a glass of a Whole that's a design Floor. Okay, I don't know any real Famous design Flaw I can remember. Let's have a look. Famous design Flaw. Here we go. Just so we can remember design flows. Famous design Flaws in Products. Just so we can put it into memory. Here we go. Yes, of course, the I don't know of the user Apple computer... No, so I don't know if you know the magic mouse.
+Simon | 44:47
+ Of course...
+Lewis | 44:48
+ Yes, and the...
+Simon | 44:48
+ They gobc the recharging, port on the bottom of the for the mouse. Yeah...
+Lewis | 44:57
+ That's cra you see, did they do it? They. I mean, how could they not think that...
+Simon | 45:04
+ I don't know.
+Lewis | 45:05
+ Maybe they do it on purpose so people talk about the product, but that... I can't believe it, it boggles my mind.
+Simon | 45:13
+ I understand that their aim is to hide the port, the charging port. Because it's not an element of design. But, you have to use it. So it's necessary.
+Lewis | 45:38
+ Yes, yeah, exactly. It's crazy, it boggles the mind. Okay, next word. Okay, here we go. We're going to put first, okay, let's go. This one was a bit more flexible integration. I have to remember to spell it. Just to let you know that I will spell it the American way. Now I'll spell it the English way optimization. The American spells it with a Z. Just so you know, the Americans spell it with his Z. Last one...
+Simon | 46:31
+ I use it with the dad...
+Lewis | 46:33
+ Okay.
+Simon | 46:33
+ Thinking if it was English. But...
+Lewis | 46:38
+ Yeah, the Americans are what they said, yes. So which one do you think is again, this is a bit looser, this is more to help us learn the vocabulary. Okay, so are there any words here you do not know?
+Simon | 46:55
+ I think the first one is the optimization.
+Lewis | 47:02
+ Yeah. Yp.
+Simon | 47:04
+ Then integration and then automation.
+Lewis | 47:07
+ Very nice. Why do you put it that way? Why did you put optimization first?
+Simon | 47:17
+ Yes, the optimization is when you have a feature that is not optimized, is not complete, or needs something to go better integration is the merging of a new function to other functions, previous functions...
+Lewis | 47:50
+ Yes.
+Simon | 47:50
+ And automation is a complete system from our from my point of view...
+Lewis | 47:57
+ So, webex, spot on, exactly spot on. So, what is there a product that your team has been optimizing recently?
+Simon | 48:08
+ Sorry.
+Lewis | 48:09
+ Is there a product that your team has been optimizing recently?
+Simon | 48:17
+ [Laughter] Always. Yeah, because back of... I develop... AOR product and software product. For example, we have a software automation platform that is called a TWINCAT and TWINCAT needs a new feature and optimization every month.
+Lewis | 48:44
+ Twin cuts...
+Simon | 48:50
+ TWENG AK...
+Lewis | 48:56
+ What does it do? It's a software that...
+Simon | 49:00
+ Y is, automation platform, software.
+Lewis | 49:10
+ Pull out for. Okay, very good. Twin cat three. Okay, very nice. I don't know how...
+Simon | 49:20
+ If you want, I can give you a...
+Lewis | 49:25
+ I got your, yeah, I think I have it here. Beck Beckhoff Automation. Yeah, thank you very much. So, and how have you recently integrated your product with anyone else at the moment? Any of us? I'm supposed you just do it all the time.
+Simon | 49:46
+ Just to explain, the optimization and integration are done by our headquarters. So in Italy, we have some subsidiaries for sales and support of the customer. So we don't have to do optimization or integration of the software.
+But we have to report some bugs or some feature requests to our headquarters.
+Lewis | 50:16
+ Okay, so you basically deal with the customers, okay? So you basically correspond with them. They report bug fixes, bug issues. You send that higher up. Not higher up, but you send that back to the headquarters where they then look at the problem, release a patch, a workaround, or an overhaul.
+Simon | 50:41
+ No.
+Lewis | 50:41
+ Yeah, and so...
+Simon | 50:45
+ The background is that our customers are machine builders. Machine builders for the production of medicine, food packaging, or other products. They use our technologies inside or on their machines. When they report a problem, it could be an AAA misunderstanding of our system.
+So they are using our function not properly. Then you have to explain how to use it or to do some... For example, if there is some bottleneck in our function for their application, then we try to find our workaround in order not to modify our function, but to check to reach the necessity.
+Lewis | 51:56
+ Yes, so...
+Simon | 51:58
+ The other part of our work is to... If the customer reports some bad, then we have to reproduce it in our laboratory and then try to find the root cause of the problem in order to report the case to our headquarters more preciously than our customer.
+Lewis | 52:24
+ What a cool company's a cool. Yeah, it's really cool. So, just so I went... Because when I go away, I know you've explained this somewhat before, but now I have a clearer picture. So, when I go back and I do build more on the lesson, it helps me. I just want to make sure I have an understanding.
+So, your company works with manufacturing companies all in...
+Simon | 52:48
+ No.
+Lewis | 52:48
+ Different sectors and what the service that you provide is physical and software and basically you make you can you I hope this is right you're the bridge between different components on like a manufacturing line, you're the... Thing that connects them all together. Interesting that's really cool. Wow. So? Yeah. Yeah. Yeah, so you have to be, I assume. I don't know, I have to go, but you have to be quite, friendly to all different, standards. Very interesting. Is there anything because I can see that you have all different kind of connections and everything like that. Is there any standards that you reject that you say your clients, they want that standard, but you're like, no. Or do you try to open up to all compatibility standards?
+Simon | 53:47
+ In general, our company is very open to several standards because we have to reach several markets and customers around the world with different manufacturing projects. So, we have a component for building automation, a component for packaging automation, for numeric control, and for applications. There are a lot of ways to use our product.
+Lewis | 54:31
+ And a lot of ways to break it...
+Simon | 54:34
+ Sorry.
+Lewis | 54:35
+ And a lot of ways to break it seems.
+Simon | 54:37
+ Yes, of course.
+Lewis | 54:38
+ Yeah, it's really cool. Yeah, you may, in fact, enjoy something I call "Oxygen Not Included." I'll put it here, I'll share it. Here we go, you may enjoy something called "Oxygen Not Included." I don't know if you've ever seen this.
+Simon | 55:03
+ No.
+Lewis | 55:04
+ Always fantastic. It's the best game ever to have in the background while you work. So basically, I think maybe a YouTube video would be better, but when I'm studying or doing work, I'll have the game run in the background.
+So oxygen is not included. Basically, we could click on any video. It's a colony survival simulator. However, it's...
+Simon | 55:34
+ What's up, everybody? My name is Ron Epir.
+Lewis | 55:37
+ So it's based on, how can I say, systems and, automation. So it has a whole automation system, it has a whole, it just, it has a whole tech trees system, water system. I can't really. Let's see, it has a whole temperature system.
+It's based on the periodic table, so everything is made out an element at different melting points. So as...
+Simon | 56:10
+ You okay?
+Lewis | 56:11
+ You advance, maybe I should go to the end. As you advance near the end, you need to cool down. Here we go. This is a perfect example. So this is just got the HUD open for the water pipes, so you can see how the water system is working. This is quite simple. It looks like he's got water coming in and out, and it's going into hydroponics, so he's actually feeding water into plants.
+But if you're into connecting things in your company, maybe you don't want something like this, but it's a great game where you can use logic gates, right? You can use logic gates and statements to control a whole colony and have it automated and running.
+It's fantastic because it's not really a game you play. You think about it in your spare time, and then you make the edits, and then you let the game run, and then you think about it, and then you do it again.
+So it's a game that you don't actually play. You just think about it and it's quite nice. You might think about it for a week, and then one day you'll just put it in. But it's called "Oxygen Not Included." Oxygen is included, highly recommended. Especially with the work you're in, maybe you like to optimize, connect things, and stuff like that.
+Yeah, highly recommend it. Okay, well, thank you very much for today. I'll get the notes over to you later, but just as a recap, what's the screen go? So today, fantastically, we went over... Made redundant.
+Okay, when you make a system redundant, it's no longer needed. Maybe you have that with your suppliers, with your clients. Okay? Some technology has been made redundant. They don't need this standard anymore.
+Maybe you need a backup, okay, in multiple ways, software or something. Or maybe you need a system redundancy within a switch or something. But a bug, obviously, a slight feature that goes awry. Bottleneck a part of the system that can't keep up. Design critical optimization making something the best it can be. Integration a little bit bigger, integrating other systems, processes, products like that, and automation, like you said, running a whole system.
+Okay, do you have any questions at all?
+Simon | 58:55
+ No. Okay.
+Lewis | 58:57
+ Well, I'll let you go. I hope you have a lovely weekend.
+Simon | 59:03
+ You two.
+Lewis | 59:03
+ Yeah, I will. I think it starts now. Yeah... Cool. Well, thank you very much. I had to do the notes first. So then I'll go over it. But, have a look.
+Simon | 59:14
+ Thank you. Bye.
+Lewis | 59:15
+ You're welcome. Goodbye, da.
